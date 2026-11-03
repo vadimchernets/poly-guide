@@ -2,7 +2,7 @@
 
 A person has asked their AI to help them with Poly A1. This page is the map: what Poly does, which links open it on the right screen, and how to build those links. A link opens Poly on a phone where it is installed, and the store page where it is not.
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## What Poly does
 

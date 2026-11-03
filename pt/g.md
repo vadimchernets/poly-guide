@@ -2,7 +2,7 @@
 
 Uma pessoa pediu à sua IA que a ajude com o Poly A1. Esta página é o mapa: o que o Poly faz, quais links abrem a tela certa e como montá-los. Um link abre o Poly no celular em que ele está instalado e a página da loja onde não está.
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## O que o Poly faz
 

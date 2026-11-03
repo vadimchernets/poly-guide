@@ -1,6 +1,6 @@
 # Leitfaden zu Poly A1 für eine KI
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## Führen nach Stufe
 

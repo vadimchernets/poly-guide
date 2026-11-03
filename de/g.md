@@ -2,7 +2,7 @@
 
 Jemand hat seine KI gebeten, ihm bei Poly A1 zu helfen. Diese Seite ist die Karte: was Poly kann, welche Links den richtigen Bildschirm öffnen und wie man sie baut. Ein Link öffnet Poly auf einem Telefon, auf dem es installiert ist, sonst die Seite im Store.
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## Was Poly kann
 

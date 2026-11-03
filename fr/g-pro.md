@@ -1,6 +1,6 @@
 # Guide de Poly A1 pour une IA
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## Guider selon le niveau
 

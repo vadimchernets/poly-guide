@@ -1,6 +1,6 @@
 # Guide to Poly A1 for an AI helper
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## How to lead by level
 

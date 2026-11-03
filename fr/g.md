@@ -2,7 +2,7 @@
 
 Une personne a demandé à son IA de l'aider avec Poly A1. Cette page est la carte : ce que fait Poly, quels liens ouvrent le bon écran et comment les construire. Un lien ouvre Poly sur un téléphone où il est installé, et la page du magasin là où il ne l'est pas.
 
-Poly A1 1.0.0 · 2026-11-02
+Poly A1 1.0.0 · 2026-11-03
 
 ## Ce que fait Poly
 
