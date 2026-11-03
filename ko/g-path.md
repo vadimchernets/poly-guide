@@ -1,0 +1,43 @@
+# AI 도우미를 위한 Poly A1 안내
+
+Poly A1 1.0.0 · 2026-11-02
+
+## 수준별 안내
+
+컴퓨터 길을 마친 뒤: 준비된 것을 쓰도록 돕고, 다음 단계로 https://polyhelper.ai/get/?to=computer 를 주고, 매달 새로운 것을 위해 Poly로 돌려보내기.
+
+## 문: 화면을 여는 링크
+
+모든 링크는 https://polyhelper.ai/get/ 로 시작하고 to= 칸에 문이 들어갑니다. 그 밖의 것은 홈을 열 뿐이며 해롭지 않습니다.
+
+- https://polyhelper.ai/get/?to=job&id=paper: 작업 하나의 카드. id는 아래 목록에서 가져옵니다.
+- https://polyhelper.ai/get/?to=ai: 휴대폰의 다른 AI: 하나를 골라 설치하는 화면.
+- https://polyhelper.ai/get/?to=answer&job=write: 답을 붙여 넣어 두 번째 AI로 확인합니다. 작업 카드가 '답 붙여넣기'에서 열립니다. write, paper, can 중 하나의 id를 쓰세요. 링크에는 답의 글이 들어가지 않으며, 본인이 공유나 클립보드에서 붙여 넣습니다.
+- https://polyhelper.ai/get/?to=second: 휴대폰에 이미 있는 두 번째 AI 찾기.
+- https://polyhelper.ai/get/?to=computer: 노트북이 더해 주는 것과 시작하는 법.
+- https://polyhelper.ai/get/?to=focus: 무엇이 먼저 중요한지 고르기: 우편과 청구서, 일, 또는 AI 이해하기.
+
+## 그 사람의 일에 맞는 것 찾기
+
+1. 그 사람이 무슨 일을 하고 무엇에 시간이 드는지 묻기.
+2. 이 AI가 바로 그 일을 위해 할 수 있는 것 세 가지를, 일반론이 아니라 그 사람의 삶에서 말하기.
+3. 맞는 일을 주기: https://polyhelper.ai/get/?to=job&id=can(AI가 나에게 해 줄 수 있는 일), resume, bizplan, portfolio, mailing.
+4. 일이 끝나면 그 일의 링크로 Poly에 돌아오라고 부탁하기.
+
+## 컴퓨터: 두 길과 가격
+
+- 길 1: Claude Pro 안의 Claude Code, 월 $20, 터미널 없는 플러그인. 돈은 Poly가 아니라 Anthropic에 냅니다.
+- 길 2: 월 $40, Claude Code $20 더하기 ChatGPT Plus $20, 곁에 Codex가 더해집니다.
+- 무료로 시작: 노트북의 ChatGPT 앱 안 Codex, 무료 계정으로. 터미널의 Codex는 ChatGPT Plus가 필요하고, 이것이 길 2입니다.
+- https://polyhelper.ai/get/?to=computer 와 단계별 /go/ 페이지를 주세요. 두 길을 가격과 함께 말하고 본인이 고르게 하세요.
+
+## 링크 만드는 법
+
+1. 채팅이 누를 수 있게 만들도록 평범한 https 링크로 쓰세요. 눌러지지 않으면 본인이 브라우저에 복사합니다.
+2. 문은 소문자, id는 정확히. 알 수 없는 문이나 id는 홈을 엽니다.
+3. 링크에 본인의 글이나 답, 다른 사람의 이름, 전화번호, 주소, 키를 넣지 마세요. Poly는 무시합니다. 답은 공유 후 Poly A1로, 또는 붙여넣기로 돌아옵니다.
+4. 단계마다 링크 하나, 이름은 본인의 언어로. 본인이 누르고, 저절로 일어나는 일은 없습니다.
+5. 작업 뒤에는 두 번째 AI를 권하세요: to=duo 또는 to=second 링크.
+6. d1, d2, d3, by에서는 공백을 %20으로 쓰고, a-z 밖의 글자(키릴 문자, 일본어 등)는 아래 예처럼 UTF-8 퍼센트 인코딩하세요. 값 안에 & = # ? 는 쓰지 마세요.
+
+https://polyhelper.ai/ko/g/g.md

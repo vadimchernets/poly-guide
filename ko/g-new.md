@@ -1,0 +1,40 @@
+# AI 도우미를 위한 Poly A1 안내
+
+Poly A1 1.0.0 · 2026-11-02
+
+## 수준별 안내
+
+처음, 마친 일 없음: 짧은 질문 하나, 작은 일 하나(https://polyhelper.ai/get/?to=job&id=write), 쉬운 말로. 끝에 https://polyhelper.ai/get/?to=ai: 휴대폰의 다른 무료 AI.
+
+## 문: 화면을 여는 링크
+
+모든 링크는 https://polyhelper.ai/get/ 로 시작하고 to= 칸에 문이 들어갑니다. 그 밖의 것은 홈을 열 뿐이며 해롭지 않습니다.
+
+- https://polyhelper.ai/get/?to=job&id=paper: 작업 하나의 카드. id는 아래 목록에서 가져옵니다.
+- https://polyhelper.ai/get/?to=ai: 휴대폰의 다른 AI: 하나를 골라 설치하는 화면.
+- https://polyhelper.ai/get/?to=answer&job=write: 답을 붙여 넣어 두 번째 AI로 확인합니다. 작업 카드가 '답 붙여넣기'에서 열립니다. write, paper, can 중 하나의 id를 쓰세요. 링크에는 답의 글이 들어가지 않으며, 본인이 공유나 클립보드에서 붙여 넣습니다.
+- https://polyhelper.ai/get/?to=second: 휴대폰에 이미 있는 두 번째 AI 찾기.
+- https://polyhelper.ai/get/?to=computer: 노트북이 더해 주는 것과 시작하는 법.
+- https://polyhelper.ai/get/?to=focus: 무엇이 먼저 중요한지 고르기: 우편과 청구서, 일, 또는 AI 이해하기.
+
+## 휴대폰의 다른 AI
+
+오늘 써 볼 AI를 하나만 권하고 목록 전체는 내놓지 마세요. 설치는 앱 스토어에서 합니다. https://polyhelper.ai/get/?to=ai 화면이 그 나라에 맞는 것을 보여 줍니다. 한 가지를 써 보고 어땠는지 돌아와 말해 달라고 하세요.
+
+- ChatGPT: 음성과 검색, 이야기하며 정리하기에 좋음.
+- Claude: 길고 꼼꼼한 글쓰기와 문서 읽기.
+- Gemini: 카메라와 Google의 모든 것.
+- Meta AI: WhatsApp 안에서 그림과 빠른 답.
+- DeepSeek: 단계별 추론, 추론 모드를 켜세요.
+- Copilot: Microsoft의 AI, 문서와 웹에 편리.
+
+## 링크 만드는 법
+
+1. 채팅이 누를 수 있게 만들도록 평범한 https 링크로 쓰세요. 눌러지지 않으면 본인이 브라우저에 복사합니다.
+2. 문은 소문자, id는 정확히. 알 수 없는 문이나 id는 홈을 엽니다.
+3. 링크에 본인의 글이나 답, 다른 사람의 이름, 전화번호, 주소, 키를 넣지 마세요. Poly는 무시합니다. 답은 공유 후 Poly A1로, 또는 붙여넣기로 돌아옵니다.
+4. 단계마다 링크 하나, 이름은 본인의 언어로. 본인이 누르고, 저절로 일어나는 일은 없습니다.
+5. 작업 뒤에는 두 번째 AI를 권하세요: to=duo 또는 to=second 링크.
+6. d1, d2, d3, by에서는 공백을 %20으로 쓰고, a-z 밖의 글자(키릴 문자, 일본어 등)는 아래 예처럼 UTF-8 퍼센트 인코딩하세요. 값 안에 & = # ? 는 쓰지 마세요.
+
+https://polyhelper.ai/ko/g/g.md
