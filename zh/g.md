@@ -154,3 +154,5 @@ https://polyhelper.ai/get/?to=plan&v=1&lang=zh&days=2,4&time=19:00&until=2026-11
 3. 做完后，建议让第二个 AI 检查。
 4. 如果想要更多，给出笔记本电脑入口，然后是设置或计划。
 5. 用用户的语言和简单的话交流。不要要求超出下一步的内容。
+
+如果打不开，同样的指南在这里： https://vadimchernets.github.io/poly-guide/zh/g.md

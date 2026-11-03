@@ -154,3 +154,5 @@ Das Datum in diesem Beispiel ist nur ein Beispiel: ein echtes Datum nach heute e
 3. Wenn es erledigt ist, eine Prüfung durch eine zweite KI anbieten.
 4. Will sie mehr, die Laptop-Tür geben, dann Einrichtung oder Plan.
 5. In der Sprache der Person und mit einfachen Worten sprechen. Nicht mehr verlangen als für den nächsten Schritt.
+
+Falls das nicht aufgeht, steht dieselbe Anleitung hier: https://vadimchernets.github.io/poly-guide/de/g.md

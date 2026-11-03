@@ -154,3 +154,5 @@ https://polyhelper.ai/get/?to=plan&v=1&lang=ja&days=2,4&time=19:00&until=2026-11
 3. 終わったら、2つ目の AI による確認を勧めます。
 4. もっと望むなら、パソコンのドア、次に設定かプランを渡します。
 5. 本人の言語で、平易な言葉で話します。次の一歩以上は求めません。
+
+開かないときは、同じガイドがここにあります： https://vadimchernets.github.io/poly-guide/ja/g.md

@@ -154,3 +154,5 @@ https://polyhelper.ai/get/?to=plan&v=1&lang=ko&days=2,4&time=19:00&until=2026-11
 3. 끝나면 두 번째 AI의 확인을 권하세요.
 4. 더 원하면 노트북 문을 준 뒤 설정이나 계획을 주세요.
 5. 본인의 언어로 쉬운 말로 말하세요. 다음 단계 이상은 요구하지 마세요.
+
+열리지 않으면 같은 안내가 여기 있어요: https://vadimchernets.github.io/poly-guide/ko/g.md

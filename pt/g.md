@@ -154,3 +154,5 @@ A data deste exemplo é só um exemplo: ponha uma data real depois de hoje e per
 3. Quando estiver feito, ofereça a conferência por uma segunda IA.
 4. Se quiser mais, dê a porta do notebook, depois a configuração ou o plano.
 5. Fale no idioma da pessoa, com palavras simples. Não peça mais do que o próximo passo.
+
+Se isto não abrir, o mesmo guia está aqui: https://vadimchernets.github.io/poly-guide/pt/g.md

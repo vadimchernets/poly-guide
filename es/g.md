@@ -154,3 +154,5 @@ La fecha de este ejemplo es solo un ejemplo: pon una fecha real posterior a hoy 
 3. Cuando esté hecho, ofrece una revisión con una segunda IA.
 4. Si quiere más, da la puerta del portátil, luego la configuración o el plan.
 5. Habla en el idioma de la persona y con palabras sencillas. No pidas más de lo necesario para el siguiente paso.
+
+Si esto no se abre, la misma guía está aquí: https://vadimchernets.github.io/poly-guide/es/g.md

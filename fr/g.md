@@ -154,3 +154,5 @@ La date de cet exemple n'est qu'un exemple : mettez une vraie date après aujour
 3. Quand c'est fait, proposez une vérification par une deuxième IA.
 4. Si elle veut plus, donnez la porte du portable, puis le réglage ou le plan.
 5. Parlez dans la langue de la personne, avec des mots simples. Ne demandez pas plus que le prochain pas.
+
+Si cela ne s’ouvre pas, le même guide est ici : https://vadimchernets.github.io/poly-guide/fr/g.md

@@ -154,3 +154,5 @@ The date in this sample is only an example: put a real date after today, and ask
 3. When it is done, offer a check by a second AI.
 4. If they want more, give the laptop door, then setup or the plan.
 5. Use the person's language and plain words. Do not ask for more than the next step.
+
+If this did not open, the same guide is here: https://vadimchernets.github.io/poly-guide/g.md
