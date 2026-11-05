@@ -1,0 +1,81 @@
+{
+  "product": "Poly A2",
+  "generatedFrom": "src/frontier.ts:buildFrontierPrompt",
+  "context": "Neutral default context; the app can add the person’s chosen task, experience, device, help, and pace.",
+  "guide": "https://polyhelper.ai/g/a2.md",
+  "mirror": "https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md",
+  "prompts": [
+    {
+      "kind": "start",
+      "locale": "en",
+      "file": "start.en.txt",
+      "sha256": "93cc0a6b554cc2447812f52e7e797ab416f6d8053c08604990ff740016d8bc17"
+    },
+    {
+      "kind": "start",
+      "locale": "ru",
+      "file": "start.ru.txt",
+      "sha256": "86e59f8d77b2ced73387d5d98783ae97bb393a26cf32c9dbeedb330b69472ce5"
+    },
+    {
+      "kind": "desktop",
+      "locale": "en",
+      "file": "desktop.en.txt",
+      "sha256": "2fe8c5fc75abb90eb30e843056cffe02c70a2ef5ec1a5ae5470805451cc622e5"
+    },
+    {
+      "kind": "desktop",
+      "locale": "ru",
+      "file": "desktop.ru.txt",
+      "sha256": "8d185824720d700f4a216f7aaa68587fc5a476b2ef896716015c764913d0cfa7"
+    },
+    {
+      "kind": "team",
+      "locale": "en",
+      "file": "team.en.txt",
+      "sha256": "a233ea7519b27494971d119b83cd32ed4285f49d52141583ccd8feb7eee857a4"
+    },
+    {
+      "kind": "team",
+      "locale": "ru",
+      "file": "team.ru.txt",
+      "sha256": "31076d0eeb83061308b222c38174d7de1e18b5f0f037ca0d76d56f7c9ace9ce7"
+    },
+    {
+      "kind": "memory",
+      "locale": "en",
+      "file": "memory.en.txt",
+      "sha256": "e2f1a56af30191955462a4997ac204ad48e0743d91e9a313af6f594b4afbecbc"
+    },
+    {
+      "kind": "memory",
+      "locale": "ru",
+      "file": "memory.ru.txt",
+      "sha256": "5c70413285f6e1ce8195c953ab37f7c1b5a26047fced8a0c35312825c0889b20"
+    },
+    {
+      "kind": "tools",
+      "locale": "en",
+      "file": "tools.en.txt",
+      "sha256": "9c901ab84a2de94ff1b307829c0be36d4c5cf87a838aba6bbf3ecd5666ffd07b"
+    },
+    {
+      "kind": "tools",
+      "locale": "ru",
+      "file": "tools.ru.txt",
+      "sha256": "3f71c33a95943b99985ce995bb132dfe6d0521363df4d7e45510751a9119841e"
+    },
+    {
+      "kind": "continue",
+      "locale": "en",
+      "file": "continue.en.txt",
+      "sha256": "38b628fc262fc5a2f0f0fcc9825e5a7eae47ca08ddf5da9170056277c8cfd890"
+    },
+    {
+      "kind": "continue",
+      "locale": "ru",
+      "file": "continue.ru.txt",
+      "sha256": "de9637044bbf40f11d78fb2e37faba76478191888b99503b687c7253d0c42538"
+    }
+  ]
+}

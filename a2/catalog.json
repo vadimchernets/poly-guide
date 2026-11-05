@@ -1,0 +1,307 @@
+{
+  "schema": 1,
+  "product": "Poly A2",
+  "edition": "2026-11",
+  "publishedAt": "2026-11-05",
+  "entries": [
+    {
+      "id": "deepseek-thinking",
+      "provider": "deepseek",
+      "kind": "start",
+      "title": {
+        "en": "Think deeper and check sources",
+        "ru": "Разобраться глубже и проверить источники"
+      },
+      "benefit": {
+        "en": "DeepSeek offers DeepThink and Search. Try a difficult question without starting a paid subscription.",
+        "ru": "В DeepSeek есть DeepThink и Search. Попробуйте сложный вопрос без оформления платной подписки."
+      },
+      "task": {
+        "en": "Help me use the available DeepThink and Search modes on my task. If I need to select a mode, explain one action for my current interface. Compare options and check important claims with sources.",
+        "ru": "Помоги применить доступные DeepThink и Search к моему делу. Если режим нужно включить, объясни одно действие для моего интерфейса. Сравни варианты и сверь важные утверждения с источниками."
+      },
+      "tags": [
+        "reasoning",
+        "search",
+        "thinking",
+        "sources",
+        "проверка",
+        "поиск",
+        "разобраться"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "free",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://www.deepseek.com/news/deepseek-app/"
+    },
+    {
+      "id": "meta-thinking",
+      "provider": "meta",
+      "kind": "start",
+      "title": {
+        "en": "Go beyond a quick reply",
+        "ru": "Получить больше, чем быстрый ответ"
+      },
+      "benefit": {
+        "en": "Try Thinking in Meta AI where it is available. You may already have Meta AI in a familiar app.",
+        "ru": "Попробуйте Thinking в Meta AI там, где режим доступен. Сам Meta AI уже может быть в вашем привычном приложении."
+      },
+      "task": {
+        "en": "Help me solve a real task with your available thinking mode. Explain whether my current app exposes a mode switch. Ask what matters, then offer a justified choice and a way to check it.",
+        "ru": "Помоги решить настоящее дело с доступным режимом размышления. Объясни, есть ли переключатель в моей версии приложения. Узнай, что важно, предложи обоснованный вариант и способ проверки."
+      },
+      "tags": [
+        "reasoning",
+        "thinking",
+        "options",
+        "решение",
+        "варианты"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "free",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
+    },
+    {
+      "id": "claude-actions",
+      "provider": "claude",
+      "kind": "start",
+      "title": {
+        "en": "Turn plans into calendar actions",
+        "ru": "Перенести договорённости в дела"
+      },
+      "benefit": {
+        "en": "Claude’s iPhone app can use Calendar and Reminders; Android can use Calendar and Clock. App permissions are required.",
+        "ru": "Приложение Claude на iPhone работает с календарём и напоминаниями, на Android — с календарём и часами. Нужны разрешения устройства."
+      },
+      "task": {
+        "en": "Help me plan this task, then add only the actions I approve to the calendar, reminders, or clock tools actually available on my device. Verify what was saved. If I am in a browser, explain the supported app route.",
+        "ru": "Помоги спланировать дело, затем добавь только согласованные со мной действия в календарь, напоминания или часы, реально доступные на моём устройстве. Проверь, что сохранилось. Если я в браузере, объясни путь через поддерживаемое приложение."
+      },
+      "tags": [
+        "calendar",
+        "planning",
+        "reminders",
+        "расписание",
+        "встреча",
+        "календарь"
+      ],
+      "devices": [
+        "phone"
+      ],
+      "cost": "free",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps"
+    },
+    {
+      "id": "chatgpt-connections",
+      "provider": "chatgpt",
+      "kind": "start",
+      "title": {
+        "en": "Use files and connected apps",
+        "ru": "Поручить работу с файлами и сервисами"
+      },
+      "benefit": {
+        "en": "Use available files and connections to prepare for a meeting or find what needs attention.",
+        "ru": "Используйте доступные файлы и подключения, чтобы подготовиться к встрече или найти важные дела."
+      },
+      "task": {
+        "en": "Use the files or connected apps actually available to you to help with my task. If I need a new connection, explain its benefit and ask before connecting it. Return a useful result with its sources.",
+        "ru": "Используй реально доступные файлы или подключённые приложения, чтобы помочь с моим делом. Если нужно новое подключение, объясни пользу и спроси перед его настройкой. Дай полезный результат с источниками."
+      },
+      "tags": [
+        "documents",
+        "files",
+        "meeting",
+        "mail",
+        "документы",
+        "файлы",
+        "почта"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://developers.openai.com/training/walkthroughs/working-on-your-phone"
+    },
+    {
+      "id": "gemini-device",
+      "provider": "gemini",
+      "kind": "start",
+      "title": {
+        "en": "Let your phone handle a small action",
+        "ru": "Поручить телефону небольшое действие"
+      },
+      "benefit": {
+        "en": "Gemini’s Android app can set alarms and timers with Device assistance. This action is not available in every web or iPhone session.",
+        "ru": "Приложение Gemini на Android ставит будильники и таймеры через Device assistance. Такой доступ есть не в каждом веб-чате или сеансе на iPhone."
+      },
+      "task": {
+        "en": "Check which device tools are actually available here. Help me set one useful timer, alarm, or calendar action for my task, with my agreement, and verify the result. If unsupported, offer a workable alternative.",
+        "ru": "Проверь, какие инструменты устройства здесь реально доступны. Помоги с моего согласия поставить один полезный таймер, будильник или событие для моего дела и проверь результат. Если функция не поддерживается, предложи выполнимую замену."
+      },
+      "tags": [
+        "timer",
+        "alarm",
+        "phone",
+        "таймер",
+        "будильник"
+      ],
+      "devices": [
+        "android"
+      ],
+      "cost": "free",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://support.google.com/gemini/answer/15235441?hl=en"
+    },
+    {
+      "id": "images",
+      "provider": "chatgpt",
+      "kind": "start",
+      "title": {
+        "en": "Make an image for your own idea",
+        "ru": "Сделать изображение для своего дела"
+      },
+      "benefit": {
+        "en": "Create or edit an invitation, illustration, or design in ChatGPT, Gemini, or Meta AI where available.",
+        "ru": "Создайте или измените приглашение, иллюстрацию или оформление в ChatGPT, Gemini или Meta AI там, где это доступно."
+      },
+      "task": {
+        "en": "Help me make an image for my task. Use my audience, format, and required details, then create a first version with your available image tool. If there is no image tool here, prepare a usable prompt for one.",
+        "ru": "Помоги сделать изображение для моего дела. Учти аудиторию, формат и обязательные детали, затем создай первый вариант доступным инструментом. Если инструмента здесь нет, подготовь готовый запрос для него."
+      },
+      "tags": [
+        "image",
+        "design",
+        "event",
+        "illustration",
+        "изображение",
+        "оформление",
+        "мероприятие"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "free",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://learn.chatgpt.com/docs/image-generation"
+    },
+    {
+      "id": "video",
+      "provider": "gemini",
+      "kind": "start",
+      "title": {
+        "en": "Turn an idea into a short video",
+        "ru": "Превратить идею в короткое видео"
+      },
+      "benefit": {
+        "en": "Explore Gemini video, Meta AI Vibes, or Grok Imagine. Modes, plans, and generation limits vary.",
+        "ru": "Попробуйте видео в Gemini, Vibes в Meta AI или Imagine в Grok. Режимы, подписки и число генераций различаются."
+      },
+      "task": {
+        "en": "Help me create a short video for my task. Propose a simple concept and use an available video tool. Check the access and plan needed. If unavailable, give me a ready production prompt for Gemini, Meta AI Vibes, or Grok Imagine.",
+        "ru": "Помоги сделать короткое видео для моего дела. Предложи простой замысел и используй доступный видеоинструмент. Проверь нужный доступ и подписку. Если инструмента нет, дай готовый запрос для Gemini, Meta AI Vibes или Grok Imagine."
+      },
+      "tags": [
+        "video",
+        "social",
+        "event",
+        "видео",
+        "ролик",
+        "мероприятие"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-05",
+      "source": "https://support.google.com/gemini/answer/16126339?hl=en"
+    },
+    {
+      "id": "sidecall-review",
+      "provider": "claude",
+      "kind": "tools",
+      "title": {
+        "en": "Give your project another AI perspective",
+        "ru": "Получить независимый взгляд другого ИИ на проект"
+      },
+      "benefit": {
+        "en": "Use a distinct checking role in your existing agent workflow and compare findings with the original evidence.",
+        "ru": "Добавьте отдельную проверяющую роль в свой рабочий процесс агента и сверьте замечания с исходными данными."
+      },
+      "task": {
+        "en": "Help me improve my current project with an independent AI check. Consider the Poly A2-recommended sidecall tool only after reading its current official repository: https://github.com/vadimchernets/sidecall . Explain its purpose, required installed tools and access, and give one small trial on a copy of my work. If you cannot inspect the repository, prepare a manual checking assignment for another AI instead. Resolve findings against original evidence.",
+        "ru": "Помоги улучшить мой текущий проект независимой проверкой другого ИИ. Рассмотри рекомендуемый Poly A2 инструмент sidecall только после чтения актуального официального репозитория: https://github.com/vadimchernets/sidecall . Объясни пользу, нужные установленные инструменты и доступ, затем предложи небольшой пробный прогон на копии моей работы. Если репозиторий недоступен, подготовь ручное задание другому ИИ для проверки. Сверяй замечания с исходными данными."
+      },
+      "tags": [
+        "agent",
+        "review",
+        "project",
+        "code",
+        "проект",
+        "проверка",
+        "агент",
+        "код"
+      ],
+      "devices": [
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "growth",
+      "verifiedAt": "2026-11-05",
+      "source": "https://github.com/vadimchernets/sidecall"
+    },
+    {
+      "id": "repeatable-workflow",
+      "provider": "chatgpt",
+      "kind": "team",
+      "title": {
+        "en": "Turn a useful result into a repeatable process",
+        "ru": "Превратить полезный результат в повторяемый процесс"
+      },
+      "benefit": {
+        "en": "Reuse a working method with a clear handoff, a checking step and boundaries for the next case.",
+        "ru": "Повторите удачную схему с понятной передачей, проверкой и границами для следующего дела."
+      },
+      "task": {
+        "en": "Help me turn my current useful result into a repeatable process. Use my original inputs, note each role and what it receives, define acceptance checks and a failure stop, then try the method on one small new case. Count my participation separately from AI runtime. Keep costs within the limits I approve.",
+        "ru": "Помоги превратить мой текущий полезный результат в повторяемый процесс. Используй исходные материалы, опиши роль каждого исполнителя и что ему передаётся, задай критерии проверки и остановку при сбое, затем испытай схему на одном небольшом новом случае. Отдельно считай моё участие и время работы ИИ. Соблюдай согласованный мной предел затрат."
+      },
+      "tags": [
+        "workflow",
+        "repeat",
+        "process",
+        "team",
+        "процесс",
+        "повторить",
+        "схема",
+        "команда"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "growth",
+      "verifiedAt": "2026-11-05",
+      "source": "https://polyhelper.ai/g/a2.md"
+    }
+  ]
+}
