@@ -6,7 +6,7 @@ Checked: 2026-11-05. These are references to provider documentation and project 
 
 - ChatGPT: https://chatgpt.com/ ; official web guidance: https://learn.chatgpt.com/docs/web
 - Gemini: https://gemini.google.com/ ; account requirements: https://support.google.com/gemini/answer/13278668?hl=en ; supported locations: https://support.google.com/gemini/answer/13575153?hl=en
-- Meta AI: https://www.meta.ai/ ; official overview and FAQ: https://ai.meta.com/meta-ai/assistant/ ; existing-app entry points: https://about.fb.com/news/2025/03/europe-meet-your-newest-assistant-meta-ai/
+- Meta AI: https://www.meta.ai/ ; official overview and FAQ: https://ai.meta.com/meta-ai/ ; existing-app entry points: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
 - Claude: https://claude.ai/ ; getting started: https://support.claude.com/en/articles/8114491-get-started-with-claude ; supported locations: https://support.claude.com/en/articles/8461763-where-can-i-access-claude
 - DeepSeek: https://chat.deepseek.com/ ; official website: https://www.deepseek.com/ ; official application announcement: https://www.deepseek.com/news/deepseek-app/
 
@@ -17,7 +17,7 @@ Gemini offers a browser route without installing an app; some functions require 
 - DeepSeek's application announcement describes free use, web search, Deep-Think, and file text extraction: https://www.deepseek.com/news/deepseek-app/
 - DeepSeek service terms: https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html
 - Meta Instant and Thinking: https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/
-- Meta current overview/FAQ describes free everyday use and testing of limits on more resource-intensive features: https://ai.meta.com/meta-ai/assistant/
+- Meta current overview/FAQ describes free everyday use and testing of limits on more resource-intensive features: https://ai.meta.com/meta-ai/
 
 These references do not establish a universal free 24/7 unlimited service or equivalence to every feature of another provider's paid subscription. The Meta announcement distinguishes its app/web launch from rollout into other Meta surfaces; check the actual person's interface.
 

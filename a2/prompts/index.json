@@ -20,7 +20,7 @@
       "kind": "start",
       "locale": "ru",
       "file": "start.ru.txt",
-      "sha256": "f60d55a5bfaa24d330c4b0fcc449b86befa7529950ecd1fb03845ba910d696a7"
+      "sha256": "e481794861e570fe073fada39b9b1cc7f6489b0a6a4693ad91297e0791099d96"
     },
     {
       "kind": "desktop",
@@ -32,7 +32,7 @@
       "kind": "desktop",
       "locale": "ru",
       "file": "desktop.ru.txt",
-      "sha256": "e3d42c4f4b4dc03ad47f22bcbc22a11b7e1ba0556fae5c886975952c3293a7e1"
+      "sha256": "3e57d25f967d4438a9b23e19e2c2eb58b78891b88acbce49e65b5961695789d3"
     },
     {
       "kind": "team",
@@ -44,7 +44,7 @@
       "kind": "team",
       "locale": "ru",
       "file": "team.ru.txt",
-      "sha256": "02c8647d47857d538ee46c66fa857a2f5ed19b3d2b663a8f767979ba45d039b7"
+      "sha256": "f688da80d5481daf747c637a70b467fa7271e99b3270eff8471719d1bf1082fe"
     },
     {
       "kind": "memory",
@@ -56,7 +56,7 @@
       "kind": "memory",
       "locale": "ru",
       "file": "memory.ru.txt",
-      "sha256": "88d6ccb1e9cb4db056a4c8d8049d6f56f263ff50b5a73ed40659e9796451c8e5"
+      "sha256": "354309ec9c664aa50e6813177f4efed12236969eddd649ccb3f72f21a9aae036"
     },
     {
       "kind": "tools",
@@ -68,7 +68,7 @@
       "kind": "tools",
       "locale": "ru",
       "file": "tools.ru.txt",
-      "sha256": "972ef1f02efde87d4b0877ca37aa5d615db1f9be5612376d5d1a14d4dbaafb44"
+      "sha256": "7b71a83cd32b8a427cdecdc2f13f41e165b94a7cd1a2406d7ce028ef75c971ea"
     },
     {
       "kind": "continue",
@@ -80,7 +80,7 @@
       "kind": "continue",
       "locale": "ru",
       "file": "continue.ru.txt",
-      "sha256": "98245cb69cfaa44794904ccab7dd2ff712bb328c8653bda175c3b6d2f995f78e"
+      "sha256": "fc3ec04204a63f12dc7e90c862598e8e5bea8cbff34423cfbfb4e614dad87f0c"
     },
     {
       "kind": "desktop-setup",
