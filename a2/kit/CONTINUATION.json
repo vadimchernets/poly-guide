@@ -1,0 +1,17 @@
+{
+  "product": "Poly A2",
+  "schema": 1,
+  "status": "empty-template-not-user-data",
+  "goal": null,
+  "calling": null,
+  "interests": [],
+  "done": [],
+  "verifiedEvidence": [],
+  "sources": [],
+  "availableDevices": [],
+  "availableSubscriptions": [],
+  "nextUsefulStep": null,
+  "preferredSupport": null,
+  "reminderConsent": false,
+  "guide": "https://polyhelper.ai/g/a2.md"
+}

@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "product": "Poly A2",
-  "edition": "2026-11",
-  "publishedAt": "2026-11-05",
+  "edition": "2026-11-recheck-2",
+  "publishedAt": "2026-11-06",
   "entries": [
     {
       "id": "deepseek-thinking",
@@ -10,15 +10,42 @@
       "kind": "start",
       "title": {
         "en": "Think deeper and check sources",
-        "ru": "Разобраться глубже и проверить источники"
+        "ru": "Разобраться глубже и проверить источники",
+        "zh": "想得更深，核对来源",
+        "hi": "गहराई से सोचें और स्रोत जाँचें",
+        "es": "Piensa más a fondo y comprueba las fuentes",
+        "fr": "Réfléchir plus profondément et vérifier les sources",
+        "pt": "Pense mais a fundo e confira as fontes",
+        "de": "Tiefer nachdenken und Quellen prüfen",
+        "ja": "深く考え、情報源を確かめる",
+        "ko": "더 깊이 생각하고 출처 확인하기",
+        "uk": "Міркуйте глибше й перевіряйте джерела"
       },
       "benefit": {
-        "en": "DeepSeek offers DeepThink and Search. Try a difficult question without starting a paid subscription.",
-        "ru": "В DeepSeek есть DeepThink и Search. Попробуйте сложный вопрос без оформления платной подписки."
+        "en": "Try deeper reasoning (DeepThink) and web search (Search) in DeepSeek on a difficult question, using its available free access.",
+        "ru": "Разберите сложный вопрос в DeepSeek: глубокое размышление (DeepThink) и поиск в интернете (Search) доступны бесплатно с учётом лимитов аккаунта.",
+        "zh": "在 DeepSeek 里，用它现有的免费权限，针对一个难题试试更深入的推理（DeepThink）和联网搜索（Search）。",
+        "hi": "DeepSeek में किसी कठिन सवाल पर उसकी उपलब्ध मुफ़्त पहुँच से गहरी सोच (DeepThink) और वेब खोज (Search) आज़माएँ।",
+        "es": "Prueba el razonamiento más profundo (DeepThink) y la búsqueda en la web (Search) en DeepSeek con una pregunta difícil, usando su acceso gratuito disponible.",
+        "fr": "Essayez le raisonnement approfondi (DeepThink) et la recherche web (Search) dans DeepSeek sur une question difficile, avec son accès gratuit disponible.",
+        "pt": "Experimente o raciocínio mais profundo (DeepThink) e a busca na web (Search) no DeepSeek em uma pergunta difícil, usando o acesso gratuito disponível.",
+        "de": "Probieren Sie in DeepSeek tieferes Nachdenken (DeepThink) und Websuche (Search) bei einer schwierigen Frage aus, mit dem kostenlosen Zugang, der dort verfügbar ist.",
+        "ja": "DeepSeekで、使える無料の範囲で、難しい質問に、より深い推論（DeepThink）とウェブ検索（Search）を試しましょう。",
+        "ko": "DeepSeek에서 쓸 수 있는 무료 이용 범위로, 어려운 질문에 더 깊은 추론(DeepThink)과 웹 검색(Search)을 시험해 보세요.",
+        "uk": "Спробуйте глибше міркування (DeepThink) і пошук в інтернеті (Search) у DeepSeek на складному питанні, скориставшись доступним безкоштовним доступом."
       },
       "task": {
         "en": "Help me use the available DeepThink and Search modes on my task. If I need to select a mode, explain one action for my current interface. Compare options and check important claims with sources.",
-        "ru": "Помоги применить доступные DeepThink и Search к моему делу. Если режим нужно включить, объясни одно действие для моего интерфейса. Сравни варианты и сверь важные утверждения с источниками."
+        "ru": "Помоги применить доступные DeepThink и Search к моему делу. Если режим нужно включить, объясни одно действие для моего интерфейса. Сравни варианты и сверь важные утверждения с источниками.",
+        "zh": "请帮我在我的任务上使用可用的 DeepThink 和 Search 模式。如果我需要选择模式，请针对我当前的界面说明一个操作。对比各个选项，并用来源核对重要的说法。",
+        "hi": "मेरे काम पर उपलब्ध DeepThink और Search मोड इस्तेमाल करने में मदद करें। अगर मुझे कोई मोड चुनना हो, तो मेरे मौजूदा इंटरफ़ेस के लिए एक कार्रवाई समझाएँ। विकल्पों की तुलना करें और ज़रूरी दावे स्रोतों से जाँचें।",
+        "es": "Ayúdame a usar los modos DeepThink y Search disponibles con mi tarea. Si necesito elegir un modo, explica una sola acción para mi interfaz actual. Compara opciones y comprueba las afirmaciones importantes con fuentes.",
+        "fr": "Aide-moi à utiliser les modes DeepThink et Search disponibles sur ma tâche. Si je dois choisir un mode, explique une action pour mon interface actuelle. Compare les options et vérifie les affirmations importantes avec des sources.",
+        "pt": "Ajude-me a usar os modos DeepThink e Search disponíveis na minha tarefa. Se eu precisar selecionar um modo, explique uma ação para a minha interface atual. Compare as opções e confira as afirmações importantes com fontes.",
+        "de": "Hilf mir, die verfügbaren Modi DeepThink und Search bei meiner Aufgabe zu nutzen. Wenn ich einen Modus auswählen muss, erkläre eine Handlung für meine aktuelle Oberfläche. Vergleiche Optionen und prüfe wichtige Aussagen anhand von Quellen.",
+        "ja": "使えるDeepThinkとSearchのモードを、私のタスクで使うのを手伝ってください。モードを選ぶ必要があれば、今の画面での操作をひとつ説明してください。選択肢を比べ、大事な主張は情報源で確認してください。",
+        "ko": "제 작업에 쓸 수 있는 DeepThink와 Search 모드를 활용하도록 도와주세요. 모드를 골라야 한다면 제 화면에서 할 행동 하나를 설명해 주세요. 선택지를 비교하고 중요한 주장은 출처로 확인하세요.",
+        "uk": "Допоможи мені скористатися доступними режимами DeepThink і Search для мого завдання. Якщо мені треба вибрати режим, поясни одну дію для мого поточного інтерфейсу. Порівняй варіанти й перевір важливі твердження за джерелами."
       },
       "tags": [
         "reasoning",
@@ -35,8 +62,37 @@
       ],
       "cost": "free",
       "access": "free",
-      "verifiedAt": "2026-11-05",
-      "source": "https://www.deepseek.com/news/deepseek-app/"
+      "verifiedAt": "2026-11-06",
+      "source": "https://www.deepseek.com/news/deepseek-app/",
+      "review": {
+        "type": "rechecked",
+        "summary": {
+          "en": "Reasoning and search routes checked against the official service information. This is a recheck, not a newly released feature.",
+          "ru": "Пути к размышлению и поиску сверены с официальными сведениями сервиса. Это повторная проверка, а не объявление новой функции.",
+          "zh": "已根据官方服务说明复核推理和搜索路径。这是重新检查，并非新发布的功能。",
+          "hi": "तर्क और खोज के तरीकों को सेवा की आधिकारिक जानकारी से जाँचा गया है। यह दोबारा जाँच है, नई सुविधा की घोषणा नहीं।",
+          "es": "Las rutas de razonamiento y búsqueda se han contrastado con la información oficial. Es una revisión, no una función recién lanzada.",
+          "fr": "Les parcours de raisonnement et de recherche ont été vérifiés dans les informations officielles. Il s’agit d’une nouvelle vérification, pas d’une fonction qui vient de sortir.",
+          "pt": "Os caminhos de raciocínio e busca foram conferidos com as informações oficiais. É uma nova verificação, não um recurso recém-lançado.",
+          "de": "Die Wege für Nachdenken und Suche wurden mit den offiziellen Informationen abgeglichen. Das ist eine erneute Prüfung, keine neu veröffentlichte Funktion.",
+          "ja": "推論と検索の手順を公式情報で確認しました。新機能の発表ではなく、再確認です。",
+          "ko": "추론과 검색 이용 방법을 공식 정보로 다시 확인했어요. 새로 출시된 기능이라는 뜻은 아니에요.",
+          "uk": "Шляхи до міркування й пошуку звірено з офіційними відомостями. Це повторна перевірка, а не оголошення нової функції."
+        },
+        "useFor": {
+          "en": "Use it when a quick answer misses important details: compare options and verify the sources on your own task.",
+          "ru": "Используйте, когда в быстром ответе теряются важные детали: сравните варианты и проверьте источники на своём деле.",
+          "zh": "快速回答遗漏重要细节时可以使用：结合自己的任务比较选项并核实来源。",
+          "hi": "जब तेज़ जवाब में ज़रूरी बातें छूट जाएँ तब उपयोग करें: अपने काम पर विकल्पों की तुलना और स्रोतों की जाँच करें।",
+          "es": "Úsalo cuando una respuesta rápida omita detalles importantes: compara opciones y comprueba fuentes en tu propia tarea.",
+          "fr": "À utiliser quand une réponse rapide oublie des détails importants : comparez les options et vérifiez les sources sur votre propre tâche.",
+          "pt": "Use quando uma resposta rápida deixar detalhes importantes de fora: compare opções e verifique as fontes na sua tarefa.",
+          "de": "Nutzen Sie dies, wenn einer schnellen Antwort wichtige Details fehlen: Vergleichen Sie Möglichkeiten und prüfen Sie Quellen an Ihrer eigenen Aufgabe.",
+          "ja": "素早い返答で大切な点が抜けていたら、自分の課題で選択肢を比較し、出典を確認してみましょう。",
+          "ko": "빠른 답변에서 중요한 내용이 빠졌을 때 활용하세요. 실제 작업에서 선택지를 비교하고 출처를 확인해 보세요.",
+          "uk": "Використовуйте, коли швидка відповідь пропускає важливі деталі: порівняйте варіанти й перевірте джерела на своїй справі."
+        }
+      }
     },
     {
       "id": "meta-thinking",
@@ -44,15 +100,42 @@
       "kind": "start",
       "title": {
         "en": "Go beyond a quick reply",
-        "ru": "Получить больше, чем быстрый ответ"
+        "ru": "Получить больше, чем быстрый ответ",
+        "zh": "不止于快速回复",
+        "hi": "तुरंत जवाब से आगे जाएँ",
+        "es": "Ve más allá de una respuesta rápida",
+        "fr": "Aller au-delà d'une réponse rapide",
+        "pt": "Vá além de uma resposta rápida",
+        "de": "Mehr als eine schnelle Antwort",
+        "ja": "さっと返す以上の答えを",
+        "ko": "빠른 답을 넘어서기",
+        "uk": "Вийдіть за межі швидкої відповіді"
       },
       "benefit": {
-        "en": "Try Thinking in Meta AI where it is available. You may already have Meta AI in a familiar app.",
-        "ru": "Попробуйте Thinking в Meta AI там, где режим доступен. Сам Meta AI уже может быть в вашем привычном приложении."
+        "en": "Try the reasoning mode (Thinking) in Meta AI if it is available in your app.",
+        "ru": "Попробуйте режим размышления (Thinking) в Meta AI, если он доступен в вашем приложении.",
+        "zh": "如果你的应用里有推理模式（Thinking），在 Meta AI 里试一试。",
+        "hi": "अगर आपके ऐप में उपलब्ध हो तो Meta AI में तर्क वाला मोड (Thinking) आज़माएँ।",
+        "es": "Prueba el modo de razonamiento (Thinking) de Meta AI si está disponible en tu app.",
+        "fr": "Essayez le mode de raisonnement (Thinking) dans Meta AI s'il est disponible dans votre application.",
+        "pt": "Experimente o modo de raciocínio (Thinking) no Meta AI, se ele estiver disponível no seu app.",
+        "de": "Probieren Sie den Denkmodus (Thinking) in Meta AI aus, wenn er in Ihrer App verfügbar ist.",
+        "ja": "Meta AIの推論モード（Thinking）を、アプリで使えるなら試しましょう。",
+        "ko": "Meta AI 앱에 추론 모드(Thinking)가 있다면 시험해 보세요.",
+        "uk": "Спробуйте режим міркування (Thinking) у Meta AI, якщо він доступний у вашому застосунку."
       },
       "task": {
         "en": "Help me solve a real task with your available thinking mode. Explain whether my current app exposes a mode switch. Ask what matters, then offer a justified choice and a way to check it.",
-        "ru": "Помоги решить настоящее дело с доступным режимом размышления. Объясни, есть ли переключатель в моей версии приложения. Узнай, что важно, предложи обоснованный вариант и способ проверки."
+        "ru": "Помоги решить настоящее дело с доступным режимом размышления. Объясни, есть ли переключатель в моей версии приложения. Узнай, что важно, предложи обоснованный вариант и способ проверки.",
+        "zh": "请用你可用的思考模式，帮我解决一个真实的任务。说明我当前的应用是否提供模式切换。先问我什么最重要，然后给出有理由的选择和检查方法。",
+        "hi": "अपने उपलब्ध सोच वाले मोड से एक असली काम हल करने में मेरी मदद करें। समझाएँ कि मेरे मौजूदा ऐप में मोड बदलने का विकल्प है या नहीं। पूछें कि क्या मायने रखता है, फिर तर्कसंगत विकल्प और उसे जाँचने का तरीका दें।",
+        "es": "Ayúdame a resolver una tarea real con tu modo de razonamiento disponible. Explica si mi app actual ofrece un selector de modo. Pregunta qué es importante, luego ofrece una opción justificada y una forma de comprobarla.",
+        "fr": "Aide-moi à résoudre une vraie tâche avec ton mode de réflexion disponible. Explique si mon application actuelle propose un changement de mode. Demande ce qui compte, puis propose un choix justifié et un moyen de le vérifier.",
+        "pt": "Ajude-me a resolver uma tarefa real com o modo de raciocínio que você tiver. Explique se o meu app atual mostra uma opção para trocar de modo. Pergunte o que importa e depois ofereça uma escolha justificada e uma forma de conferi-la.",
+        "de": "Hilf mir, eine echte Aufgabe mit deinem verfügbaren Denkmodus zu lösen. Erkläre, ob meine aktuelle App einen Moduswechsel anbietet. Frage, was wichtig ist, und biete dann eine begründete Wahl und einen Weg, sie zu prüfen.",
+        "ja": "使える思考モードで、実際のタスクを解決するのを手伝ってください。今のアプリにモードの切り替えがあるか説明してください。何が大切か聞いたうえで、理由のある選択肢と、それを確かめる方法を示してください。",
+        "ko": "쓸 수 있는 생각 모드로 실제 작업을 해결하도록 도와주세요. 지금 앱에 모드 전환이 있는지 설명하세요. 무엇이 중요한지 물어본 뒤, 근거 있는 선택과 그것을 확인하는 방법을 제안하세요.",
+        "uk": "Допоможи мені розв'язати справжнє завдання доступним режимом міркування. Поясни, чи є у моєму застосунку перемикач режиму. Запитай, що важливо, потім запропонуй обґрунтований вибір і спосіб його перевірити."
       },
       "tags": [
         "reasoning",
@@ -67,8 +150,37 @@
       ],
       "cost": "free",
       "access": "free",
-      "verifiedAt": "2026-11-05",
-      "source": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
+      "verifiedAt": "2026-11-06",
+      "source": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "review": {
+        "type": "rechecked",
+        "summary": {
+          "en": "Reasoning and search routes checked against the official service information. This is a recheck, not a newly released feature.",
+          "ru": "Пути к размышлению и поиску сверены с официальными сведениями сервиса. Это повторная проверка, а не объявление новой функции.",
+          "zh": "已根据官方服务说明复核推理和搜索路径。这是重新检查，并非新发布的功能。",
+          "hi": "तर्क और खोज के तरीकों को सेवा की आधिकारिक जानकारी से जाँचा गया है। यह दोबारा जाँच है, नई सुविधा की घोषणा नहीं।",
+          "es": "Las rutas de razonamiento y búsqueda se han contrastado con la información oficial. Es una revisión, no una función recién lanzada.",
+          "fr": "Les parcours de raisonnement et de recherche ont été vérifiés dans les informations officielles. Il s’agit d’une nouvelle vérification, pas d’une fonction qui vient de sortir.",
+          "pt": "Os caminhos de raciocínio e busca foram conferidos com as informações oficiais. É uma nova verificação, não um recurso recém-lançado.",
+          "de": "Die Wege für Nachdenken und Suche wurden mit den offiziellen Informationen abgeglichen. Das ist eine erneute Prüfung, keine neu veröffentlichte Funktion.",
+          "ja": "推論と検索の手順を公式情報で確認しました。新機能の発表ではなく、再確認です。",
+          "ko": "추론과 검색 이용 방법을 공식 정보로 다시 확인했어요. 새로 출시된 기능이라는 뜻은 아니에요.",
+          "uk": "Шляхи до міркування й пошуку звірено з офіційними відомостями. Це повторна перевірка, а не оголошення нової функції."
+        },
+        "useFor": {
+          "en": "Use it when a quick answer misses important details: compare options and verify the sources on your own task.",
+          "ru": "Используйте, когда в быстром ответе теряются важные детали: сравните варианты и проверьте источники на своём деле.",
+          "zh": "快速回答遗漏重要细节时可以使用：结合自己的任务比较选项并核实来源。",
+          "hi": "जब तेज़ जवाब में ज़रूरी बातें छूट जाएँ तब उपयोग करें: अपने काम पर विकल्पों की तुलना और स्रोतों की जाँच करें।",
+          "es": "Úsalo cuando una respuesta rápida omita detalles importantes: compara opciones y comprueba fuentes en tu propia tarea.",
+          "fr": "À utiliser quand une réponse rapide oublie des détails importants : comparez les options et vérifiez les sources sur votre propre tâche.",
+          "pt": "Use quando uma resposta rápida deixar detalhes importantes de fora: compare opções e verifique as fontes na sua tarefa.",
+          "de": "Nutzen Sie dies, wenn einer schnellen Antwort wichtige Details fehlen: Vergleichen Sie Möglichkeiten und prüfen Sie Quellen an Ihrer eigenen Aufgabe.",
+          "ja": "素早い返答で大切な点が抜けていたら、自分の課題で選択肢を比較し、出典を確認してみましょう。",
+          "ko": "빠른 답변에서 중요한 내용이 빠졌을 때 활용하세요. 실제 작업에서 선택지를 비교하고 출처를 확인해 보세요.",
+          "uk": "Використовуйте, коли швидка відповідь пропускає важливі деталі: порівняйте варіанти й перевірте джерела на своїй справі."
+        }
+      }
     },
     {
       "id": "claude-actions",
@@ -76,15 +188,42 @@
       "kind": "start",
       "title": {
         "en": "Turn plans into calendar actions",
-        "ru": "Перенести договорённости в дела"
+        "ru": "Перенести договорённости в дела",
+        "zh": "把计划变成日历行动",
+        "hi": "योजनाओं को कैलेंडर की कार्रवाइयों में बदलें",
+        "es": "Convierte planes en acciones del calendario",
+        "fr": "Transformer des plans en actions de calendrier",
+        "pt": "Transforme planos em ações na agenda",
+        "de": "Pläne in Kalendereinträge verwandeln",
+        "ja": "計画をカレンダーの予定にする",
+        "ko": "계획을 캘린더 일정으로 바꾸기",
+        "uk": "Перетворіть плани на дії в календарі"
       },
       "benefit": {
         "en": "Claude’s iPhone app can use Calendar and Reminders; Android can use Calendar and Clock. App permissions are required.",
-        "ru": "Приложение Claude на iPhone работает с календарём и напоминаниями, на Android — с календарём и часами. Нужны разрешения устройства."
+        "ru": "Приложение Claude на iPhone работает с календарём и напоминаниями, на Android — с календарём и часами. Нужны разрешения устройства.",
+        "zh": "Claude 的 iPhone 应用可以使用日历和提醒事项；Android 可以使用日历和时钟。需要应用权限。",
+        "hi": "Claude का iPhone ऐप Calendar और Reminders इस्तेमाल कर सकता है; Android पर Calendar और Clock। ऐप की अनुमतियाँ ज़रूरी हैं।",
+        "es": "La app de Claude para iPhone puede usar Calendario y Recordatorios; en Android, Calendario y Reloj. Se necesitan permisos de la app.",
+        "fr": "L'application Claude pour iPhone peut utiliser Calendrier et Rappels ; sur Android, Calendrier et Horloge. Les autorisations de l'application sont nécessaires.",
+        "pt": "O app do Claude no iPhone pode usar Calendário e Lembretes; no Android, Agenda e Relógio. São necessárias permissões do app.",
+        "de": "Die iPhone-App von Claude kann Kalender und Erinnerungen nutzen; Android kann Kalender und Uhr nutzen. App-Berechtigungen sind nötig.",
+        "ja": "ClaudeのiPhoneアプリは「カレンダー」と「リマインダー」を、Androidは「カレンダー」と「時計」を使えます。アプリの許可が必要です。",
+        "ko": "Claude의 iPhone 앱은 캘린더와 미리 알림을, Android는 캘린더와 시계를 사용할 수 있어요. 앱 권한이 필요해요.",
+        "uk": "Застосунок Claude для iPhone може користуватися Календарем і Нагадуваннями; Android — Календарем і Годинником. Потрібні дозволи застосунку."
       },
       "task": {
         "en": "Help me plan this task, then add only the actions I approve to the calendar, reminders, or clock tools actually available on my device. Verify what was saved. If I am in a browser, explain the supported app route.",
-        "ru": "Помоги спланировать дело, затем добавь только согласованные со мной действия в календарь, напоминания или часы, реально доступные на моём устройстве. Проверь, что сохранилось. Если я в браузере, объясни путь через поддерживаемое приложение."
+        "ru": "Помоги спланировать дело, затем добавь только согласованные со мной действия в календарь, напоминания или часы, реально доступные на моём устройстве. Проверь, что сохранилось. Если я в браузере, объясни путь через поддерживаемое приложение.",
+        "zh": "请帮我规划这个任务，然后只把我批准的操作，添加到我的设备上实际可用的日历、提醒事项或时钟工具中。核实保存了什么。如果我在浏览器里，请说明受支持的应用路径。",
+        "hi": "इस काम की योजना बनाने में मेरी मदद करें, फिर केवल वे कार्रवाइयाँ जोड़ें जो मैं मंज़ूर करूँ, मेरे डिवाइस पर असल में उपलब्ध कैलेंडर, रिमाइंडर या घड़ी टूल में। जाँचें कि क्या सहेजा गया। अगर मैं ब्राउज़र में हूँ, तो समर्थित ऐप वाला रास्ता समझाएँ।",
+        "es": "Ayúdame a planificar esta tarea y luego añade solo las acciones que yo apruebe al calendario, los recordatorios o las herramientas de reloj realmente disponibles en mi dispositivo. Verifica lo que se guardó. Si estoy en un navegador, explica la ruta compatible con la app.",
+        "fr": "Aide-moi à planifier cette tâche, puis ajoute uniquement les actions que j'approuve dans les outils de calendrier, de rappels ou d'horloge réellement disponibles sur mon appareil. Vérifie ce qui a été enregistré. Si je suis dans un navigateur, explique la voie prise en charge par l'application.",
+        "pt": "Ajude-me a planejar esta tarefa e depois adicione apenas as ações que eu aprovar às ferramentas de calendário, lembretes ou relógio realmente disponíveis no meu dispositivo. Verifique o que foi salvo. Se eu estiver em um navegador, explique o caminho compatível pelo app.",
+        "de": "Hilf mir, diese Aufgabe zu planen, und trage dann nur die von mir genehmigten Aktionen in die Kalender-, Erinnerungs- oder Uhr-Werkzeuge ein, die auf meinem Gerät tatsächlich verfügbar sind. Prüfe, was gespeichert wurde. Wenn ich in einem Browser bin, erkläre den unterstützten Weg über die App.",
+        "ja": "このタスクの計画を手伝い、そのあと、私が承認した操作だけを、端末で実際に使えるカレンダー、リマインダー、時計のツールに追加してください。何が保存されたか確認してください。ブラウザを使っている場合は、対応するアプリでの方法を説明してください。",
+        "ko": "이 작업을 계획하도록 도와주고, 제가 승인한 동작만 내 기기에서 실제로 쓸 수 있는 캘린더, 미리 알림, 시계 도구에 추가해 주세요. 무엇이 저장되었는지 확인하세요. 제가 브라우저에 있다면 지원되는 앱 방법을 설명해 주세요.",
+        "uk": "Допоможи мені спланувати це завдання, а потім додай лише схвалені мною дії в календар, нагадування чи годинник, які реально доступні на моєму пристрої. Перевір, що збережено. Якщо я в браузері, поясни підтримуваний шлях через застосунок."
       },
       "tags": [
         "calendar",
@@ -97,7 +236,7 @@
       "devices": [
         "phone"
       ],
-      "cost": "free",
+      "cost": "varies",
       "access": "free",
       "verifiedAt": "2026-11-05",
       "source": "https://support.claude.com/en/articles/11869619-use-claude-with-ios-apps"
@@ -108,15 +247,42 @@
       "kind": "start",
       "title": {
         "en": "Use files and connected apps",
-        "ru": "Поручить работу с файлами и сервисами"
+        "ru": "Поручить работу с файлами и сервисами",
+        "zh": "使用文件和已连接的应用",
+        "hi": "फ़ाइलें और जुड़े ऐप इस्तेमाल करें",
+        "es": "Usa archivos y apps conectadas",
+        "fr": "Utiliser des fichiers et des applications connectées",
+        "pt": "Usar arquivos e apps conectados",
+        "de": "Dateien und verbundene Apps nutzen",
+        "ja": "ファイルや連携アプリを使う",
+        "ko": "파일과 연결된 앱 활용하기",
+        "uk": "Використовуйте файли й підключені застосунки"
       },
       "benefit": {
-        "en": "Use available files and connections to prepare for a meeting or find what needs attention.",
-        "ru": "Используйте доступные файлы и подключения, чтобы подготовиться к встрече или найти важные дела."
+        "en": "Ask your AI to use a file you attach, or an app you have already allowed it to access, to prepare for a meeting.",
+        "ru": "Попросите ИИ подготовиться к встрече по прикреплённому файлу или данным приложения, к которому вы уже дали ему доступ.",
+        "zh": "请你的 AI 使用你附上的文件，或你已允许它访问的应用，来为一次会议做准备。",
+        "hi": "अपने AI से कहें कि मीटिंग की तैयारी के लिए आपकी जोड़ी फ़ाइल या किसी ऐसे ऐप का इस्तेमाल करे जिस तक पहुँचने की आप पहले से अनुमति दे चुके हैं।",
+        "es": "Pide a tu IA que use un archivo que adjuntes, o una app a la que ya le diste acceso, para prepararte para una reunión.",
+        "fr": "Demandez à votre IA d'utiliser un fichier que vous joignez, ou une application à laquelle vous lui avez déjà donné accès, pour préparer une réunion.",
+        "pt": "Peça à sua IA que use um arquivo que você anexar, ou um app que você já permitiu que ela acesse, para se preparar para uma reunião.",
+        "de": "Bitten Sie Ihre KI, eine Datei, die Sie anhängen, oder eine App, auf die Sie ihr schon Zugriff erlaubt haben, zu nutzen, um ein Treffen vorzubereiten.",
+        "ja": "添付したファイルや、AIにアクセスを許可済みのアプリを使って、会議の準備をAIに頼めます。",
+        "ko": "내가 첨부한 파일이나 이미 접근을 허용한 앱을 AI가 활용해 회의 준비를 도와 달라고 해 보세요.",
+        "uk": "Попросіть ШІ використати прикріплений вами файл або застосунок, до якого ви вже дозволили доступ, щоб підготуватися до зустрічі."
       },
       "task": {
         "en": "Use the files or connected apps actually available to you to help with my task. If I need a new connection, explain its benefit and ask before connecting it. Return a useful result with its sources.",
-        "ru": "Используй реально доступные файлы или подключённые приложения, чтобы помочь с моим делом. Если нужно новое подключение, объясни пользу и спроси перед его настройкой. Дай полезный результат с источниками."
+        "ru": "Используй реально доступные файлы или подключённые приложения, чтобы помочь с моим делом. Если нужно новое подключение, объясни пользу и спроси перед его настройкой. Дай полезный результат с источниками.",
+        "zh": "请使用你实际可用的文件或已连接的应用，帮我处理我的任务。如果我需要新的连接，请说明它的好处，并在连接之前先问我。给出有用的结果，并附上来源。",
+        "hi": "मेरे काम में मदद के लिए वे फ़ाइलें या जुड़े ऐप इस्तेमाल करें जो आपको असल में उपलब्ध हैं। अगर मुझे नया कनेक्शन चाहिए, तो उसका फ़ायदा समझाएँ और जोड़ने से पहले पूछें। स्रोतों के साथ उपयोगी नतीजा लौटाएँ।",
+        "es": "Usa los archivos o las apps conectadas que realmente tengas disponibles para ayudarme con mi tarea. Si necesito una conexión nueva, explica su beneficio y pregunta antes de conectarla. Entrega un resultado útil con sus fuentes.",
+        "fr": "Utilise les fichiers ou les applications connectées réellement disponibles pour m'aider dans ma tâche. Si j'ai besoin d'une nouvelle connexion, explique son avantage et demande avant de la connecter. Donne un résultat utile avec ses sources.",
+        "pt": "Use os arquivos ou apps conectados que estiverem realmente disponíveis para ajudar na minha tarefa. Se eu precisar de uma nova conexão, explique o benefício dela e pergunte antes de conectá-la. Devolva um resultado útil, com as fontes.",
+        "de": "Nutze die Dateien oder verbundenen Apps, die dir tatsächlich zur Verfügung stehen, um bei meiner Aufgabe zu helfen. Wenn ich eine neue Verbindung brauche, erkläre ihren Nutzen und frage, bevor du sie herstellst. Gib ein nützliches Ergebnis mit seinen Quellen zurück.",
+        "ja": "実際に使えるファイルや連携したアプリを使って、私のタスクを手伝ってください。新しい連携が必要なときは、その利点を説明し、つなぐ前に確認してください。役に立つ結果を、情報源とともに返してください。",
+        "ko": "지금 실제로 쓸 수 있는 파일이나 연결된 앱을 활용해 제 작업을 도와주세요. 새 연결이 필요하면 그 이점을 설명하고 연결하기 전에 물어보세요. 출처와 함께 쓸모 있는 결과를 알려 주세요.",
+        "uk": "Використай файли або підключені застосунки, які тобі справді доступні, щоб допомогти з моїм завданням. Якщо мені потрібне нове підключення, поясни його користь і спитай перед підключенням. Поверни корисний результат із джерелами."
       },
       "tags": [
         "documents",
@@ -142,15 +308,42 @@
       "kind": "start",
       "title": {
         "en": "Let your phone handle a small action",
-        "ru": "Поручить телефону небольшое действие"
+        "ru": "Поручить телефону небольшое действие",
+        "zh": "让手机处理一个小操作",
+        "hi": "छोटा काम अपने फ़ोन से करवाएँ",
+        "es": "Deja que tu teléfono se encargue de una acción pequeña",
+        "fr": "Laissez votre téléphone s'occuper d'une petite action",
+        "pt": "Deixe o celular cuidar de uma pequena ação",
+        "de": "Lassen Sie Ihr Handy eine kleine Aktion übernehmen",
+        "ja": "小さな操作はスマホに任せる",
+        "ko": "작은 일은 휴대폰에 맡기기",
+        "uk": "Нехай телефон виконає невелику дію"
       },
       "benefit": {
-        "en": "Gemini’s Android app can set alarms and timers with Device assistance. This action is not available in every web or iPhone session.",
-        "ru": "Приложение Gemini на Android ставит будильники и таймеры через Device assistance. Такой доступ есть не в каждом веб-чате или сеансе на iPhone."
+        "en": "In the Gemini app on Android, try setting an alarm or timer. The app may ask for phone permissions; browser and iPhone features differ.",
+        "ru": "В приложении Gemini на Android можно попробовать поставить будильник или таймер. Приложение может попросить разрешения телефона; в браузере и на iPhone функции отличаются.",
+        "zh": "在 Android 上的 Gemini 应用里，试着设置一个闹钟或计时器。应用可能会请求手机权限；浏览器和 iPhone 上的功能有所不同。",
+        "hi": "Android पर Gemini ऐप में अलार्म या टाइमर लगाकर देखें। ऐप फ़ोन की अनुमतियाँ माँग सकता है; ब्राउज़र और iPhone की सुविधाएँ अलग हैं।",
+        "es": "En la app de Gemini para Android, prueba a poner una alarma o un temporizador. La app puede pedir permisos del teléfono; las funciones en navegador y en iPhone son distintas.",
+        "fr": "Dans l'application Gemini sur Android, essayez de régler une alarme ou un minuteur. L'application peut demander des autorisations sur le téléphone ; les fonctions diffèrent dans le navigateur et sur iPhone.",
+        "pt": "No app Gemini para Android, experimente definir um alarme ou um timer. O app pode pedir permissões do celular; os recursos no navegador e no iPhone são diferentes.",
+        "de": "Probieren Sie in der Gemini-App auf Android aus, einen Wecker oder Timer zu stellen. Die App kann nach Handy-Berechtigungen fragen; Funktionen im Browser und auf dem iPhone unterscheiden sich.",
+        "ja": "AndroidのGeminiアプリで、アラームやタイマーのセットを試しましょう。アプリがスマホの許可を求めることがあります。ブラウザやiPhoneでは機能が異なります。",
+        "ko": "Android의 Gemini 앱에서 알람이나 타이머 설정을 시험해 보세요. 앱이 휴대폰 권한을 요청할 수 있어요. 브라우저와 iPhone의 기능은 달라요.",
+        "uk": "У застосунку Gemini на Android спробуйте встановити будильник або таймер. Застосунок може попросити дозволи телефона; можливості в браузері та на iPhone відрізняються."
       },
       "task": {
         "en": "Check which device tools are actually available here. Help me set one useful timer, alarm, or calendar action for my task, with my agreement, and verify the result. If unsupported, offer a workable alternative.",
-        "ru": "Проверь, какие инструменты устройства здесь реально доступны. Помоги с моего согласия поставить один полезный таймер, будильник или событие для моего дела и проверь результат. Если функция не поддерживается, предложи выполнимую замену."
+        "ru": "Проверь, какие инструменты устройства здесь реально доступны. Помоги с моего согласия поставить один полезный таймер, будильник или событие для моего дела и проверь результат. Если функция не поддерживается, предложи выполнимую замену.",
+        "zh": "请检查这里实际可用的设备工具。经我同意后，帮我为我的任务设置一个有用的计时器、闹钟或日历操作，并核实结果。如果不支持，请提供可行的替代办法。",
+        "hi": "जाँचें कि यहाँ असल में कौन-से डिवाइस टूल उपलब्ध हैं। मेरी सहमति से मेरे काम के लिए एक उपयोगी टाइमर, अलार्म या कैलेंडर कार्रवाई तय करने में मदद करें और नतीजा जाँचें। अगर समर्थित न हो, तो चलने लायक विकल्प दें।",
+        "es": "Comprueba qué herramientas del dispositivo están realmente disponibles aquí. Ayúdame a poner, con mi acuerdo, un temporizador, una alarma o una acción de calendario útil para mi tarea, y verifica el resultado. Si no es compatible, ofrece una alternativa viable.",
+        "fr": "Vérifie quels outils de l'appareil sont réellement disponibles ici. Aide-moi à régler, avec mon accord, un minuteur, une alarme ou une action de calendrier utile pour ma tâche, et vérifie le résultat. Si ce n'est pas pris en charge, propose une alternative réalisable.",
+        "pt": "Verifique quais ferramentas do dispositivo estão realmente disponíveis aqui. Ajude-me a definir, com o meu acordo, um timer, um alarme ou uma ação de calendário útil para a minha tarefa e verifique o resultado. Se não houver suporte, ofereça uma alternativa viável.",
+        "de": "Prüfe, welche Gerätewerkzeuge hier tatsächlich verfügbar sind. Hilf mir, mit meiner Zustimmung einen nützlichen Timer, Wecker oder Kalendereintrag für meine Aufgabe einzurichten, und prüfe das Ergebnis. Wenn es nicht unterstützt wird, biete eine machbare Alternative an.",
+        "ja": "ここで実際に使える端末のツールを確認してください。私の同意を得て、私のタスクに役立つタイマー、アラーム、カレンダーの操作をひとつ設定し、結果を確認してください。対応していなければ、実行できる代わりの方法を提案してください。",
+        "ko": "여기서 실제로 쓸 수 있는 기기 도구가 무엇인지 확인하세요. 제 동의를 받아 제 작업에 쓸모 있는 타이머, 알람, 캘린더 동작 하나를 설정하도록 도와주고 결과를 확인하세요. 지원되지 않으면 실행 가능한 대안을 제안하세요.",
+        "uk": "Перевір, які інструменти пристрою тут справді доступні. Допоможи мені, за моєї згоди, встановити один корисний таймер, будильник чи дію в календарі для мого завдання й перевір результат. Якщо це не підтримується, запропонуй робочу альтернативу."
       },
       "tags": [
         "timer",
@@ -173,15 +366,42 @@
       "kind": "start",
       "title": {
         "en": "Make an image for your own idea",
-        "ru": "Сделать изображение для своего дела"
+        "ru": "Сделать изображение для своего дела",
+        "zh": "为你自己的想法制作一张图片",
+        "hi": "अपने विचार की तस्वीर बनाएँ",
+        "es": "Crea una imagen para tu propia idea",
+        "fr": "Faire une image pour votre propre idée",
+        "pt": "Faça uma imagem para a sua própria ideia",
+        "de": "Ein Bild für Ihre eigene Idee machen",
+        "ja": "自分のアイデアを画像にする",
+        "ko": "내 아이디어로 이미지 만들기",
+        "uk": "Створіть зображення для власної ідеї"
       },
       "benefit": {
         "en": "Create or edit an invitation, illustration, or design in ChatGPT, Gemini, or Meta AI where available.",
-        "ru": "Создайте или измените приглашение, иллюстрацию или оформление в ChatGPT, Gemini или Meta AI там, где это доступно."
+        "ru": "Создайте или измените приглашение, иллюстрацию или оформление в ChatGPT, Gemini или Meta AI там, где это доступно.",
+        "zh": "在可用的地方，用 ChatGPT、Gemini 或 Meta AI 创建或编辑邀请函、插图或设计。",
+        "hi": "ChatGPT, Gemini या Meta AI में, जहाँ उपलब्ध हो, निमंत्रण, चित्र या डिज़ाइन बनाएँ या बदलें।",
+        "es": "Crea o edita una invitación, una ilustración o un diseño en ChatGPT, Gemini o Meta AI donde estén disponibles.",
+        "fr": "Créez ou modifiez une invitation, une illustration ou un visuel dans ChatGPT, Gemini ou Meta AI là où c'est disponible.",
+        "pt": "Crie ou edite um convite, uma ilustração ou um design no ChatGPT, no Gemini ou no Meta AI, onde estiver disponível.",
+        "de": "Erstellen oder bearbeiten Sie eine Einladung, eine Illustration oder ein Design in ChatGPT, Gemini oder Meta AI, wo verfügbar.",
+        "ja": "対応していれば、ChatGPT、Gemini、Meta AIで、招待状、イラスト、デザインを作ったり編集したりできます。",
+        "ko": "ChatGPT, Gemini, Meta AI에서(가능한 경우) 초대장, 일러스트, 디자인을 만들거나 고쳐 보세요.",
+        "uk": "Створіть або відредагуйте запрошення, ілюстрацію чи дизайн у ChatGPT, Gemini або Meta AI там, де це доступно."
       },
       "task": {
         "en": "Help me make an image for my task. Use my audience, format, and required details, then create a first version with your available image tool. If there is no image tool here, prepare a usable prompt for one.",
-        "ru": "Помоги сделать изображение для моего дела. Учти аудиторию, формат и обязательные детали, затем создай первый вариант доступным инструментом. Если инструмента здесь нет, подготовь готовый запрос для него."
+        "ru": "Помоги сделать изображение для моего дела. Учти аудиторию, формат и обязательные детали, затем создай первый вариант доступным инструментом. Если инструмента здесь нет, подготовь готовый запрос для него.",
+        "zh": "请帮我为我的任务制作一张图片。参考我的受众、格式和必需的细节，然后用你可用的图像工具做出第一个版本。如果这里没有图像工具，请为它准备一条可用的指令。",
+        "hi": "मेरे काम के लिए एक तस्वीर बनाने में मदद करें। मेरे दर्शक, रूप और ज़रूरी ब्योरे इस्तेमाल करें, फिर अपने उपलब्ध चित्र टूल से पहला संस्करण बनाएँ। अगर यहाँ चित्र टूल न हो, तो उसके लिए चलने लायक निर्देश तैयार करें।",
+        "es": "Ayúdame a hacer una imagen para mi tarea. Usa mi público, el formato y los detalles necesarios, y crea una primera versión con la herramienta de imágenes que tengas disponible. Si aquí no hay herramienta de imágenes, prepara una instrucción lista para usar en una.",
+        "fr": "Aide-moi à faire une image pour ma tâche. Pars de mon public, du format et des détails requis, puis crée une première version avec ton outil d'image disponible. S'il n'y a pas d'outil d'image ici, prépare une consigne utilisable dans un outil de création d’images.",
+        "pt": "Ajude-me a fazer uma imagem para a minha tarefa. Use o meu público, o formato e os detalhes necessários e crie uma primeira versão com a ferramenta de imagem que você tiver. Se não houver ferramenta de imagem aqui, prepare um prompt utilizável para uma delas.",
+        "de": "Hilf mir, ein Bild für meine Aufgabe zu machen. Berücksichtige mein Publikum, das Format und die nötigen Angaben und erstelle mit deinem verfügbaren Bildwerkzeug eine erste Version. Gibt es hier kein Bildwerkzeug, bereite eine brauchbare Anweisung für eines vor.",
+        "ja": "私のタスクのための画像づくりを手伝ってください。私の対象者、形式、必要な内容を踏まえて、使える画像ツールで最初のバージョンを作ってください。ここに画像ツールがなければ、そのツールで使えるプロンプトを用意してください。",
+        "ko": "제 작업에 쓸 이미지를 만들도록 도와주세요. 대상, 형식, 필요한 세부 사항을 반영해 쓸 수 있는 이미지 도구로 첫 버전을 만드세요. 여기에 이미지 도구가 없으면 이미지 도구에 쓸 수 있는 프롬프트를 준비해 주세요.",
+        "uk": "Допоможи мені створити зображення для мого завдання. Врахуй мою аудиторію, формат і потрібні деталі, а потім створи першу версію доступним інструментом для зображень. Якщо тут немає такого інструмента, підготуй придатну підказку для нього."
       },
       "tags": [
         "image",
@@ -207,15 +427,42 @@
       "kind": "start",
       "title": {
         "en": "Turn an idea into a short video",
-        "ru": "Превратить идею в короткое видео"
+        "ru": "Превратить идею в короткое видео",
+        "zh": "把想法变成短视频",
+        "hi": "विचार को छोटे वीडियो में बदलें",
+        "es": "Convierte una idea en un video corto",
+        "fr": "Transformer une idée en courte vidéo",
+        "pt": "Transforme uma ideia em um vídeo curto",
+        "de": "Aus einer Idee ein kurzes Video machen",
+        "ja": "アイデアを短い動画にする",
+        "ko": "아이디어를 짧은 영상으로",
+        "uk": "Перетворіть ідею на коротке відео"
       },
       "benefit": {
-        "en": "Explore Gemini video, Meta AI Vibes, or Grok Imagine. Modes, plans, and generation limits vary.",
-        "ru": "Попробуйте видео в Gemini, Vibes в Meta AI или Imagine в Grok. Режимы, подписки и число генераций различаются."
+        "en": "Explore Gemini video, Meta AI Vibes, or Grok Imagine. Available features, prices, and the number of videos you can make vary.",
+        "ru": "Попробуйте видео в Gemini, Vibes в Meta AI или Imagine в Grok. Доступные функции, цены и число создаваемых видео различаются.",
+        "zh": "探索 Gemini 视频、Meta AI Vibes 或 Grok Imagine。可用的功能、价格和你能制作的视频数量各不相同。",
+        "hi": "Gemini वीडियो, Meta AI Vibes या Grok Imagine आज़माएँ। उपलब्ध सुविधाएँ, कीमतें और आप कितने वीडियो बना सकते हैं, यह अलग-अलग है।",
+        "es": "Explora el video de Gemini, Meta AI Vibes o Grok Imagine. Las funciones disponibles, los precios y la cantidad de videos que puedes crear varían.",
+        "fr": "Découvrez la vidéo de Gemini, Meta AI Vibes ou Grok Imagine. Les fonctions disponibles, les prix et le nombre de vidéos possibles varient.",
+        "pt": "Explore o vídeo do Gemini, o Vibes do Meta AI ou o Grok Imagine. Os recursos disponíveis, os preços e o número de vídeos que você pode criar variam.",
+        "de": "Entdecken Sie Gemini-Video, Meta AI Vibes oder Grok Imagine. Verfügbare Funktionen, Preise und die Zahl der Videos, die Sie erstellen können, unterscheiden sich.",
+        "ja": "Geminiの動画、Meta AI Vibes、Grok Imagineを試しましょう。使える機能、料金、作れる動画の数は異なります。",
+        "ko": "Gemini 영상, Meta AI Vibes, Grok Imagine을 살펴보세요. 쓸 수 있는 기능, 가격, 만들 수 있는 영상 수는 달라요.",
+        "uk": "Дослідіть відео в Gemini, Vibes у Meta AI або Grok Imagine. Доступні функції, ціни й кількість відео, які можна створити, різняться."
       },
       "task": {
         "en": "Help me create a short video for my task. Propose a simple concept and use an available video tool. Check the access and plan needed. If unavailable, give me a ready production prompt for Gemini, Meta AI Vibes, or Grok Imagine.",
-        "ru": "Помоги сделать короткое видео для моего дела. Предложи простой замысел и используй доступный видеоинструмент. Проверь нужный доступ и подписку. Если инструмента нет, дай готовый запрос для Gemini, Meta AI Vibes или Grok Imagine."
+        "ru": "Помоги сделать короткое видео для моего дела. Предложи простой замысел и используй доступный видеоинструмент. Проверь нужный доступ и подписку. Если инструмента нет, дай готовый запрос для Gemini, Meta AI Vibes или Grok Imagine.",
+        "zh": "请帮我为我的任务制作一段短视频。提出一个简单的构思，并使用可用的视频工具。检查所需的权限和方案。如果无法使用，请给我一条可直接用于 Gemini、Meta AI Vibes 或 Grok Imagine 的制作指令。",
+        "hi": "मेरे काम के लिए एक छोटा वीडियो बनाने में मदद करें। कोई सरल कल्पना सुझाएँ और उपलब्ध वीडियो टूल इस्तेमाल करें। ज़रूरी पहुँच और योजना जाँचें। अगर उपलब्ध न हो, तो Gemini, Meta AI Vibes या Grok Imagine के लिए तैयार निर्देश दें।",
+        "es": "Ayúdame a crear un video corto para mi tarea. Propón un concepto sencillo y usa una herramienta de video disponible. Comprueba el acceso y el plan necesarios. Si no está disponible, dame una instrucción de producción lista para Gemini, Meta AI Vibes o Grok Imagine.",
+        "fr": "Aide-moi à créer une courte vidéo pour ma tâche. Propose un concept simple et utilise un outil vidéo disponible. Vérifie l'accès et l'offre nécessaires. Si ce n'est pas disponible, donne-moi une consigne de production prête à l'emploi pour Gemini, Meta AI Vibes ou Grok Imagine.",
+        "pt": "Ajude-me a criar um vídeo curto para a minha tarefa. Proponha um conceito simples e use uma ferramenta de vídeo disponível. Confira o acesso e o plano necessários. Se não estiver disponível, me dê um prompt de produção pronto para o Gemini, o Vibes do Meta AI ou o Grok Imagine.",
+        "de": "Hilf mir, ein kurzes Video für meine Aufgabe zu erstellen. Schlage ein einfaches Konzept vor und nutze ein verfügbares Videowerkzeug. Prüfe den nötigen Zugang und Tarif. Ist keines verfügbar, gib mir eine fertige Produktionsanweisung für Gemini, Meta AI Vibes oder Grok Imagine.",
+        "ja": "私のタスクのための短い動画づくりを手伝ってください。かんたんな企画を提案し、使える動画ツールで作ってください。必要なアクセス権とプランを確認してください。使えなければ、Gemini、Meta AI Vibes、Grok Imagine向けの、そのまま使える制作用プロンプトを渡してください。",
+        "ko": "제 작업에 쓸 짧은 영상을 만들도록 도와주세요. 간단한 콘셉트를 제안하고 쓸 수 있는 영상 도구를 사용하세요. 필요한 접근 권한과 요금제를 확인하세요. 쓸 수 없다면 Gemini, Meta AI Vibes, Grok Imagine에 바로 쓸 수 있는 제작 프롬프트를 주세요.",
+        "uk": "Допоможи мені створити коротке відео для мого завдання. Запропонуй просту концепцію й скористайся доступним інструментом для відео. Перевір потрібний доступ і план. Якщо недоступно, дай мені готову підказку для створення в Gemini, Meta AI Vibes або Grok Imagine."
       },
       "tags": [
         "video",
@@ -235,20 +482,466 @@
       "source": "https://support.google.com/gemini/answer/16126339?hl=en"
     },
     {
+      "id": "claude-mail",
+      "provider": "claude",
+      "kind": "start",
+      "title": {
+        "en": "Find the important email",
+        "ru": "Найти важное письмо",
+        "zh": "找到重要邮件",
+        "hi": "ज़रूरी ईमेल ढूँढ़ें",
+        "es": "Encontrar el correo importante",
+        "fr": "Retrouver le message important",
+        "pt": "Encontrar o e-mail importante",
+        "de": "Die wichtige E-Mail finden",
+        "ja": "大事なメールを見つける",
+        "ko": "중요한 이메일 찾기",
+        "uk": "Знайти важливий лист"
+      },
+      "benefit": {
+        "en": "Use Claude with Gmail to find a message and prepare a reply. Connect your Google account only if you want to grant access. You review the reply before sending.",
+        "ru": "Claude с Gmail помогает найти письмо и подготовить ответ. Подключайте Google-аккаунт, только если хотите дать доступ. Перед отправкой ответ проверяете вы.",
+        "zh": "让 Claude 通过 Gmail 查找邮件并起草回复。只有愿意授权时才连接 Google 账号。发送前由您检查回复。",
+        "hi": "Claude और Gmail से संदेश ढूँढ़ें और उत्तर तैयार करें। पहुँच देना चाहें तभी Google खाता जोड़ें। भेजने से पहले उत्तर आप जाँचेंगे।",
+        "es": "Usa Claude con Gmail para encontrar un mensaje y preparar una respuesta. Conecta tu cuenta de Google solo si quieres dar acceso. Revisa la respuesta antes de enviarla.",
+        "fr": "Utilisez Claude avec Gmail pour retrouver un message et préparer une réponse. Connectez votre compte Google seulement si vous souhaitez autoriser l’accès. Relisez avant l’envoi.",
+        "pt": "Use Claude com Gmail para encontrar uma mensagem e preparar a resposta. Conecte sua conta Google só se quiser dar acesso. Você revisa a resposta antes de enviar.",
+        "de": "Mit Claude und Gmail eine Nachricht finden und eine Antwort vorbereiten. Verbinden Sie Ihr Google-Konto nur, wenn Sie Zugriff erlauben möchten. Prüfen Sie die Antwort vor dem Senden.",
+        "ja": "ClaudeとGmailでメールを探し、返信の下書きを作れます。アクセスを許可したい場合だけGoogleアカウントを接続してください。送信前に自分で返信を確認します。",
+        "ko": "Claude와 Gmail로 메일을 찾고 답장 초안을 만들어요. 접근을 허용하고 싶을 때만 Google 계정을 연결하세요. 보내기 전에 직접 답장을 확인하세요.",
+        "uk": "Використайте Claude з Gmail, щоб знайти лист і підготувати відповідь. Підключайте Google-акаунт, лише якщо хочете надати доступ. Перед надсиланням перевірте відповідь."
+      },
+      "task": {
+        "en": "Help me find one email relevant to my task and draft a reply. Check whether Gmail is connected; if not, explain how to connect it and ask before granting access. Alternatively, I can paste the relevant text. Name the source message and distinguish facts from assumptions. Show me the draft and do not send, delete or change messages without my explicit approval.",
+        "ru": "Помоги найти одно письмо по моему делу и подготовить ответ. Проверь подключение Gmail; если его нет, объясни способ и спроси перед предоставлением доступа. Я также могу вставить нужный текст. Назови исходное письмо и отдели факты от предположений. Покажи черновик; не отправляй, не удаляй и не меняй письма без моего явного согласия.",
+        "zh": "帮我找到与任务有关的一封邮件并起草回复。先确认 Gmail 是否已连接；未连接时解释方法，授权前征求同意。也可以由我粘贴相关文字。指出来源邮件，区分事实与推测。展示草稿，未经我明确同意不要发送、删除或修改邮件。",
+        "hi": "मेरे काम से जुड़ा एक ईमेल खोजें और जवाब का मसौदा बनाएँ। जाँचें कि Gmail जुड़ा है या नहीं; नहीं हो तो तरीका समझाएँ और पहुँच देने से पहले पूछें। मैं संबंधित पाठ चिपका भी सकता हूँ। स्रोत संदेश बताएँ और तथ्य व अनुमान अलग रखें। मसौदा दिखाएँ; मेरी स्पष्ट मंज़ूरी के बिना ईमेल भेजें, मिटाएँ या बदलें नहीं।",
+        "es": "Ayúdame a encontrar un correo relacionado con mi tarea y redactar una respuesta. Comprueba si Gmail está conectado; si no, explica cómo y pregunta antes de dar acceso. También puedo pegar el texto pertinente. Identifica el mensaje de origen y separa hechos de suposiciones. Muéstrame el borrador y no envíes, borres ni modifiques mensajes sin mi aprobación explícita.",
+        "fr": "Aide-moi à retrouver un e-mail lié à ma tâche et à rédiger une réponse. Vérifie si Gmail est connecté ; sinon, explique comment faire et demande avant d’autoriser l’accès. Je peux aussi coller le texte utile. Identifie le message source et distingue faits et suppositions. Montre le brouillon ; n’envoie, ne supprime et ne modifie rien sans mon accord explicite.",
+        "pt": "Ajude-me a encontrar um e-mail ligado à minha tarefa e preparar uma resposta. Veja se o Gmail está conectado; se não, explique como conectar e peça antes de conceder acesso. Também posso colar o texto relevante. Identifique a mensagem de origem e separe fatos de suposições. Mostre o rascunho e não envie, apague ou altere mensagens sem minha autorização explícita.",
+        "de": "Hilf mir, eine passende E-Mail zu finden und eine Antwort zu entwerfen. Prüfe, ob Gmail verbunden ist; erkläre sonst die Verbindung und frage vor der Freigabe. Ich kann den wichtigen Text auch einfügen. Nenne die Quellnachricht und trenne Fakten von Annahmen. Zeige den Entwurf; sende, lösche oder ändere keine Nachrichten ohne meine ausdrückliche Zustimmung.",
+        "ja": "作業に関係するメールを一通探し、返信の下書きを作ってください。Gmailが接続済みか確認し、未接続なら方法を説明してアクセス許可の前に確認してください。関連する本文を私が貼り付けることもできます。元のメールを示し、事実と推測を分けてください。下書きを見せ、私の明確な同意なしに送信・削除・変更しないでください。",
+        "ko": "작업과 관련된 메일 하나를 찾아 답장 초안을 만들어 주세요. Gmail 연결 여부를 확인하고 연결되지 않았다면 방법을 설명하고 접근 허용 전에 물어보세요. 제가 필요한 내용을 붙여넣어도 돼요. 원본 메일을 밝히고 사실과 추측을 구분하세요. 초안을 보여주고 제 명확한 동의 없이 메일을 보내거나 삭제하거나 수정하지 마세요.",
+        "uk": "Допоможи знайти один лист щодо моєї справи й підготувати відповідь. Перевір підключення Gmail; якщо його немає, поясни спосіб і запитай перед наданням доступу. Я також можу вставити потрібний текст. Назви вихідний лист і відокрем факти від припущень. Покажи чернетку; не надсилай, не видаляй і не змінюй листи без моєї явної згоди."
+      },
+      "tags": [
+        "email",
+        "mail",
+        "draft",
+        "почта",
+        "письмо"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-06",
+      "source": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+      "review": {
+        "type": "rechecked",
+        "summary": {
+          "en": "Official information rechecked. This is an existing capability, not a new release.",
+          "ru": "Официальные сведения проверены повторно. Это существующая возможность, а не новая функция.",
+          "zh": "已复核官方信息。这是已有功能，并非新发布。",
+          "hi": "आधिकारिक जानकारी दोबारा जाँची गई है। यह मौजूदा सुविधा है, नई रिलीज़ नहीं।",
+          "es": "Información oficial revisada. Es una capacidad existente, no un nuevo lanzamiento.",
+          "fr": "Informations officielles revérifiées. Il s’agit d’une capacité existante, pas d’une nouveauté.",
+          "pt": "Informações oficiais conferidas novamente. É uma capacidade existente, não um lançamento.",
+          "de": "Offizielle Informationen erneut geprüft. Dies ist eine bestehende Möglichkeit, keine neue Veröffentlichung.",
+          "ja": "公式情報を再確認しました。新機能ではなく、すでにある機能です。",
+          "ko": "공식 정보를 다시 확인했어요. 새로 출시된 기능이 아닌 기존 기능이에요.",
+          "uk": "Офіційні відомості перевірено знову. Це наявна можливість, а не нова функція."
+        },
+        "useFor": {
+          "en": "Use Claude with Gmail to find a message and prepare a reply. Connect your Google account only if you want to grant access. You review the reply before sending.",
+          "ru": "Claude с Gmail помогает найти письмо и подготовить ответ. Подключайте Google-аккаунт, только если хотите дать доступ. Перед отправкой ответ проверяете вы.",
+          "zh": "让 Claude 通过 Gmail 查找邮件并起草回复。只有愿意授权时才连接 Google 账号。发送前由您检查回复。",
+          "hi": "Claude और Gmail से संदेश ढूँढ़ें और उत्तर तैयार करें। पहुँच देना चाहें तभी Google खाता जोड़ें। भेजने से पहले उत्तर आप जाँचेंगे।",
+          "es": "Usa Claude con Gmail para encontrar un mensaje y preparar una respuesta. Conecta tu cuenta de Google solo si quieres dar acceso. Revisa la respuesta antes de enviarla.",
+          "fr": "Utilisez Claude avec Gmail pour retrouver un message et préparer une réponse. Connectez votre compte Google seulement si vous souhaitez autoriser l’accès. Relisez avant l’envoi.",
+          "pt": "Use Claude com Gmail para encontrar uma mensagem e preparar a resposta. Conecte sua conta Google só se quiser dar acesso. Você revisa a resposta antes de enviar.",
+          "de": "Mit Claude und Gmail eine Nachricht finden und eine Antwort vorbereiten. Verbinden Sie Ihr Google-Konto nur, wenn Sie Zugriff erlauben möchten. Prüfen Sie die Antwort vor dem Senden.",
+          "ja": "ClaudeとGmailでメールを探し、返信の下書きを作れます。アクセスを許可したい場合だけGoogleアカウントを接続してください。送信前に自分で返信を確認します。",
+          "ko": "Claude와 Gmail로 메일을 찾고 답장 초안을 만들어요. 접근을 허용하고 싶을 때만 Google 계정을 연결하세요. 보내기 전에 직접 답장을 확인하세요.",
+          "uk": "Використайте Claude з Gmail, щоб знайти лист і підготувати відповідь. Підключайте Google-акаунт, лише якщо хочете надати доступ. Перед надсиланням перевірте відповідь."
+        }
+      }
+    },
+    {
+      "id": "claude-restaurants",
+      "provider": "claude",
+      "kind": "start",
+      "title": {
+        "en": "Find a restaurant with an available table",
+        "ru": "Найти ресторан со свободным столиком",
+        "zh": "寻找有空位的餐厅",
+        "hi": "खाली मेज़ वाला रेस्तराँ ढूँढ़ें",
+        "es": "Encontrar restaurante con mesa libre",
+        "fr": "Trouver un restaurant avec une table libre",
+        "pt": "Encontrar restaurante com mesa disponível",
+        "de": "Restaurant mit freiem Tisch finden",
+        "ja": "空席のあるレストランを探す",
+        "ko": "빈자리가 있는 식당 찾기",
+        "uk": "Знайти ресторан із вільним столиком"
+      },
+      "benefit": {
+        "en": "Claude can use Resy to find available tables at supported U.S. restaurants. You finish the booking on Resy and check any fees before confirming. Elsewhere, ask for local alternatives.",
+        "ru": "Claude через Resy может найти столики в поддерживаемых ресторанах США. Бронирование завершаете вы на Resy, проверив оплату до подтверждения. В других странах попросите местные варианты.",
+        "zh": "Claude 可通过 Resy 查找美国支持餐厅的空位。您在 Resy 完成预订，并在确认前查看费用。在其他地区，可请求当地替代方案。",
+        "hi": "Claude, Resy से अमेरिका के समर्थित रेस्तराँ में खाली मेज़ ढूँढ़ सकता है। बुकिंग आप Resy पर पूरी करते हैं और पुष्टि से पहले शुल्क जाँचते हैं। अन्य जगह स्थानीय विकल्प पूछें।",
+        "es": "Claude puede usar Resy para buscar mesas libres en restaurantes compatibles de EE. UU. Terminas la reserva en Resy y revisas posibles cargos antes de confirmar. En otros países, pide alternativas locales.",
+        "fr": "Claude peut utiliser Resy pour trouver des tables dans les restaurants américains pris en charge. Vous finalisez sur Resy et vérifiez les frais avant de confirmer. Ailleurs, demandez des solutions locales.",
+        "pt": "Claude pode usar Resy para encontrar mesas em restaurantes participantes nos EUA. Você conclui a reserva no Resy e confere eventuais taxas antes de confirmar. Em outros locais, peça alternativas locais.",
+        "de": "Claude kann mit Resy freie Tische bei teilnehmenden US-Restaurants finden. Sie schließen die Buchung auf Resy ab und prüfen vorher mögliche Gebühren. Fragen Sie andernorts nach örtlichen Alternativen.",
+        "ja": "ClaudeはResyで米国の対応レストランの空席を探せます。予約はResyで完了し、確定前に料金を確認します。他の地域では現地の代替方法を相談してください。",
+        "ko": "Claude는 Resy로 미국 내 지원 식당의 빈자리를 찾을 수 있어요. 예약은 Resy에서 마치고 확정 전에 요금을 확인하세요. 다른 지역이라면 현지 대안을 요청하세요.",
+        "uk": "Claude може через Resy знайти столики в підтримуваних ресторанах США. Бронювання завершуєте ви на Resy, перевіривши оплату до підтвердження. В інших країнах попросіть місцеві альтернативи."
+      },
+      "task": {
+        "en": "Help me find a restaurant for my location, date, party size and budget. Ask for missing details. If Resy supports the area, check current availability through its connection and show the venue, time and booking link. Do not claim a reservation from a search result. I will review fees and complete the booking myself. If unavailable, show a local search alternative and distinguish live availability from a recommendation.",
+        "ru": "Помоги найти ресторан по месту, дате, числу людей и бюджету. Спроси недостающие детали. Если Resy поддерживает местность, проверь актуальные столики через подключение и покажи заведение, время и ссылку. Результат поиска не означает бронирование. Оплату проверю и бронирование завершу сам. Если недоступно, предложи местный поиск и отдели актуальную доступность от рекомендации.",
+        "zh": "请按地点、日期、人数和预算帮我找餐厅，缺少信息时再询问。如 Resy 支持该地区，请通过连接检查实时空位，提供餐厅、时间和预订链接。搜索结果不代表预订成功。我会自己查看费用并完成预订。若不可用，请提供当地搜索方案，区分实时空位与推荐。",
+        "hi": "स्थान, तारीख, लोगों की संख्या और बजट के अनुसार रेस्तराँ खोजने में मदद करें। ज़रूरी जानकारी न हो तो पूछें। Resy क्षेत्र को समर्थन दे तो उसके कनेक्शन से मौजूदा उपलब्धता जाँचें और रेस्तराँ, समय व बुकिंग लिंक दिखाएँ। खोज परिणाम को बुकिंग न कहें। शुल्क जाँचकर बुकिंग मैं खुद पूरी करूँगा। उपलब्ध न हो तो स्थानीय खोज का विकल्प दें और सिफारिश व वास्तविक उपलब्धता अलग बताएँ।",
+        "es": "Ayúdame a buscar un restaurante según lugar, fecha, comensales y presupuesto. Pregunta lo que falte. Si Resy cubre la zona, consulta disponibilidad actual y muestra local, hora y enlace de reserva. No presentes un resultado como reserva confirmada. Yo revisaré los cargos y reservaré. Si no está disponible, ofrece una búsqueda local y distingue disponibilidad real de recomendación.",
+        "fr": "Aide-moi à trouver un restaurant selon le lieu, la date, le nombre de personnes et le budget. Demande ce qui manque. Si Resy couvre la zone, vérifie les disponibilités actuelles et montre le restaurant, l’heure et le lien. Un résultat de recherche n’est pas une réservation. Je vérifierai les frais et réserverai moi-même. Sinon, propose une recherche locale en distinguant disponibilité réelle et recommandation.",
+        "pt": "Ajude-me a encontrar um restaurante por local, data, número de pessoas e orçamento. Pergunte o que falta. Se o Resy atender a região, consulte a disponibilidade atual e mostre restaurante, horário e link. Um resultado de busca não é reserva confirmada. Eu verificarei as taxas e concluirei a reserva. Caso indisponível, ofereça uma busca local e diferencie disponibilidade real de recomendação.",
+        "de": "Hilf mir, nach Ort, Datum, Personenzahl und Budget ein Restaurant zu finden. Frage nach fehlenden Angaben. Wenn Resy die Gegend abdeckt, prüfe aktuelle freie Tische und zeige Restaurant, Uhrzeit und Buchungslink. Ein Suchergebnis ist keine bestätigte Reservierung. Gebühren prüfe ich und buche selbst. Andernfalls biete eine örtliche Suche an und unterscheide freie Tische von Empfehlungen.",
+        "ja": "場所、日付、人数、予算に合わせてレストランを探してください。不足する情報を聞いてください。Resy対応地域なら接続を通じて現在の空席を調べ、店名、時間、予約リンクを示してください。検索結果を予約完了と扱わないでください。料金確認と予約は私が行います。利用できなければ現地での検索方法を示し、実際の空席とおすすめを区別してください。",
+        "ko": "위치, 날짜, 인원, 예산에 맞는 식당을 찾아 주세요. 부족한 정보는 물어보세요. Resy 지원 지역이라면 연결을 통해 현재 빈자리를 확인하고 식당, 시간, 예약 링크를 보여주세요. 검색 결과를 예약 완료로 표현하지 마세요. 요금 확인과 예약은 제가 할게요. 지원되지 않으면 현지 검색 대안을 제시하고 실제 빈자리와 추천을 구분하세요.",
+        "uk": "Допоможи знайти ресторан за місцем, датою, кількістю людей і бюджетом. Запитай відсутні деталі. Якщо Resy підтримує місцевість, перевір актуальні столики через підключення й покажи заклад, час і посилання. Результат пошуку не означає бронювання. Оплату перевірю й бронювання завершу самостійно. Якщо недоступно, запропонуй місцевий пошук і відокрем актуальну наявність від рекомендації."
+      },
+      "tags": [
+        "restaurant",
+        "booking",
+        "meal",
+        "ресторан",
+        "столик"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-06",
+      "source": "https://blog.resy.com/newsroom/resy-restaurants-claude-anthropic/",
+      "review": {
+        "type": "rechecked",
+        "summary": {
+          "en": "Official information rechecked. This is an existing capability, not a new release.",
+          "ru": "Официальные сведения проверены повторно. Это существующая возможность, а не новая функция.",
+          "zh": "已复核官方信息。这是已有功能，并非新发布。",
+          "hi": "आधिकारिक जानकारी दोबारा जाँची गई है। यह मौजूदा सुविधा है, नई रिलीज़ नहीं।",
+          "es": "Información oficial revisada. Es una capacidad existente, no un nuevo lanzamiento.",
+          "fr": "Informations officielles revérifiées. Il s’agit d’une capacité existante, pas d’une nouveauté.",
+          "pt": "Informações oficiais conferidas novamente. É uma capacidade existente, não um lançamento.",
+          "de": "Offizielle Informationen erneut geprüft. Dies ist eine bestehende Möglichkeit, keine neue Veröffentlichung.",
+          "ja": "公式情報を再確認しました。新機能ではなく、すでにある機能です。",
+          "ko": "공식 정보를 다시 확인했어요. 새로 출시된 기능이 아닌 기존 기능이에요.",
+          "uk": "Офіційні відомості перевірено знову. Це наявна можливість, а не нова функція."
+        },
+        "useFor": {
+          "en": "Claude can use Resy to find available tables at supported U.S. restaurants. You finish the booking on Resy and check any fees before confirming. Elsewhere, ask for local alternatives.",
+          "ru": "Claude через Resy может найти столики в поддерживаемых ресторанах США. Бронирование завершаете вы на Resy, проверив оплату до подтверждения. В других странах попросите местные варианты.",
+          "zh": "Claude 可通过 Resy 查找美国支持餐厅的空位。您在 Resy 完成预订，并在确认前查看费用。在其他地区，可请求当地替代方案。",
+          "hi": "Claude, Resy से अमेरिका के समर्थित रेस्तराँ में खाली मेज़ ढूँढ़ सकता है। बुकिंग आप Resy पर पूरी करते हैं और पुष्टि से पहले शुल्क जाँचते हैं। अन्य जगह स्थानीय विकल्प पूछें।",
+          "es": "Claude puede usar Resy para buscar mesas libres en restaurantes compatibles de EE. UU. Terminas la reserva en Resy y revisas posibles cargos antes de confirmar. En otros países, pide alternativas locales.",
+          "fr": "Claude peut utiliser Resy pour trouver des tables dans les restaurants américains pris en charge. Vous finalisez sur Resy et vérifiez les frais avant de confirmer. Ailleurs, demandez des solutions locales.",
+          "pt": "Claude pode usar Resy para encontrar mesas em restaurantes participantes nos EUA. Você conclui a reserva no Resy e confere eventuais taxas antes de confirmar. Em outros locais, peça alternativas locais.",
+          "de": "Claude kann mit Resy freie Tische bei teilnehmenden US-Restaurants finden. Sie schließen die Buchung auf Resy ab und prüfen vorher mögliche Gebühren. Fragen Sie andernorts nach örtlichen Alternativen.",
+          "ja": "ClaudeはResyで米国の対応レストランの空席を探せます。予約はResyで完了し、確定前に料金を確認します。他の地域では現地の代替方法を相談してください。",
+          "ko": "Claude는 Resy로 미국 내 지원 식당의 빈자리를 찾을 수 있어요. 예약은 Resy에서 마치고 확정 전에 요금을 확인하세요. 다른 지역이라면 현지 대안을 요청하세요.",
+          "uk": "Claude може через Resy знайти столики в підтримуваних ресторанах США. Бронювання завершуєте ви на Resy, перевіривши оплату до підтвердження. В інших країнах попросіть місцеві альтернативи."
+        }
+      }
+    },
+    {
+      "id": "ai-mail-watch",
+      "provider": "claude",
+      "kind": "start",
+      "title": {
+        "en": "Let your AI watch for important email",
+        "ru": "Пусть ИИ следит за важной почтой",
+        "zh": "让 AI 帮你留意重要邮件",
+        "hi": "अपने AI से ज़रूरी ईमेल पर नज़र रखवाएँ",
+        "es": "Que tu IA vigile el correo importante",
+        "fr": "Faites surveiller vos e-mails importants par votre IA",
+        "pt": "Peça à sua IA para vigiar os e-mails importantes",
+        "de": "Lassen Sie Ihre KI auf wichtige E-Mails achten",
+        "ja": "AIに大事なメールを見守ってもらう",
+        "ko": "AI가 중요한 이메일을 지켜보게 하기",
+        "uk": "Нехай ШІ стежить за важливою поштою"
+      },
+      "benefit": {
+        "en": "Choose which AI looks at your email and points out what needs an answer. Connect your mail only if you want to; you can also paste the text yourself.",
+        "ru": "Выберите, какой ИИ смотрит вашу почту и подсказывает, на что нужно ответить. Подключайте почту только если хотите; можно и вставить текст самому.",
+        "zh": "选择由哪个 AI 查看你的邮件，并提示哪些需要回复。只有你愿意时才连接邮箱；也可以自己粘贴文字。",
+        "hi": "चुनें कि कौन-सा AI आपकी ईमेल देखे और बताए कि किनका जवाब देना है। ईमेल तभी जोड़ें जब आप चाहें; आप पाठ खुद भी चिपका सकते हैं।",
+        "es": "Elige qué IA mira tu correo y te señala lo que necesita respuesta. Conecta el correo solo si quieres; también puedes pegar el texto tú mismo.",
+        "fr": "Choisissez quelle IA consulte votre messagerie et signale ce qui demande une réponse. Ne connectez votre messagerie que si vous le souhaitez ; vous pouvez aussi coller le texte vous-même.",
+        "pt": "Escolha qual IA olha seu e-mail e aponta o que precisa de resposta. Conecte o e-mail só se quiser; você também pode colar o texto.",
+        "de": "Wählen Sie, welche KI Ihre E-Mails ansieht und zeigt, was eine Antwort braucht. Verbinden Sie Ihr Postfach nur, wenn Sie möchten; Sie können den Text auch selbst einfügen.",
+        "ja": "どのAIにメールを見てもらうか選び、返信が必要なものを教えてもらいます。メールの接続は希望する場合のみ。文面を自分で貼り付けることもできます。",
+        "ko": "어떤 AI가 이메일을 보고 답장이 필요한 것을 알려 줄지 고르세요. 이메일 연결은 원할 때만 하세요. 내용을 직접 붙여 넣어도 돼요.",
+        "uk": "Оберіть, який ШІ дивиться вашу пошту й підказує, на що треба відповісти. Підключайте пошту, лише якщо хочете; можна й самому вставити текст."
+      },
+      "task": {
+        "en": "Help me keep an eye on important email. Check whether my mail (Gmail or Outlook) is connected here; if not, explain how to connect it and ask me first, or let me paste messages instead. List only what needs my reply or has a deadline, name the source message, and draft replies. Do not send, delete or change anything without my explicit approval.",
+        "ru": "Помоги следить за важной почтой. Проверь, подключена ли здесь моя почта (Gmail или Outlook); если нет, объясни способ и сначала спроси меня, либо дай мне вставить письма. Перечисли только то, что требует моего ответа или имеет срок, назови исходное письмо и напиши черновики. Ничего не отправляй, не удаляй и не меняй без моего явного согласия.",
+        "zh": "帮我留意重要邮件。先确认我的邮箱（Gmail 或 Outlook）是否已在这里连接；没有的话，说明连接方法并先征求我的同意，或让我直接粘贴邮件。只列出需要我回复或有截止日期的邮件，注明来源邮件并起草回复。未经我明确同意，不要发送、删除或修改任何内容。",
+        "hi": "मेरी ज़रूरी ईमेल पर नज़र रखने में मदद करें। जाँचें कि मेरा मेल (Gmail या Outlook) यहाँ जुड़ा है या नहीं; नहीं हो तो जोड़ने का तरीका बताएँ और पहले मुझसे पूछें, या मुझे संदेश चिपकाने दें। केवल वही बताएँ जिसका जवाब देना है या जिसकी समय-सीमा है, स्रोत संदेश का नाम लें और जवाब के मसौदे बनाएँ। मेरी स्पष्ट सहमति के बिना कुछ भी न भेजें, न हटाएँ, न बदलें।",
+        "es": "Ayúdame a vigilar el correo importante. Comprueba si mi correo (Gmail u Outlook) está conectado aquí; si no, explica cómo conectarlo y pregúntame antes, o deja que pegue los mensajes. Enumera solo lo que necesita mi respuesta o tiene fecha límite, nombra el mensaje de origen y redacta borradores. No envíes, borres ni cambies nada sin mi aprobación explícita.",
+        "fr": "Aidez-moi à surveiller mes e-mails importants. Vérifiez si ma messagerie (Gmail ou Outlook) est connectée ici ; sinon, expliquez comment la connecter et demandez-moi d’abord, ou laissez-moi coller les messages. Listez seulement ce qui demande ma réponse ou a une échéance, nommez le message d’origine et rédigez des brouillons. N’envoyez, ne supprimez et ne modifiez rien sans mon accord explicite.",
+        "pt": "Ajude-me a vigiar os e-mails importantes. Verifique se meu e-mail (Gmail ou Outlook) está conectado aqui; se não, explique como conectar e pergunte antes, ou deixe-me colar as mensagens. Liste só o que precisa de resposta ou tem prazo, cite a mensagem de origem e escreva rascunhos. Não envie, apague nem altere nada sem minha aprovação explícita.",
+        "de": "Hilf mir, wichtige E-Mails im Blick zu behalten. Prüfe, ob mein Postfach (Gmail oder Outlook) hier verbunden ist; wenn nicht, erkläre die Verbindung und frag mich vorher, oder lass mich Nachrichten einfügen. Nenne nur, was eine Antwort braucht oder eine Frist hat, benenne die Ursprungsnachricht und entwirf Antworten. Sende, lösche oder ändere nichts ohne meine ausdrückliche Zustimmung.",
+        "ja": "大事なメールを見守るのを手伝ってください。ここで私のメール（GmailまたはOutlook）が接続されているか確認し、なければ接続方法を説明して先に私に確認してください。メッセージを貼り付けることもできます。返信が必要なもの、期限があるものだけを挙げ、元のメッセージを示して返信の下書きを作ってください。私の明確な承認なしに送信・削除・変更はしないでください。",
+        "ko": "중요한 이메일을 지켜보는 일을 도와주세요. 여기에 내 메일(Gmail 또는 Outlook)이 연결되어 있는지 확인하고, 없으면 연결 방법을 설명하되 먼저 내게 물어보세요. 메시지를 직접 붙여 넣어도 됩니다. 내 답장이 필요하거나 기한이 있는 것만 알려 주고, 원본 메시지를 밝히고, 답장 초안을 쓰세요. 내 명확한 승인 없이는 보내거나 삭제하거나 바꾸지 마세요.",
+        "uk": "Допоможи мені стежити за важливою поштою. Перевір, чи моя пошта (Gmail або Outlook) тут підключена; якщо ні, поясни, як підключити, і спершу запитай мене, або дай мені вставити листи. Перелічи лише те, що потребує відповіді або має термін, назви вихідний лист і напиши чернетки. Нічого не надсилай, не видаляй і не змінюй без моєї прямої згоди."
+      },
+      "tags": [
+        "email",
+        "mail",
+        "inbox",
+        "почта",
+        "письмо"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-07",
+      "source": "https://docs.x.ai/grok/connectors/gmail-google-calendar"
+    },
+    {
+      "id": "muse-agent",
+      "provider": "meta",
+      "kind": "start",
+      "title": {
+        "en": "Muse from Meta: a personal agent",
+        "ru": "Muse from Meta: личный агент",
+        "zh": "Muse from Meta：个人智能体",
+        "hi": "Muse from Meta: निजी एजेंट",
+        "es": "Muse from Meta: un agente personal",
+        "fr": "Muse from Meta : un agent personnel",
+        "pt": "Muse from Meta: um agente pessoal",
+        "de": "Muse from Meta: ein persönlicher Agent",
+        "ja": "Muse from Meta：個人用エージェント",
+        "ko": "Muse from Meta: 개인 에이전트",
+        "uk": "Muse from Meta: персональний агент"
+      },
+      "benefit": {
+        "en": "A free personal agent with a usage limit. It can work with your email and calendar, set reminders, look for a table through OpenTable (you approve the booking), shop at supported stores and build its own small tools. Available in the US, Canada, Japan and Singapore. You need a Meta account; Facebook is not required. Use the phone app, muse.ai on a computer, or the Mac app.",
+        "ru": "Бесплатный личный агент с лимитом. Работает с почтой и календарём, ставит напоминания, ищет столик через OpenTable (бронь одобряете вы), покупает в поддерживаемых магазинах и делает свои мини-инструменты. Доступен в США, Канаде, Японии и Сингапуре. Нужна учётная запись Meta; Facebook не обязателен. Телефон, muse.ai на компьютере или приложение для Mac.",
+        "zh": "免费的个人智能体，有使用额度。可处理邮件和日历、设置提醒、通过 OpenTable 找餐位（预订需你批准）、在支持的商店购物，并自建小工具。目前在美国、加拿大、日本和新加坡可用。需要 Meta 账号，不必有 Facebook。可用手机应用、电脑上的 muse.ai 或 Mac 应用。",
+        "hi": "उपयोग-सीमा के साथ मुफ़्त निजी एजेंट। यह आपके ईमेल और कैलेंडर के साथ काम कर सकता है, अनुस्मारक लगा सकता है, OpenTable से मेज़ खोज सकता है (बुकिंग आप मंज़ूर करते हैं), समर्थित दुकानों से खरीदारी कर सकता है और अपने छोटे टूल बना सकता है। अमेरिका, कनाडा, जापान और सिंगापुर में उपलब्ध। Meta खाता चाहिए; Facebook ज़रूरी नहीं। फ़ोन ऐप, कंप्यूटर पर muse.ai या Mac ऐप इस्तेमाल करें।",
+        "es": "Un agente personal gratuito con límite de uso. Puede trabajar con tu correo y calendario, crear recordatorios, buscar mesa con OpenTable (tú apruebas la reserva), comprar en tiendas compatibles y crear sus propias herramientas. Disponible en EE. UU., Canadá, Japón y Singapur. Necesitas una cuenta de Meta; Facebook no es obligatorio. Usa la app del móvil, muse.ai en el ordenador o la app para Mac.",
+        "fr": "Un agent personnel gratuit, avec une limite d’usage. Il peut gérer votre messagerie et votre agenda, créer des rappels, chercher une table via OpenTable (vous approuvez la réservation), acheter dans les boutiques compatibles et créer ses propres petits outils. Disponible aux États-Unis, au Canada, au Japon et à Singapour. Il faut un compte Meta ; Facebook n’est pas obligatoire. Utilisez l’appli mobile, muse.ai sur ordinateur ou l’appli Mac.",
+        "pt": "Um agente pessoal gratuito, com limite de uso. Ele pode trabalhar com seu e-mail e agenda, criar lembretes, procurar mesa pelo OpenTable (você aprova a reserva), comprar em lojas compatíveis e criar pequenas ferramentas próprias. Disponível nos EUA, Canadá, Japão e Singapura. É preciso uma conta Meta; o Facebook não é obrigatório. Use o app no celular, muse.ai no computador ou o app para Mac.",
+        "de": "Ein kostenloser persönlicher Agent mit Nutzungslimit. Er kann mit Ihren E-Mails und Ihrem Kalender arbeiten, Erinnerungen setzen, über OpenTable einen Tisch suchen (die Buchung bestätigen Sie), in unterstützten Shops einkaufen und eigene kleine Werkzeuge bauen. Verfügbar in den USA, Kanada, Japan und Singapur. Sie brauchen ein Meta-Konto; Facebook ist nicht nötig. Nutzen Sie die Handy-App, muse.ai am Computer oder die Mac-App.",
+        "ja": "利用上限つきで無料の個人用エージェントです。メールやカレンダーの操作、リマインダー設定、OpenTableでの席探し（予約はあなたが承認）、対応ストアでの買い物、自分用の小さなツール作成ができます。米国、カナダ、日本、シンガポールで利用可能。Metaアカウントが必要ですが、Facebookは不要です。スマホアプリ、パソコンのmuse.ai、Macアプリで使えます。",
+        "ko": "이용 한도가 있는 무료 개인 에이전트예요. 이메일과 캘린더를 다루고, 알림을 설정하고, OpenTable로 자리를 찾고(예약은 내가 승인), 지원되는 상점에서 쇼핑하고, 나만의 작은 도구를 만들 수 있어요. 미국, 캐나다, 일본, 싱가포르에서 쓸 수 있어요. Meta 계정이 필요하지만 Facebook은 필요 없어요. 휴대폰 앱, 컴퓨터의 muse.ai, Mac 앱으로 쓰세요.",
+        "uk": "Безкоштовний персональний агент із лімітом використання. Він може працювати з вашою поштою й календарем, ставити нагадування, шукати столик через OpenTable (бронювання схвалюєте ви), купувати в підтримуваних магазинах і створювати власні маленькі інструменти. Доступний у США, Канаді, Японії та Сінгапурі. Потрібен обліковий запис Meta; Facebook не обов’язковий. Користуйтеся застосунком на телефоні, muse.ai на комп’ютері або застосунком для Mac."
+      },
+      "task": {
+        "en": "Help me try Muse on one small real errand. Ask which one (email, calendar, a reminder, a table, or a purchase), tell me what access you need and ask before I connect anything, show your plan, and wait for my approval before anything is booked, paid or sent. If Muse is not available in my country, say so and suggest another path.",
+        "ru": "Помоги попробовать Muse на одном небольшом настоящем деле. Спроси, на каком (почта, календарь, напоминание, столик или покупка), скажи, какой доступ нужен, и спроси, прежде чем я что-то подключу; покажи план и дождись моего одобрения, прежде чем что-то бронировать, оплачивать или отправлять. Если Muse недоступен в моей стране, скажи об этом и предложи другой путь.",
+        "zh": "帮我用 Muse 办一件小而真实的事。先问我要办哪件（邮件、日历、提醒、订位或购物），告诉我需要什么权限，连接任何账号前先问我，展示计划，并在预订、付款或发送之前等我批准。如果我所在国家无法使用 Muse，请直说并建议其他办法。",
+        "hi": "एक छोटे असली काम पर Muse आज़माने में मदद करें। पूछें कि कौन-सा (ईमेल, कैलेंडर, अनुस्मारक, मेज़ या खरीदारी), बताएँ कि कौन-सी पहुँच चाहिए और कुछ जोड़ने से पहले मुझसे पूछें, अपनी योजना दिखाएँ और कुछ भी बुक, भुगतान या भेजने से पहले मेरी मंज़ूरी का इंतज़ार करें। मेरे देश में Muse उपलब्ध न हो तो साफ़ कहें और दूसरा रास्ता सुझाएँ।",
+        "es": "Ayúdame a probar Muse con un recado pequeño y real. Pregunta cuál (correo, calendario, un recordatorio, una mesa o una compra), dime qué acceso necesitas y pregunta antes de que conecte algo, muestra tu plan y espera mi aprobación antes de reservar, pagar o enviar nada. Si Muse no está disponible en mi país, dilo y propón otro camino.",
+        "fr": "Aidez-moi à essayer Muse sur une petite tâche réelle. Demandez laquelle (e-mail, agenda, rappel, table ou achat), dites-moi quel accès il vous faut et demandez avant que je connecte quoi que ce soit, présentez votre plan et attendez mon accord avant toute réservation, paiement ou envoi. Si Muse n’est pas disponible dans mon pays, dites-le et proposez une autre voie.",
+        "pt": "Ajude-me a testar o Muse em uma pequena tarefa real. Pergunte qual (e-mail, agenda, lembrete, mesa ou compra), diga que acesso precisa e pergunte antes de eu conectar algo, mostre seu plano e espere minha aprovação antes de reservar, pagar ou enviar qualquer coisa. Se o Muse não estiver disponível no meu país, diga e sugira outro caminho.",
+        "de": "Hilf mir, Muse an einer kleinen echten Besorgung auszuprobieren. Frag, welche (E-Mail, Kalender, Erinnerung, Tisch oder Einkauf), sag mir, welchen Zugriff du brauchst, und frag, bevor ich etwas verbinde; zeig deinen Plan und warte auf meine Zustimmung, bevor etwas gebucht, bezahlt oder gesendet wird. Ist Muse in meinem Land nicht verfügbar, sag es und schlage einen anderen Weg vor.",
+        "ja": "Museを小さな実際の用事で試すのを手伝ってください。どれにするか（メール、カレンダー、リマインダー、席の予約、買い物）を尋ね、必要なアクセスを説明し、私が何かを接続する前に確認してください。計画を示し、予約・支払い・送信の前に私の承認を待ってください。私の国でMuseが使えない場合は、そう伝えて別の方法を提案してください。",
+        "ko": "Muse를 작고 실제적인 용무 하나로 시험해 보도록 도와주세요. 무엇으로 할지(이메일, 캘린더, 알림, 자리 예약, 구매) 물어보고, 필요한 접근 권한을 알려 주며, 내가 무언가를 연결하기 전에 먼저 물어보세요. 계획을 보여 주고, 예약·결제·전송 전에 내 승인을 기다리세요. 내 나라에서 Muse를 쓸 수 없다면 그렇게 말하고 다른 방법을 제안하세요.",
+        "uk": "Допоможи мені спробувати Muse на одній невеликій справжній справі. Запитай, на якій (пошта, календар, нагадування, столик чи покупка), скажи, який доступ потрібен, і спитай, перш ніж я щось підключу; покажи план і дочекайся мого схвалення, перш ніж щось бронювати, оплачувати чи надсилати. Якщо Muse недоступний у моїй країні, скажи про це й запропонуй інший шлях."
+      },
+      "tags": [
+        "agent",
+        "errand",
+        "booking",
+        "calendar",
+        "reminders",
+        "агент",
+        "поручение",
+        "столик"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-07",
+      "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+    },
+    {
+      "id": "photo-video-meta-grok",
+      "provider": "meta",
+      "kind": "start",
+      "title": {
+        "en": "Make a short video from your own photo",
+        "ru": "Сделать короткое видео из своего фото",
+        "zh": "用自己的照片制作短视频",
+        "hi": "अपनी फ़ोटो से छोटा वीडियो बनाएँ",
+        "es": "Crea un vídeo corto con tu propia foto",
+        "fr": "Créez une courte vidéo à partir de votre photo",
+        "pt": "Crie um vídeo curto com sua própria foto",
+        "de": "Aus Ihrem eigenen Foto ein kurzes Video machen",
+        "ja": "自分の写真から短い動画を作る",
+        "ko": "내 사진으로 짧은 영상 만들기",
+        "uk": "Створіть коротке відео зі свого фото"
+      },
+      "benefit": {
+        "en": "Meta AI can take a photo from your gallery, change it with words and bring it to life; it is free with limits. Grok Imagine can make a video of up to 15 seconds with sound from your photo; the number of videos is not promised, and free video is not promised.",
+        "ru": "Meta AI может взять фото из галереи, изменить его словами и оживить; бесплатно с ограничениями. Grok Imagine делает видео до 15 секунд со звуком из вашего фото; количество видео не обещано, бесплатное видео не обещано.",
+        "zh": "Meta AI 可以取用相册里的照片，用文字修改并让它动起来；免费但有限制。Grok Imagine 可用你的照片生成最长 15 秒、带声音的视频；不保证视频数量，也不保证免费生成视频。",
+        "hi": "Meta AI आपकी गैलरी की फ़ोटो लेकर शब्दों से बदल सकता है और उसमें जान डाल सकता है; यह सीमाओं के साथ मुफ़्त है। Grok Imagine आपकी फ़ोटो से आवाज़ के साथ 15 सेकंड तक का वीडियो बना सकता है; वीडियो की संख्या या मुफ़्त वीडियो का वादा नहीं है।",
+        "es": "Meta AI puede tomar una foto de tu galería, cambiarla con palabras y animarla; es gratis con límites. Grok Imagine puede crear un vídeo de hasta 15 segundos con sonido a partir de tu foto; no se promete un número de vídeos ni vídeo gratuito.",
+        "fr": "Meta AI peut prendre une photo de votre galerie, la modifier avec des mots et l’animer ; c’est gratuit, avec des limites. Grok Imagine peut créer une vidéo de 15 secondes maximum, avec du son, à partir de votre photo ; le nombre de vidéos n’est pas garanti, ni la vidéo gratuite.",
+        "pt": "O Meta AI pode pegar uma foto da sua galeria, alterá-la com palavras e animá-la; é gratuito, com limites. O Grok Imagine pode criar um vídeo de até 15 segundos com som a partir da sua foto; o número de vídeos não é garantido, nem vídeo gratuito.",
+        "de": "Meta AI kann ein Foto aus Ihrer Galerie mit Worten verändern und animieren; kostenlos mit Grenzen. Grok Imagine kann aus Ihrem Foto ein Video mit Ton von bis zu 15 Sekunden machen; die Zahl der Videos und kostenlose Videos werden nicht versprochen.",
+        "ja": "Meta AIは、ギャラリーの写真を言葉で加工し、動かすことができます。無料ですが制限があります。Grok Imagineは、あなたの写真から音声つきで最長15秒の動画を作れます。動画の本数や無料での動画作成は保証されません。",
+        "ko": "Meta AI는 갤러리의 사진을 말로 바꾸고 움직이게 할 수 있어요. 무료이지만 제한이 있어요. Grok Imagine은 내 사진으로 소리가 있는 최대 15초 영상을 만들 수 있어요. 영상 개수나 무료 영상은 보장되지 않아요.",
+        "uk": "Meta AI може взяти фото з вашої галереї, змінити його словами й оживити; безкоштовно, але з обмеженнями. Grok Imagine може зробити зі свого фото відео зі звуком до 15 секунд; кількість відео та безкоштовне відео не обіцяються."
+      },
+      "task": {
+        "en": "Help me make a short video: combine my own photograph with another image, add music and a caption. Before you start, tell me which of these steps this app can do and which need another tool or a paid plan. Ask me for my photos, use nobody else’s, show a first version and let me adjust it.",
+        "ru": "Помоги сделать короткое видео: соединить мою фотографию с другим изображением, добавить музыку и подпись. Перед началом скажи, какие из этих шагов умеет это приложение, а какие требуют другого инструмента или платного тарифа. Попроси у меня фото, чужих не используй, покажи первый вариант и дай мне его поправить.",
+        "zh": "帮我做一个短视频：把我自己的照片和另一张图片结合起来，加上音乐和字幕。开始前，请告诉我这个应用能完成哪些步骤，哪些需要其他工具或付费方案。请向我索取照片，不要使用他人的照片，先给我看初稿并让我调整。",
+        "hi": "मेरी मदद करें: मेरी अपनी फ़ोटो को किसी दूसरी तस्वीर से जोड़कर, संगीत और कैप्शन के साथ एक छोटा वीडियो बनाएँ। शुरू करने से पहले बताएँ कि इनमें से कौन-से चरण यह ऐप कर सकता है और किनके लिए दूसरा टूल या सशुल्क योजना चाहिए। मुझसे मेरी फ़ोटो माँगें, किसी और की न लें, पहला रूप दिखाएँ और मुझे बदलने दें।",
+        "es": "Ayúdame a hacer un vídeo corto: une mi propia fotografía con otra imagen y añade música y un pie de texto. Antes de empezar, dime qué pasos puede hacer esta app y cuáles necesitan otra herramienta o un plan de pago. Pídeme mis fotos, no uses las de nadie más, muestra una primera versión y déjame ajustarla.",
+        "fr": "Aidez-moi à faire une courte vidéo : associez ma propre photo à une autre image, ajoutez de la musique et une légende. Avant de commencer, dites-moi quelles étapes cette appli peut faire et lesquelles demandent un autre outil ou une offre payante. Demandez-moi mes photos, n’utilisez celles de personne d’autre, montrez une première version et laissez-moi l’ajuster.",
+        "pt": "Ajude-me a fazer um vídeo curto: junte minha própria foto a outra imagem, adicione música e uma legenda. Antes de começar, diga quais destas etapas este app consegue fazer e quais exigem outra ferramenta ou plano pago. Peça minhas fotos, não use as de ninguém mais, mostre uma primeira versão e deixe-me ajustar.",
+        "de": "Hilf mir, ein kurzes Video zu machen: verbinde mein eigenes Foto mit einem anderen Bild, füge Musik und eine Bildunterschrift hinzu. Sag mir vorab, welche dieser Schritte diese App kann und welche ein anderes Werkzeug oder einen Bezahltarif brauchen. Bitte mich um meine Fotos, nutze keine fremden, zeig eine erste Version und lass mich sie anpassen.",
+        "ja": "短い動画作りを手伝ってください。私自身の写真を別の画像と組み合わせ、音楽とキャプションを加えます。始める前に、このアプリでできる手順と、別のツールや有料プランが必要な手順を教えてください。写真は私に求め、他人の写真は使わず、最初の案を見せて私に調整させてください。",
+        "ko": "짧은 영상 만들기를 도와주세요. 내 사진을 다른 이미지와 합치고 음악과 자막을 넣어요. 시작하기 전에 이 앱으로 할 수 있는 단계와 다른 도구나 유료 요금제가 필요한 단계를 알려 주세요. 내 사진을 요청하고 다른 사람의 사진은 쓰지 말며, 첫 버전을 보여 주고 내가 고치게 해 주세요.",
+        "uk": "Допоможи мені зробити коротке відео: поєднай моє власне фото з іншим зображенням, додай музику й підпис. Перш ніж почати, скажи, які з цих кроків уміє цей застосунок, а які потребують іншого інструмента чи платного тарифу. Попроси в мене фото, не використовуй чужих, покажи першу версію й дай мені її підправити."
+      },
+      "tags": [
+        "video",
+        "photo",
+        "music",
+        "social",
+        "видео",
+        "фото",
+        "ролик"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "varies",
+      "access": "free",
+      "verifiedAt": "2026-11-07",
+      "source": "https://www.meta.com/help/artificial-intelligence/517678174532704/"
+    },
+    {
+      "id": "grok-bot",
+      "provider": "grok",
+      "kind": "start",
+      "title": {
+        "en": "Grok Bot: an agent with its own computer (paid)",
+        "ru": "Grok Bot: агент со своим компьютером (платно)",
+        "zh": "Grok Bot：拥有自己电脑的智能体（付费）",
+        "hi": "Grok Bot: अपने कंप्यूटर वाला एजेंट (सशुल्क)",
+        "es": "Grok Bot: un agente con su propio ordenador (de pago)",
+        "fr": "Grok Bot : un agent avec son propre ordinateur (payant)",
+        "pt": "Grok Bot: um agente com computador próprio (pago)",
+        "de": "Grok Bot: ein Agent mit eigenem Computer (kostenpflichtig)",
+        "ja": "Grok Bot：専用コンピューターを持つエージェント（有料）",
+        "ko": "Grok Bot: 자체 컴퓨터를 가진 에이전트 (유료)",
+        "uk": "Grok Bot: агент із власним комп’ютером (платно)"
+      },
+      "benefit": {
+        "en": "A cloud agent with its own computer works on your phone or computer and keeps going when your device is closed. It is paid: included from the Premium plan, $30 a month. Free only as a short trial for some accounts. Check your plan before relying on it.",
+        "ru": "Облачный агент со своим компьютером работает на телефоне и компьютере и продолжает, когда ваше устройство закрыто. Это платно: входит с тарифа Premium, $30 в месяц. Бесплатно только короткий пробный период у некоторых. Проверьте свой тариф, прежде чем полагаться на него.",
+        "zh": "拥有自己电脑的云端智能体，可在手机和电脑上使用，设备关闭后仍会继续工作。这是付费功能：从 Premium 方案起包含，每月 30 美元；只有部分账号有短期免费试用。依赖它之前请先查看你的方案。",
+        "hi": "अपने कंप्यूटर वाला क्लाउड एजेंट फ़ोन और कंप्यूटर पर चलता है और आपका उपकरण बंद होने पर भी काम करता रहता है। यह सशुल्क है: Premium योजना से शामिल, $30 प्रति माह। मुफ़्त केवल कुछ खातों के लिए छोटा परीक्षण। भरोसा करने से पहले अपनी योजना जाँचें।",
+        "es": "Un agente en la nube con su propio ordenador, en el móvil y en el ordenador, que sigue trabajando aunque cierres tu dispositivo. Es de pago: incluido desde el plan Premium, 30 $ al mes. Gratis solo como prueba corta en algunas cuentas. Revisa tu plan antes de depender de él.",
+        "fr": "Un agent dans le cloud, avec son propre ordinateur, sur téléphone et ordinateur ; il continue à travailler quand votre appareil est fermé. C’est payant : inclus à partir de l’offre Premium, 30 $ par mois. Gratuit seulement en essai court pour certains comptes. Vérifiez votre offre avant de compter dessus.",
+        "pt": "Um agente na nuvem com computador próprio, no celular e no computador, que continua trabalhando com seu aparelho fechado. É pago: incluído a partir do plano Premium, US$ 30 por mês. Grátis só como teste curto em algumas contas. Confira seu plano antes de depender dele.",
+        "de": "Ein Cloud-Agent mit eigenem Computer, auf Handy und Computer, der weiterarbeitet, wenn Ihr Gerät geschlossen ist. Er ist kostenpflichtig: ab dem Tarif Premium enthalten, 30 $ im Monat. Kostenlos nur als kurze Testphase für manche Konten. Prüfen Sie Ihren Tarif, bevor Sie sich darauf verlassen.",
+        "ja": "専用コンピューターを持つクラウドのエージェントで、スマホでもパソコンでも使え、端末を閉じても作業を続けます。有料です：Premiumプラン（月額30ドル）から含まれます。無料は一部のアカウントの短い試用のみ。頼る前にご自身のプランを確認してください。",
+        "ko": "자체 컴퓨터를 가진 클라우드 에이전트로, 휴대폰과 컴퓨터에서 쓰며 기기를 닫아도 계속 일해요. 유료예요. Premium 요금제(월 30달러)부터 포함되고, 무료는 일부 계정의 짧은 체험뿐이에요. 의지하기 전에 내 요금제를 확인하세요.",
+        "uk": "Хмарний агент із власним комп’ютером працює на телефоні й комп’ютері та продовжує роботу, коли пристрій вимкнено. Це платно: входить у тариф Premium, 30 $ на місяць. Безкоштовно лише як коротка проба для деяких облікових записів. Перевірте свій тариф, перш ніж покладатися на нього."
+      },
+      "task": {
+        "en": "Help me decide whether Grok Bot fits one real task. Tell me it is paid (Premium, $30 a month), check what my account includes, and do not suggest buying API tokens. If I can use it, propose one small task, list the access it needs, and ask before it sends, buys or changes anything. If not, suggest a route that costs nothing.",
+        "ru": "Помоги решить, подходит ли Grok Bot для одного настоящего дела. Скажи, что он платный (Premium, $30 в месяц), проверь, что входит в мой аккаунт, и не предлагай покупать токены API. Если мне можно, предложи одну небольшую задачу, перечисли нужный доступ и спроси, прежде чем он что-то отправит, купит или изменит. Если нельзя, предложи путь без оплаты.",
+        "zh": "帮我判断 Grok Bot 是否适合我的一个实际任务。请告诉我它是付费的（Premium，每月 30 美元），查看我的账号包含什么，不要建议购买 API 令牌。如果我能用，提出一个小任务，列出所需权限，并在它发送、购买或修改任何内容之前先问我。如果不能，建议一条不花钱的路。",
+        "hi": "मेरी मदद करें तय करने में कि Grok Bot मेरे किसी असली काम के लिए ठीक है या नहीं। बताएँ कि यह सशुल्क है (Premium, $30 प्रति माह), जाँचें कि मेरे खाते में क्या शामिल है, और API टोकन खरीदने का सुझाव न दें। मैं इसे इस्तेमाल कर सकूँ तो एक छोटा काम सुझाएँ, ज़रूरी पहुँच बताएँ और कुछ भेजने, खरीदने या बदलने से पहले पूछें। नहीं तो बिना खर्च वाला रास्ता सुझाएँ।",
+        "es": "Ayúdame a decidir si Grok Bot sirve para una tarea real. Dime que es de pago (Premium, 30 $ al mes), comprueba qué incluye mi cuenta y no sugieras comprar tokens de API. Si puedo usarlo, propón una tarea pequeña, enumera el acceso que necesita y pregunta antes de que envíe, compre o cambie algo. Si no, sugiere una vía sin coste.",
+        "fr": "Aidez-moi à décider si Grok Bot convient à une tâche réelle. Dites-moi qu’il est payant (Premium, 30 $ par mois), vérifiez ce que mon compte inclut et ne proposez pas d’acheter des jetons d’API. Si je peux l’utiliser, proposez une petite tâche, listez les accès nécessaires et demandez avant qu’il envoie, achète ou modifie quoi que ce soit. Sinon, proposez une voie gratuite.",
+        "pt": "Ajude-me a decidir se o Grok Bot serve para uma tarefa real. Diga que é pago (Premium, US$ 30 por mês), verifique o que minha conta inclui e não sugira comprar tokens de API. Se eu puder usar, proponha uma tarefa pequena, liste o acesso necessário e pergunte antes de ele enviar, comprar ou alterar algo. Se não, sugira um caminho sem custo.",
+        "de": "Hilf mir zu entscheiden, ob Grok Bot für eine echte Aufgabe passt. Sag mir, dass er kostenpflichtig ist (Premium, 30 $ im Monat), prüfe, was mein Konto enthält, und schlage keinen Kauf von API-Tokens vor. Wenn ich ihn nutzen kann, schlage eine kleine Aufgabe vor, nenne den nötigen Zugriff und frag, bevor er etwas sendet, kauft oder ändert. Wenn nicht, nenne einen kostenlosen Weg.",
+        "ja": "Grok Botが実際の用事に合うか判断するのを手伝ってください。有料であること（Premium、月額30ドル）を伝え、私のアカウントに何が含まれるか確認し、APIトークンの購入は提案しないでください。使えるなら小さな用事を一つ提案し、必要なアクセスを挙げ、送信・購入・変更の前に確認してください。使えないなら費用のかからない方法を提案してください。",
+        "ko": "Grok Bot이 실제 용무 하나에 맞는지 판단하도록 도와주세요. 유료(Premium, 월 30달러)라는 점을 알리고, 내 계정에 무엇이 포함되는지 확인하며, API 토큰 구매는 권하지 마세요. 쓸 수 있다면 작은 일 하나를 제안하고 필요한 접근 권한을 알려 주며, 보내거나 사거나 바꾸기 전에 물어보세요. 쓸 수 없다면 비용이 들지 않는 방법을 제안하세요.",
+        "uk": "Допоможи мені вирішити, чи підходить Grok Bot для однієї справжньої справи. Скажи, що він платний (Premium, 30 $ на місяць), перевір, що входить у мій обліковий запис, і не пропонуй купувати токени API. Якщо я можу ним користуватися, запропонуй одну невелику справу, перелічи потрібний доступ і спитай, перш ніж він щось надішле, купить чи змінить. Якщо ні, запропонуй шлях без витрат."
+      },
+      "tags": [
+        "agent",
+        "work",
+        "background",
+        "paid",
+        "агент",
+        "работа",
+        "фон"
+      ],
+      "devices": [
+        "phone",
+        "computer"
+      ],
+      "cost": "paid",
+      "access": "free",
+      "verifiedAt": "2026-11-07",
+      "source": "https://docs.x.ai/x-subscription/grok-bot"
+    },
+    {
       "id": "sidecall-review",
       "provider": "claude",
       "kind": "tools",
       "title": {
         "en": "Give your project another AI perspective",
-        "ru": "Получить независимый взгляд другого ИИ на проект"
+        "ru": "Получить независимый взгляд другого ИИ на проект",
+        "zh": "让你的项目多一个 AI 的视角",
+        "hi": "अपने प्रोजेक्ट को दूसरे AI का नज़रिया दें",
+        "es": "Dale a tu proyecto la mirada de otra IA",
+        "fr": "Donnez à votre projet le regard d'une autre IA",
+        "pt": "Dê ao seu projeto o olhar de outra IA",
+        "de": "Geben Sie Ihrem Projekt den Blick einer anderen KI",
+        "ja": "プロジェクトに別のAIの視点を",
+        "ko": "내 프로젝트에 다른 AI의 시각 더하기",
+        "uk": "Подивіться на проєкт очима іншого ШІ"
       },
       "benefit": {
-        "en": "Use a distinct checking role in your existing agent workflow and compare findings with the original evidence.",
-        "ru": "Добавьте отдельную проверяющую роль в свой рабочий процесс агента и сверьте замечания с исходными данными."
+        "en": "Ask another AI to check your project, then compare its comments with your original materials.",
+        "ru": "Попросите другой ИИ проверить проект и сверьте замечания с исходными материалами.",
+        "zh": "请另一个 AI 检查你的项目，再把它的意见与你的原始材料对照。",
+        "hi": "किसी दूसरे AI से अपना प्रोजेक्ट जँचवाएँ, फिर उसकी टिप्पणियों को अपनी मूल सामग्री से मिलाएँ।",
+        "es": "Pide a otra IA que revise tu proyecto y luego compara sus comentarios con tus materiales originales.",
+        "fr": "Demandez à une autre IA de vérifier votre projet, puis comparez ses remarques avec vos documents d'origine.",
+        "pt": "Peça a outra IA que confira seu projeto e depois compare os comentários dela com seus materiais originais.",
+        "de": "Bitten Sie eine andere KI, Ihr Projekt zu prüfen, und vergleichen Sie ihre Anmerkungen mit Ihren Originalunterlagen.",
+        "ja": "別のAIにプロジェクトを確認してもらい、そのコメントを元の資料と照らし合わせます。",
+        "ko": "다른 AI에게 내 프로젝트를 검토하게 하고, 그 의견을 원본 자료와 비교해 보세요.",
+        "uk": "Попросіть інший ШІ перевірити ваш проєкт, а потім порівняйте його зауваження з вашими початковими матеріалами."
       },
       "task": {
         "en": "Help me improve my current project with an independent AI check. Consider the Poly A2-recommended sidecall tool only after reading its current official repository: https://github.com/vadimchernets/sidecall . Explain its purpose, required installed tools and access, and give one small trial on a copy of my work. If you cannot inspect the repository, prepare a manual checking assignment for another AI instead. Resolve findings against original evidence.",
-        "ru": "Помоги улучшить мой текущий проект независимой проверкой другого ИИ. Рассмотри рекомендуемый Poly A2 инструмент sidecall только после чтения актуального официального репозитория: https://github.com/vadimchernets/sidecall . Объясни пользу, нужные установленные инструменты и доступ, затем предложи небольшой пробный прогон на копии моей работы. Если репозиторий недоступен, подготовь ручное задание другому ИИ для проверки. Сверяй замечания с исходными данными."
+        "ru": "Помоги улучшить мой текущий проект независимой проверкой другого ИИ. Рассмотри рекомендуемый Poly A2 инструмент sidecall только после чтения актуального официального репозитория: https://github.com/vadimchernets/sidecall . Объясни пользу, нужные установленные инструменты и доступ, затем предложи небольшой пробный прогон на копии моей работы. Если репозиторий недоступен, подготовь ручное задание другому ИИ для проверки. Сверяй замечания с исходными данными.",
+        "zh": "请帮我通过独立的 AI 检查来改进我当前的项目。先阅读 Poly A2 推荐的 sidecall 工具当前的官方仓库，再考虑是否使用：https://github.com/vadimchernets/sidecall 。说明它的用途、需要安装的工具和权限，并在我的作品副本上给出一个小的试用。如果你无法查看该仓库，就改为准备一份手动检查任务，交给另一个 AI。对照原始依据来处理发现的问题。",
+        "hi": "स्वतंत्र AI जाँच से मेरे मौजूदा प्रोजेक्ट को बेहतर बनाने में मदद करें। Poly A2 के सुझाए sidecall टूल पर विचार केवल उसकी मौजूदा आधिकारिक रिपॉज़िटरी पढ़ने के बाद करें: https://github.com/vadimchernets/sidecall । उसका उद्देश्य, ज़रूरी इंस्टॉल टूल और पहुँच समझाएँ, और मेरे काम की प्रति पर एक छोटा परीक्षण दें। अगर आप रिपॉज़िटरी नहीं देख सकते, तो उसकी जगह किसी दूसरे AI के लिए हाथ से जाँचने का काम तैयार करें। निष्कर्षों को मूल सबूतों से मिलाकर तय करें।",
+        "es": "Ayúdame a mejorar mi proyecto actual con una revisión independiente de otra IA. Considera la herramienta sidecall recomendada por Poly A2 solo después de leer su repositorio oficial vigente: https://github.com/vadimchernets/sidecall . Explica su propósito, las herramientas instaladas y el acceso que requiere, y propón una prueba pequeña sobre una copia de mi trabajo. Si no puedes inspeccionar el repositorio, prepara en su lugar una tarea de revisión manual para otra IA. Resuelve los hallazgos contrastándolos con la evidencia original.",
+        "fr": "Aide-moi à améliorer mon projet actuel avec une vérification indépendante par une autre IA. Envisage l'outil sidecall recommandé par Poly A2 seulement après avoir lu son dépôt officiel actuel : https://github.com/vadimchernets/sidecall . Explique son but, les outils installés et les accès nécessaires, et propose un petit essai sur une copie de mon travail. Si tu ne peux pas consulter le dépôt, prépare à la place une mission de vérification manuelle pour une autre IA. Traite les constats en les confrontant aux preuves d'origine.",
+        "pt": "Ajude-me a melhorar meu projeto atual com uma verificação independente de IA. Considere a ferramenta sidecall recomendada pelo Poly A2 somente depois de ler o repositório oficial atual dela: https://github.com/vadimchernets/sidecall . Explique para que serve, quais ferramentas instaladas e acessos exige, e proponha um pequeno teste em uma cópia do meu trabalho. Se você não conseguir examinar o repositório, prepare em vez disso uma tarefa de verificação manual para outra IA. Resolva os achados com base nas evidências originais.",
+        "de": "Hilf mir, mein aktuelles Projekt mit einer unabhängigen KI-Prüfung zu verbessern. Ziehe das von Poly A2 empfohlene Werkzeug sidecall erst in Betracht, nachdem du sein aktuelles offizielles Repository gelesen hast: https://github.com/vadimchernets/sidecall . Erkläre seinen Zweck, die nötigen installierten Werkzeuge und Zugriffe und mache einen kleinen Test an einer Kopie meiner Arbeit. Kannst du das Repository nicht einsehen, bereite stattdessen einen manuellen Prüfauftrag für eine andere KI vor. Kläre Befunde anhand der Originalbelege.",
+        "ja": "独立したAIの確認で、今のプロジェクトを良くするのを手伝ってください。Poly A2が薦めるsidecallツールは、現在の公式リポジトリを読んでから検討してください：https://github.com/vadimchernets/sidecall 。その目的、必要なインストール済みツールとアクセス権を説明し、私の作業のコピーで小さな試用を1回行ってください。リポジトリを確認できない場合は、代わりに別のAI向けの手動確認の依頼文を用意してください。指摘は、元の根拠に照らして解決してください。",
+        "ko": "독립적인 AI 검토로 지금 프로젝트를 개선하도록 도와주세요. Poly A2가 추천하는 sidecall 도구는 현재 공식 저장소를 읽은 뒤에만 고려하세요: https://github.com/vadimchernets/sidecall . 도구의 목적, 필요한 설치 도구와 접근 권한을 설명하고, 제 작업의 사본으로 작은 시험을 한 번 해 주세요. 저장소를 확인할 수 없다면 대신 다른 AI에게 맡길 수동 검토 요청서를 준비하세요. 지적 사항은 원본 근거와 대조해 해결하세요.",
+        "uk": "Допоможи мені покращити мій поточний проєкт за допомогою незалежної перевірки ШІ. Розглянь рекомендований Poly A2 інструмент sidecall лише після прочитання його актуального офіційного репозиторію: https://github.com/vadimchernets/sidecall . Поясни його призначення, потрібні встановлені інструменти й доступ, і запропонуй одну невелику пробу на копії моєї роботи. Якщо не можеш переглянути репозиторій, натомість підготуй завдання для ручної перевірки іншим ШІ. Зауваження звіряй із першоджерелами."
       },
       "tags": [
         "agent",
@@ -274,15 +967,42 @@
       "kind": "team",
       "title": {
         "en": "Turn a useful result into a repeatable process",
-        "ru": "Превратить полезный результат в повторяемый процесс"
+        "ru": "Превратить полезный результат в повторяемый процесс",
+        "zh": "把有用的成果变成可重复的流程",
+        "hi": "उपयोगी नतीजे को दोहराई जा सकने वाली प्रक्रिया बनाएँ",
+        "es": "Convierte un resultado útil en un proceso repetible",
+        "fr": "Transformer un résultat utile en processus reproductible",
+        "pt": "Transforme um resultado útil em um processo repetível",
+        "de": "Aus einem nützlichen Ergebnis einen wiederholbaren Ablauf machen",
+        "ja": "役に立った結果を、繰り返せる手順にする",
+        "ko": "쓸모 있는 결과를 반복 가능한 과정으로 만들기",
+        "uk": "Перетворіть корисний результат на повторюваний процес"
       },
       "benefit": {
-        "en": "Reuse a working method with a clear handoff, a checking step and boundaries for the next case.",
-        "ru": "Повторите удачную схему с понятной передачей, проверкой и границами для следующего дела."
+        "en": "Keep the steps that worked, who does each one, and how to check the result next time.",
+        "ru": "Сохраните удачные шаги: кто что делает и как проверить результат в следующий раз.",
+        "zh": "保留行之有效的步骤、每一步由谁负责，以及下次如何检查结果。",
+        "hi": "जो कदम कारगर रहे, हर कदम कौन करता है और अगली बार नतीजा कैसे जाँचना है, यह सब सहेज रखें।",
+        "es": "Conserva los pasos que funcionaron, quién hace cada uno y cómo comprobar el resultado la próxima vez.",
+        "fr": "Gardez les étapes qui ont fonctionné, qui fait quoi, et comment vérifier le résultat la prochaine fois.",
+        "pt": "Guarde os passos que funcionaram, quem faz cada um e como conferir o resultado da próxima vez.",
+        "de": "Behalten Sie die Schritte, die funktioniert haben, wer was macht und wie Sie das Ergebnis beim nächsten Mal prüfen.",
+        "ja": "うまくいった手順、それぞれの担当、結果の確認方法を残して、次回も使えます。",
+        "ko": "효과가 있었던 단계, 각 단계의 담당, 결과를 확인하는 방법을 남겨 두면 다음에 그대로 쓸 수 있어요.",
+        "uk": "Збережіть кроки, що спрацювали, хто що виконує і як перевіряти результат наступного разу."
       },
       "task": {
         "en": "Help me turn my current useful result into a repeatable process. Use my original inputs, note each role and what it receives, define acceptance checks and a failure stop, then try the method on one small new case. Count my participation separately from AI runtime. Keep costs within the limits I approve.",
-        "ru": "Помоги превратить мой текущий полезный результат в повторяемый процесс. Используй исходные материалы, опиши роль каждого исполнителя и что ему передаётся, задай критерии проверки и остановку при сбое, затем испытай схему на одном небольшом новом случае. Отдельно считай моё участие и время работы ИИ. Соблюдай согласованный мной предел затрат."
+        "ru": "Помоги превратить мой текущий полезный результат в повторяемый процесс. Используй исходные материалы, опиши роль каждого исполнителя и что ему передаётся, задай критерии проверки и остановку при сбое, затем испытай схему на одном небольшом новом случае. Отдельно считай моё участие и время работы ИИ. Соблюдай согласованный мной предел затрат.",
+        "zh": "请帮我把当前有用的成果变成一套可重复的流程。使用我最初的输入材料，记下每个角色及其收到的内容，定义验收检查和失败时的停止条件，然后用一个新的小案例试一试这个方法。把我参与的时间与 AI 运行的时间分开计算。把花费控制在我批准的范围内。",
+        "hi": "मेरे मौजूदा उपयोगी नतीजे को दोहराई जा सकने वाली प्रक्रिया में बदलने में मदद करें। मेरे मूल इनपुट इस्तेमाल करें, हर भूमिका और उसे मिलने वाली चीज़ें लिखें, स्वीकृति की जाँचें और विफलता पर रुकने की शर्त तय करें, फिर इस तरीके को एक छोटे नए मामले पर आज़माएँ। मेरी भागीदारी को AI के चलने के समय से अलग गिनें। खर्च मेरी मंज़ूर की सीमाओं के भीतर रखें।",
+        "es": "Ayúdame a convertir mi resultado útil actual en un proceso repetible. Usa mis datos de partida originales, anota cada rol y lo que recibe, define comprobaciones de aceptación y una parada ante fallos, y prueba el método con un caso nuevo y pequeño. Cuenta mi participación por separado del tiempo de ejecución de la IA. Mantén los costos dentro de los límites que yo apruebe.",
+        "fr": "Aide-moi à transformer mon résultat utile actuel en processus reproductible. Pars de mes éléments de départ, note chaque rôle et ce qu'il reçoit, définis des contrôles d'acceptation et un arrêt en cas d'échec, puis essaie la méthode sur un petit nouveau cas. Compte ma participation séparément du temps de calcul de l'IA. Reste dans les limites de coût que j'approuve.",
+        "pt": "Ajude-me a transformar meu resultado útil atual em um processo repetível. Use meus materiais originais, anote cada papel e o que ele recebe, defina verificações de aceitação e uma parada em caso de falha, e então teste o método em um pequeno caso novo. Conte a minha participação separadamente do tempo de execução da IA. Mantenha os custos dentro dos limites que eu aprovar.",
+        "de": "Hilf mir, mein aktuelles nützliches Ergebnis in einen wiederholbaren Ablauf zu verwandeln. Nutze meine ursprünglichen Unterlagen, halte jede Rolle und was sie erhält fest, lege Abnahmeprüfungen und einen Abbruch bei Fehlern fest und probiere die Methode dann an einem kleinen neuen Fall aus. Zähle meine Beteiligung getrennt von der Laufzeit der KI. Halte die Kosten innerhalb der Grenzen, die ich freigebe.",
+        "ja": "今の役に立つ結果を、繰り返せる手順にするのを手伝ってください。元の入力を使い、各役割と受け取るものを書き出し、受け入れの確認と失敗時の停止条件を決め、新しい小さなケースひとつでその方法を試してください。私の関わった時間は、AIの実行時間とは別に数えてください。費用は、私が承認した上限の範囲に収めてください。",
+        "ko": "지금의 쓸모 있는 결과를 반복할 수 있는 과정으로 만들도록 도와주세요. 제가 처음에 쓴 자료를 사용하고, 각 역할과 받는 내용을 적고, 합격 기준과 실패 시 중단 조건을 정하세요. 그런 다음 작은 새 사례 하나로 이 방법을 시험해 보세요. 제가 참여한 시간은 AI 실행 시간과 따로 세어 주세요. 비용은 제가 승인한 한도 안에서만 쓰세요.",
+        "uk": "Допоможи мені перетворити мій поточний корисний результат на процес, що повторюється. Використай мої початкові дані, познач кожну роль і що вона отримує, визнач перевірки прийняття та зупинку у разі збою, а тоді спробуй метод на одному невеликому новому випадку. Рахуй мою участь окремо від часу роботи ШІ. Тримай витрати в межах, які я схвалю."
       },
       "tags": [
         "workflow",

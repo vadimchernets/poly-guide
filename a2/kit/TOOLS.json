@@ -1,0 +1,83 @@
+{
+  "product": "Poly A2",
+  "schema": 1,
+  "installedAdapters": [],
+  "readyForEnvironment": false,
+  "automaticOrchestration": false,
+  "instructions": [
+    "TEAM-ONE-WINDOW.md",
+    "AGENTS.md",
+    "CLAUDE.md"
+  ],
+  "evidenceRequired": [
+    "tool-version",
+    "compatibility",
+    "auth-mode",
+    "permissions",
+    "actual-assignment",
+    "actual-child-output",
+    "return-to-lead",
+    "source-check",
+    "repeat"
+  ],
+  "separateApiChargesRequireDecision": true,
+  "note": "Two real Claude Code/Codex directions were checked on the development Mac against an original CSV (qa/real-orchestration/VERIFIED.json). This does not install or verify an adapter on another computer.",
+  "preparedAdapters": [
+    {
+      "path": "adapters/poly_second.py",
+      "providers": [
+        "claude-code",
+        "codex"
+      ],
+      "environmentVerified": false,
+      "apiKeyFallback": false
+    }
+  ],
+  "preparedLocalTools": [
+    {
+      "path": "tools/materials.py",
+      "purpose": "Inventory readable and skipped files, find source lines, and detect changes since indexing",
+      "requires": "Python3/SQLite standard library",
+      "network": false,
+      "verification": "Byte-level freshness only; summary correctness needs comparison with originals"
+    },
+    {
+      "path": "tools/check_table.py",
+      "purpose": "Check CSV missing values, duplicates and exact sum; optionally create a private readable HTML report in11languages",
+      "requires": "Python3 standard library",
+      "network": false
+    },
+    {
+      "path": "tools/open_formats.py",
+      "purpose": "Extract text from PDF/scans, turn notes into DOCX/HTML, or extract recording audio",
+      "requires": "Python3 plus installed pdftotext, Tesseract, Pandoc or FFmpeg for the selected action; doctor checks presence only",
+      "automaticallyInstallsDependencies": false,
+      "environmentVerifiedForUser": false
+    },
+    {
+      "path": "tools/calendar_plan.py",
+      "purpose": "Build a source-linked ICS calendar draft from an approved CSV copy; detect overlaps",
+      "requires": "Python3 standard library",
+      "network": false,
+      "calendarAccess": false,
+      "calendarImportVerified": false
+    },
+    {
+      "path": "tools/continuation.py",
+      "purpose": "Preview approved project continuation, preserve existing instructions and detect changed original sources on resume",
+      "requires": "Python3 standard library",
+      "network": false,
+      "explicitApprovalRequiredToSave": true,
+      "newAiSessionVerified": false
+    },
+    {
+      "path": "tools/workflow.py",
+      "purpose": "Bounded producer/reviewer/one-revision process with saved answers, unchanged-source hashes and readable report",
+      "requires": "Python3 and both subscription CLIs",
+      "network": true,
+      "automaticRetries": false,
+      "maximumCalls": 3,
+      "verification": "Process has local checks; real new AI runs and useful result require explicit permission and source comparison."
+    }
+  ]
+}

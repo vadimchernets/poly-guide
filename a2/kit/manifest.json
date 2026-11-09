@@ -1,0 +1,117 @@
+{
+  "product": "Poly A2",
+  "schema": 1,
+  "status": "prepared-for-owner-publication-not-installed",
+  "files": [
+    {
+      "file": "START-HERE.md",
+      "bytes": 8796,
+      "sha256": "ca41801737a39c9c8ee9b4fcc849582035560296ee94472ce4c52e786678ccab"
+    },
+    {
+      "file": "CONTINUATION.json",
+      "bytes": 381,
+      "sha256": "dbf78d97553e4a6648ea891ccfc28e7277430cc7dadf63059edcbcd196d2262d"
+    },
+    {
+      "file": "TOOLS.json",
+      "bytes": 3005,
+      "sha256": "fb95a88de4c94b660262915304068b8f757207ef27878c72e9c8e2cf879b0508"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 2487,
+      "sha256": "64073c683ea603dd228b03d2190075a8de42c078e0e3349fc2b10017e9041262"
+    },
+    {
+      "file": "CLAUDE.md",
+      "bytes": 2312,
+      "sha256": "47b562c9f1ac217ea12b85b0b973451e67169139b5eb6b24893adecb8e2f31d5"
+    },
+    {
+      "file": "CARD-CONTINUE.md",
+      "bytes": 2472,
+      "sha256": "de431c5d32cd2637523cf962652ae26f7d0643edf3cbb207884236efb21abc41"
+    },
+    {
+      "file": "TEAM-ONE-WINDOW.md",
+      "bytes": 2658,
+      "sha256": "49edf9f8c9793126a2b7a2ee139357f2f4432a34712969a6a2585370f2a28532"
+    },
+    {
+      "file": "guide.md",
+      "bytes": 18834,
+      "sha256": "1cf2a68cb03f0abbb58db48453f90dcb0a93472c98972cf64ffe0da998805638"
+    },
+    {
+      "file": "adapters/poly_second.py",
+      "bytes": 8411,
+      "sha256": "d0aae48fa3bc237370088da2b6be7d2ab82cdd44c23a5b26db3850b95af78ac7"
+    },
+    {
+      "file": "adapters/README.md",
+      "bytes": 6269,
+      "sha256": "ad52b77201e86db6ad5ea80f68a2d1f8a418589506dbfb58f2fbe221c97578d7"
+    },
+    {
+      "file": "tools/materials.py",
+      "bytes": 8079,
+      "sha256": "faaa129db55f4af3ebff58ad1c54d794a53932e56ba35ae231d385e2da55e3de"
+    },
+    {
+      "file": "tools/MATERIALS.md",
+      "bytes": 4778,
+      "sha256": "963448e8446cf15d352dd935b64f5490cfb02f8b8ae6a3393e6e3178e611a7f0"
+    },
+    {
+      "file": "tools/check_table.py",
+      "bytes": 9953,
+      "sha256": "bee41245118e8b6fd2e57dc7e19b21ca3178e22b8b63b8039d216bcf7cf677fa"
+    },
+    {
+      "file": "tools/TABLES.md",
+      "bytes": 2738,
+      "sha256": "ffa60553713085aeded2b7d02554ca3b869d3ce91f4c2208f6e0dccb132d148c"
+    },
+    {
+      "file": "tools/open_formats.py",
+      "bytes": 5264,
+      "sha256": "d82fd05b9b9c5557afde1901446b164029b004595e26c93598cce4e75a59f8d6"
+    },
+    {
+      "file": "tools/FORMATS.md",
+      "bytes": 3040,
+      "sha256": "e3c8af6854d2068bfc57caa293a346f79ebed929f3080cf0d1aaa71d123d1139"
+    },
+    {
+      "file": "tools/calendar_plan.py",
+      "bytes": 4617,
+      "sha256": "1c4c569dc6eb7382f50d2bc0c5157fdbdf29b1abffde2b7fcdc268cbf3c10462"
+    },
+    {
+      "file": "tools/CALENDAR.md",
+      "bytes": 2917,
+      "sha256": "3a6aed5d89d6d7d163e149c08004d6326a8ef68b3ab3c53bbbdc4dd41d4f7f49"
+    },
+    {
+      "file": "tools/continuation.py",
+      "bytes": 7826,
+      "sha256": "fba5b676b178471b3c12de0bb88ce983371b924e04852fb2f69d708ae3a0d3bf"
+    },
+    {
+      "file": "tools/CONTINUATION.md",
+      "bytes": 3961,
+      "sha256": "59f815b5d7db4ff000a24349ee58c888b51dd3b62a93ed79983a25add509aea5"
+    },
+    {
+      "file": "tools/workflow.py",
+      "bytes": 11625,
+      "sha256": "db40442376fc45c4949550f630591c8e92bfb8e7d436f60ba1e71a56be578c3a"
+    },
+    {
+      "file": "tools/WORKFLOW.md",
+      "bytes": 5527,
+      "sha256": "3068ae4bc5e6db619865919abae813d105d20ed3dd258207ad76e0d244590338"
+    }
+  ]
+}

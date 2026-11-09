@@ -55,11 +55,24 @@ Do not use an old Sora tutorial as a current ChatGPT video route. Gemini's perso
 - Current OpenAI plan differences: https://learn.chatgpt.com/docs/pricing
 - Supported Codex phone/cloud/connected-computer route: https://learn.chatgpt.com/docs/mobile
 - Claude Code setup: https://code.claude.com/docs/en/quickstart
+- Claude Code graphical desktop/Code-tab route: https://code.claude.com/docs/en/desktop-quickstart
+- Codex subscription vs API authentication: https://learn.chatgpt.com/docs/auth
+- Codex bounded non-interactive work: https://learn.chatgpt.com/docs/non-interactive-mode
+- Claude Code authentication: https://code.claude.com/docs/en/authentication
+- Claude Code headless CLI: https://code.claude.com/docs/en/headless
 - Claude Code subscription access: https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-max-or-ultra-plan
 - Claude Code instructions and memories: https://code.claude.com/docs/en/memory
 - Codex project instructions: https://learn.chatgpt.com/docs/agent-configuration/agents-md
 
 Use the selected tool's current supported instruction or memory feature; a file name alone does not prove it will be loaded. Subscriptions and API billing are distinct. Check existing subscriptions before proposing another purchase.
+
+## Poly Duo phone route
+
+- Current project and platform requirements: https://github.com/vadimchernets/poly-duo
+- iPhone setup: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
+- Separate Android setup: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
+
+The repository README and iPhone setup were read on 2026-11-05. Poly A2 currently launches only its supported iPhone/iOS18+ Shortcuts route after explicit installation confirmation; it does not receive or certify the answer. Android setup is a separate route with different requirements. Do not infer that own ChatGPT/Claude subscriptions automatically form a working Android pair, or treat iPad as tested. Long questions and app/plan limits still matter.
 
 ## Poly A2 companion projects
 
@@ -72,9 +85,9 @@ Read each current repository before describing host compatibility or setup. Thes
 
 ## Publication and local prototype status
 
-At the package check on 2026-11-05, both new canonical guide targets returned HTTP 404 because upload had not yet taken place:
+An earlier pre-upload check found the new canonical guide targets unavailable. The owner later reported publishing an earlier package. Generating this updated package checks local byte integrity only; it does not confirm that the latest revision is already online:
 
 - https://polyhelper.ai/g/a2.md
 - https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md
 
-The package is prepared for the owner to upload. It does not publish or replace existing repository content automatically. The mobile app and the local native Mac companion are prototypes; no App Store release, Windows companion, automatic phone sync, or control of a separate terminal is implied.
+The owner or publishing collaborator uploads the update and checks HTTP responses, content and hashes. The generator does not publish or replace repository content remotely. Mobile/desktop local builds, store setup, successful external work and account synchronization each need their own evidence. The small local Mac panel does not execute or read another terminal, and manual cards do not constitute automatic phone/computer sync.

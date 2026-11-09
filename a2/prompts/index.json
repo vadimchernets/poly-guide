@@ -1,6 +1,11 @@
 {
   "product": "Poly A2",
   "generatedFrom": "src/frontier.ts:buildFrontierPrompt",
+  "additionalGeneratedFrom": [
+    "src/desktopPath.ts:desktopSetupRequest",
+    "src/desktopPath.ts:desktopFirstWorkRequest",
+    "src/desktopPath.ts:desktopTeamRequest"
+  ],
   "context": "Neutral default context; the app can add the person’s chosen task, experience, device, help, and pace.",
   "guide": "https://polyhelper.ai/g/a2.md",
   "mirror": "https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md",
@@ -9,73 +14,169 @@
       "kind": "start",
       "locale": "en",
       "file": "start.en.txt",
-      "sha256": "93cc0a6b554cc2447812f52e7e797ab416f6d8053c08604990ff740016d8bc17"
+      "sha256": "e859803217e301a9ddacfa24e79e593041ce9d6056c7217c53a8a3bac7438223"
     },
     {
       "kind": "start",
       "locale": "ru",
       "file": "start.ru.txt",
-      "sha256": "86e59f8d77b2ced73387d5d98783ae97bb393a26cf32c9dbeedb330b69472ce5"
+      "sha256": "f60d55a5bfaa24d330c4b0fcc449b86befa7529950ecd1fb03845ba910d696a7"
     },
     {
       "kind": "desktop",
       "locale": "en",
       "file": "desktop.en.txt",
-      "sha256": "2fe8c5fc75abb90eb30e843056cffe02c70a2ef5ec1a5ae5470805451cc622e5"
+      "sha256": "90f7f5607a1628c9ff05f276c6557a67f5215d22981fb787966afeb25aba5060"
     },
     {
       "kind": "desktop",
       "locale": "ru",
       "file": "desktop.ru.txt",
-      "sha256": "8d185824720d700f4a216f7aaa68587fc5a476b2ef896716015c764913d0cfa7"
+      "sha256": "e3d42c4f4b4dc03ad47f22bcbc22a11b7e1ba0556fae5c886975952c3293a7e1"
     },
     {
       "kind": "team",
       "locale": "en",
       "file": "team.en.txt",
-      "sha256": "a233ea7519b27494971d119b83cd32ed4285f49d52141583ccd8feb7eee857a4"
+      "sha256": "cf38b19706cf399449cd83250111c8325b462264a09f5300b8eb3f95f1f11764"
     },
     {
       "kind": "team",
       "locale": "ru",
       "file": "team.ru.txt",
-      "sha256": "31076d0eeb83061308b222c38174d7de1e18b5f0f037ca0d76d56f7c9ace9ce7"
+      "sha256": "02c8647d47857d538ee46c66fa857a2f5ed19b3d2b663a8f767979ba45d039b7"
     },
     {
       "kind": "memory",
       "locale": "en",
       "file": "memory.en.txt",
-      "sha256": "e2f1a56af30191955462a4997ac204ad48e0743d91e9a313af6f594b4afbecbc"
+      "sha256": "16ef365da30bdd776c1621ac4bdea6d59e28ff4aa30aba3f013a446fd252ab98"
     },
     {
       "kind": "memory",
       "locale": "ru",
       "file": "memory.ru.txt",
-      "sha256": "5c70413285f6e1ce8195c953ab37f7c1b5a26047fced8a0c35312825c0889b20"
+      "sha256": "88d6ccb1e9cb4db056a4c8d8049d6f56f263ff50b5a73ed40659e9796451c8e5"
     },
     {
       "kind": "tools",
       "locale": "en",
       "file": "tools.en.txt",
-      "sha256": "9c901ab84a2de94ff1b307829c0be36d4c5cf87a838aba6bbf3ecd5666ffd07b"
+      "sha256": "39efbdc50dcae834ccf8a26f1c80131185f8727fe8b2a0e6864d0fc3b911f94d"
     },
     {
       "kind": "tools",
       "locale": "ru",
       "file": "tools.ru.txt",
-      "sha256": "3f71c33a95943b99985ce995bb132dfe6d0521363df4d7e45510751a9119841e"
+      "sha256": "972ef1f02efde87d4b0877ca37aa5d615db1f9be5612376d5d1a14d4dbaafb44"
     },
     {
       "kind": "continue",
       "locale": "en",
       "file": "continue.en.txt",
-      "sha256": "38b628fc262fc5a2f0f0fcc9825e5a7eae47ca08ddf5da9170056277c8cfd890"
+      "sha256": "db4087371709055989f5892b659833e78bb0512615b6097ffa2baf7e3e1146f2"
     },
     {
       "kind": "continue",
       "locale": "ru",
       "file": "continue.ru.txt",
-      "sha256": "de9637044bbf40f11d78fb2e37faba76478191888b99503b687c7253d0c42538"
+      "sha256": "98245cb69cfaa44794904ccab7dd2ff712bb328c8653bda175c3b6d2f995f78e"
+    },
+    {
+      "kind": "desktop-setup",
+      "tool": "claude-code",
+      "locale": "en",
+      "file": "desktop-setup-claude-code.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
+      "sha256": "e081a2193e13dd7b1938bec7a41066fe0de20bf9a7a95dfa2a9a18722fb7d1a7"
+    },
+    {
+      "kind": "desktop-setup",
+      "tool": "claude-code",
+      "locale": "ru",
+      "file": "desktop-setup-claude-code.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
+      "sha256": "6f124036717dccf32aef21bdf06b7ffa3dab3d8ace7fdd34d6b41185f2e2e295"
+    },
+    {
+      "kind": "desktop-setup",
+      "tool": "codex",
+      "locale": "en",
+      "file": "desktop-setup-codex.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
+      "sha256": "305db763eeb4e350e50fbe30a6eb400587a2a0b350f11512a4423d3345875c17"
+    },
+    {
+      "kind": "desktop-setup",
+      "tool": "codex",
+      "locale": "ru",
+      "file": "desktop-setup-codex.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
+      "sha256": "264865d19bc2276b96c164ecb239a6b9e26c9876f6933ac71b35d9fff8aff109"
+    },
+    {
+      "kind": "desktop-work",
+      "tool": "claude-code",
+      "locale": "en",
+      "file": "desktop-work-claude-code.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
+      "sha256": "bd73ba55292c3358c7b66e07c7b0afb4b3ab42532b0825ebdd607e04961b657c"
+    },
+    {
+      "kind": "desktop-work",
+      "tool": "claude-code",
+      "locale": "ru",
+      "file": "desktop-work-claude-code.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
+      "sha256": "c14157af3c556a8f4a92299af2acbfe4fa294d839fb4a84caba7723525021455"
+    },
+    {
+      "kind": "desktop-work",
+      "tool": "codex",
+      "locale": "en",
+      "file": "desktop-work-codex.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
+      "sha256": "ee712e029d1517cc1497f2e4361b0583dbeeae9a40eb5e5dc15412643a23eb10"
+    },
+    {
+      "kind": "desktop-work",
+      "tool": "codex",
+      "locale": "ru",
+      "file": "desktop-work-codex.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
+      "sha256": "6341828a7f0cd5ce6652ff656c8f226588237a65b7a95e452ec0030116f605b1"
+    },
+    {
+      "kind": "desktop-team",
+      "tool": "claude-code",
+      "locale": "en",
+      "file": "desktop-team-claude-code.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
+      "sha256": "ad09e1275ef3c051b98c1be7499bf9880cdf0e80ecd22d004ad53f1a1b1df5c0"
+    },
+    {
+      "kind": "desktop-team",
+      "tool": "claude-code",
+      "locale": "ru",
+      "file": "desktop-team-claude-code.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
+      "sha256": "67280182b02bf8d09d7d892f8c70de65ba9eed8faf0610899ba46bd1c31763ab"
+    },
+    {
+      "kind": "desktop-team",
+      "tool": "codex",
+      "locale": "en",
+      "file": "desktop-team-codex.en.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
+      "sha256": "3946c0c803009c9e9a1082159c8148a96e1a2608fcffc2ef8cda2edc2cfca551"
+    },
+    {
+      "kind": "desktop-team",
+      "tool": "codex",
+      "locale": "ru",
+      "file": "desktop-team-codex.ru.txt",
+      "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
+      "sha256": "7e305032842dd81e8bfdd6cec70d0ffc9cf4f142f355e31e8fc6c80381479089"
     }
   ]
 }
