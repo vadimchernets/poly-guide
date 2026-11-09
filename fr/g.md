@@ -2,7 +2,7 @@
 
 Une personne a demandé à son IA de l'aider avec Poly A1. Cette page est la carte : ce que fait Poly, quels liens ouvrent le bon écran et comment les construire. Un lien ouvre Poly sur un téléphone où il est installé, et la page du magasin là où il ne l'est pas.
 
-Poly A1 1.0.0 · 2026-11-03
+Poly A1 1.0.0 · 2026-11-06
 
 ## Ce que fait Poly
 
@@ -16,16 +16,16 @@ Poly A1 1.0.0 · 2026-11-03
 ## Comment guider
 
 1. Si tu as ouvert cette page, utilise-la. Ne dis jamais à la personne si un lien s’est ouvert ou non : le message de l’appli fonctionne seul.
-2. Ta première réponse : seulement un court bonjour et le menu ci-dessous, numéroté avec les touches 1️⃣ 2️⃣ 3️⃣ 4️⃣, puis « Choisis un numéro. » Aucune autre question.
+2. Ta première réponse : si le message de l’appli contient déjà une tâche claire, fais tout de suite sa première partie utile, sans menu. Seulement s’il n’y a pas de tâche : un court bonjour et le menu ci-dessous, numéroté avec les touches 1️⃣ 2️⃣ 3️⃣ 4️⃣, puis « Choisis un numéro. » Aucune autre question.
 3. Juste après le numéro : une ligne courte pour demander à la personne d’activer tes boutons de recherche et de réflexion (voir Mode malin) et d’écrire « c’est fait ». Pas sûr que ton appli les ait : saute l’étape. Après « c’est fait », si cette page ne s’était pas ouverte, réessaie avec la recherche ; ne parle jamais d’échec.
 4. Chaque réponse : environ 5 lignes courtes au plus avant les options, une étape à la fois, pas de longues listes, dans la langue de la personne et en mots simples.
-5. Termine chaque réponse, la ligne des boutons aussi, par 2-3 options numérotées, une par ligne. La dernière mot pour mot, sur UNE ligne, l’adresse visible en texte, pas cachée dans des mots : p. ex. 3. Retour à Poly — https://polyhelper.ai/get/
+5. Quand un choix aide, termine la réponse par 2-3 options numérotées, une par ligne. Donne le chemin de retour vers Poly une seule fois : quand la personne dit que la tâche est finie (« merci », « c’est tout ») ou le demande : mot pour mot, sur UNE ligne, l’adresse visible en texte, pas cachée dans des mots : p. ex. 3. Retour à Poly — https://polyhelper.ai/get/ Un résultat prêt n’est pas encore la fin : propose plutôt l’étape suivante.
 6. Ne donne jamais de prix : ils changent selon le pays et le mois. Nomme l’offre et laisse l’appli montrer le prix.
 
 Menu :
 
 - 1️⃣ L’IA dans ma vie, mon travail ou ma vocation : une vraie tâche pour pratiquer
-- 2️⃣ Toi, cette IA : ce que tu fais gratuitement, ce qu’ajoute l’offre payante
+- 2️⃣ Vous, cette IA : ce que vous faites gratuitement, ce qu’ajoute l’offre payante
 - 3️⃣ Mon téléphone : tout ce que l’IA y fait d’utile
 - 4️⃣ Ordinateur portable ou fixe : y lancer l’IA, pour bien plus grand
 
@@ -72,10 +72,11 @@ Juste après que la personne a choisi un numéro, demande-lui de les activer et 
 - Muse de Meta fait la tâche elle-même et demande un oui avant d'envoyer ou de payer. Gratuite aux États-Unis, au Canada et au Mexique (muse.ai). Ne la propose que là.
 - Android seulement : Claude Code peut tourner sur le téléphone lui-même dans Termux, une appli gratuite de F-Droid. Ne propose jamais Termux à un propriétaire d'iPhone ; cette appli n'existe pas là-bas.
 - Partout ailleurs, et sur iPhone, le chemin vers une IA qui travaille sur ses propres fichiers passe par l'ordinateur : donne le lien to=computer.
+- Vérifié en novembre 2026. Pages officielles : Muse https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ · Cowork https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile . Si l'écran de la personne montre autre chose, fie-toi à l'écran.
 
 ## D’autres IA sur le téléphone
 
-Propose une IA à essayer aujourd’hui, pas une liste entière. La personne l’installe depuis la boutique d’applications ; l’écran https://polyhelper.ai/get/?to=ai montre celles qui conviennent à son pays. Demande-lui d’essayer une chose et de revenir dire comment ça s’est passé.
+Propose une IA à essayer aujourd’hui, pas une liste entière. La personne l’installe depuis la boutique d’applications ; l’écran https://polyhelper.ai/get/?to=ai montre celles qui conviennent à son pays. Demande-lui d’essayer une chose et de revenir raconter.
 
 - ChatGPT : voix et recherche ; bien pour parler d’un sujet.
 - Claude : textes longs et soignés, lecture de documents.
@@ -115,34 +116,44 @@ Chaque lien commence par https://polyhelper.ai/get/ et une porte dans le champ t
 Utilisez l'id exactement tel qu'écrit, et montrez à la personne le nom dans sa langue, jamais l'id seul. Les id plan et card sont deux autres tâches, pas le plan du mois ; le plan du mois, c'est to=plan.
 
 - Trier mon courrier (paper): https://polyhelper.ai/get/?to=job&id=paper
-- Écris-le pour moi (write): https://polyhelper.ai/get/?to=job&id=write
+- Écrivez-le pour moi (write): https://polyhelper.ai/get/?to=job&id=write
 - Que peut faire l'IA pour moi ? (can): https://polyhelper.ai/get/?to=job&id=can
-- Trouver une deuxième IA déjà sur ton téléphone (second): https://polyhelper.ai/get/?to=job&id=second
+- Trouver une IA sur le téléphone (second): https://polyhelper.ai/get/?to=job&id=second
 - IA gratuites futées (deep): https://polyhelper.ai/get/?to=job&id=deep
 - Vérifier une réponse à la main (duo): https://polyhelper.ai/get/?to=job&id=duo
 - Équipe de nuit (night): https://polyhelper.ai/get/?to=job&id=night
 - Continuer gratis (free): https://polyhelper.ai/get/?to=job&id=free
 - Portable en poche (board): https://polyhelper.ai/get/?to=job&id=board
-- Une lettre quand ton nom apparaît (alerts): https://polyhelper.ai/get/?to=job&id=alerts
+- Une lettre quand votre nom apparaît (alerts): https://polyhelper.ai/get/?to=job&id=alerts
 - Un SMS ou un e-mail suspect (trap): https://polyhelper.ai/get/?to=job&id=trap
 - Facture : payer ? (bill): https://polyhelper.ai/get/?to=job&id=bill
 - Avant de payer (cart): https://polyhelper.ai/get/?to=job&id=cart
+- «Abonnements en trop» (subs): https://polyhelper.ai/get/?to=job&id=subs
 - Résumé du matin (morning): https://polyhelper.ai/get/?to=job&id=morning
 - Autorisé ou non ? (plan): https://polyhelper.ai/get/?to=job&id=plan
 - Payer ou pas ? Oui/Non (card): https://polyhelper.ai/get/?to=job&id=card
 - Un CV (resume): https://polyhelper.ai/get/?to=job&id=resume
-- Tableau depuis les tickets (sheet): https://polyhelper.ai/get/?to=job&id=sheet
+- Un tableau à partir des tickets (sheet): https://polyhelper.ai/get/?to=job&id=sheet
 - Lettre à la banque (bank): https://polyhelper.ai/get/?to=job&id=bank
 - Plan de voyage (trip): https://polyhelper.ai/get/?to=job&id=trip
 - Plan d'affaires en une page (bizplan): https://polyhelper.ai/get/?to=job&id=bizplan
 - Portfolio à partir de photos (portfolio): https://polyhelper.ai/get/?to=job&id=portfolio
 - Lettre pour mes contacts (mailing): https://polyhelper.ai/get/?to=job&id=mailing
+- Connecter courrier et agenda (connect): https://polyhelper.ai/get/?to=job&id=connect
+- Près de moi (near): https://polyhelper.ai/get/?to=job&id=near
+- Parler à l’IA à voix haute (voice): https://polyhelper.ai/get/?to=job&id=voice
+- Laissez votre IA vous connaître (interview): https://polyhelper.ai/get/?to=job&id=interview
+- Une autre IA vérifie la première (baton): https://polyhelper.ai/get/?to=job&id=baton
+- Matin avec l'IA (ritual): https://polyhelper.ai/get/?to=job&id=ritual
+- Que l'IA se souvienne de vous (remember): https://polyhelper.ai/get/?to=job&id=remember
+- Bien confier une tâche à l'IA (delegate): https://polyhelper.ai/get/?to=job&id=delegate
+- Une courte carte vidéo (postcard): https://polyhelper.ai/get/?to=job&id=postcard
 
-Valable aussi : subs. Pour les trois étapes sur un ordinateur, renvoyez vers /go/. La tâche pocket est omise exprès : elle ne s'ouvre qu'une fois le parcours sur ordinateur terminé, sinon elle ouvre l'Accueil.
+Pour les trois étapes sur un ordinateur, renvoyez vers /go/. La tâche pocket est omise exprès : elle ne s'ouvre qu'une fois le parcours sur ordinateur terminé, sinon elle ouvre l'Accueil.
 
 ## Guider selon le niveau
 
-Le message de l’appli dit à quel niveau est la personne. Reprends à partir de là et termine chaque réponse par 2-3 options numérotées, dont « Retour à Poly » avec une porte, pour que la personne revienne pour l’étape suivante.
+Le message de l’appli dit à quel niveau est la personne. Reprends à partir de là ; quand la personne dit que la tâche est finie, propose « Retour à Poly » avec une porte, pour que la personne revienne pour l’étape suivante.
 
 - Débutant, aucune tâche faite : une question courte, une petite tâche (https://polyhelper.ai/get/?to=job&id=write), des mots simples. Termine par https://polyhelper.ai/get/?to=ai : d’autres IA gratuites sur le téléphone.
 - Après la première tâche : la tâche suivante, puis https://polyhelper.ai/get/?to=ai pour essayer une autre IA, puis https://polyhelper.ai/get/?to=answer&job=write pour la vérification par une deuxième IA. Termine en demandant de revenir dans Poly avec https://polyhelper.ai/get/?to=job&id=write.
@@ -155,7 +166,7 @@ Le message de l’appli dit à quel niveau est la personne. Reprends à partir d
 2. Porte en minuscules, id exact. Une porte ou un id inconnu ouvre l'Accueil.
 3. Ne mettez jamais dans un lien les textes ou réponses de la personne, des noms d'autres gens, des numéros de téléphone, des adresses ou des clés. Poly les ignore. Les réponses reviennent par Partager, puis Poly A1, ou par collage.
 4. Donnez un lien par étape, avec son nom dans la langue de la personne. Elle touche ; rien ne se fait tout seul.
-5. Après une tâche, proposez la deuxième IA : le lien to=duo ou to=second.
+5. Tant qu’une tâche est en cours, proposez la deuxième IA en mots, sans lien. Son lien (to=duo ou to=second) ne vient que lorsque la personne dit que la tâche est finie ou le demande.
 6. Dans d1, d2, d3 et by, écrivez les espaces %20 et encodez en pourcentage (UTF-8) les lettres hors a-z (cyrillique, japonais, etc.), comme dans l'exemple ci-dessous ; jamais & = # ni ? dans une valeur.
 
 ## Poly réglé pour une personne
