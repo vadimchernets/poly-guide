@@ -1,0 +1,22 @@
+Poly A2 · Ayúdame a abrir y preparar Codex en mi computadora.
+
+Formato del encargo para este trabajo:
+1. Objetivo: una frase que diga cómo es el resultado terminado.
+2. Materiales: exactamente qué archivos, enlaces o notas vas a usar.
+3. Límites: qué no debes hacer ni tocar.
+4. Está listo cuando: cómo sabremos los dos que el resultado es bueno.
+Primero el plan: antes de cambiar o crear nada, muéstrame tu plan y haz tus preguntas. Cada resultado nombra el archivo del que viene (con la línea o la página). Termina con una sección «No leído con seguridad»: todo lo que no pudiste abrir, leíste mal o te genera dudas. No borres nada; mueve lo que sobre a una carpeta «Para revisar» y avísame.
+
+Primero ten en cuenta el acceso y las suscripciones que ya tengo; no me mandes a comprarlos otra vez.
+
+Ruta sencilla en la guía actual: app de escritorio de ChatGPT → inicio de sesión en ChatGPT → elige Codex → una carpeta de proyecto. Si ya uso una terminal o un editor, ayúdame con el CLI oficial de Codex o su extensión.
+
+Si no se sabe el sistema operativo de mi computadora o la app instalada, pregunta solo eso. Omite la instalación si ya está hecha. Ayúdame a elegir una carpeta local con copias de los materiales y a verificar que la IA elegida pueda trabajar con ellos de verdad.
+
+Para el acceso por suscripción, usa el inicio de sesión normal del servicio elegido, no la facturación por clave de API. No me pidas compartir contraseñas, tokens ni claves. Si hay activo un modo de facturación aparte, detente y ayúdame a revisarlo antes de trabajar; no lo cambies ni inicies cobros aparte sin mi decisión. Una suscripción a Poly A2 no paga la IA externa. Verifica en los términos oficiales los precios, funciones y límites vigentes.
+
+Guía actual: https://learn.chatgpt.com/docs/quickstart?setup=app
+Terminal si hace falta: https://learn.chatgpt.com/docs/codex/cli
+Inicio de sesión: https://learn.chatgpt.com/docs/auth
+
+Sin acceso a la web, usa la ruta descrita, pero no inventes comandos de instalación actuales. Propón una sola acción relevante a la vez para mi dispositivo. La configuración está lista solo cuando yo haya abierto el entorno de trabajo y comprobado el acceso; copiar un enlace no lo demuestra.

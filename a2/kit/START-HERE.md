@@ -30,3 +30,19 @@ AGENTS.md и CLAUDE.md здесь — шаблоны, а не автоматич
 4. Готово, когда: как вы вместе поймёте, что результат хороший.
 
 Сначала план: до любых изменений покажите человеку план и задайте вопросы. У каждого вывода назовите файл, откуда он взят, со строкой или страницей. В конце дайте раздел «Не прочёл уверенно»: всё, что не удалось открыть, плохо читается или вызывает сомнение. Ничего не удаляйте; лишнее переместите в папку «На просмотр» и скажите об этом. Тот же текст на 11 языках собирает приложение: src/firstMonthPaths.ts, assignmentTemplate.
+
+[codex-plugin-cc — en · zh · hi · es · fr · pt · ru · de · ja · ko · uk](adapters/CODEX-PLUGIN-CC.md)
+
+## Poly A2
+
+en: [Save my checking rules](tools/QUALITY-SKILL.md) · [Compare two ways of working](tools/SKILL-TRIAL.md)
+ru: [Сохранить свои правила проверки](tools/QUALITY-SKILL.md) · [Сравнить два способа работы](tools/SKILL-TRIAL.md)
+zh: [保存我的检查规则](tools/QUALITY-SKILL.md) · [比较两种做法](tools/SKILL-TRIAL.md)
+hi: [जाँच के अपने नियम सहेजें](tools/QUALITY-SKILL.md) · [काम के दो तरीके तुलना करें](tools/SKILL-TRIAL.md)
+es: [Guardar mis reglas de revisión](tools/QUALITY-SKILL.md) · [Comparar dos formas de trabajar](tools/SKILL-TRIAL.md)
+fr: [Garder mes règles de vérification](tools/QUALITY-SKILL.md) · [Comparer deux façons de travailler](tools/SKILL-TRIAL.md)
+pt: [Guardar minhas regras de revisão](tools/QUALITY-SKILL.md) · [Comparar duas formas de trabalhar](tools/SKILL-TRIAL.md)
+de: [Meine Prüfregeln speichern](tools/QUALITY-SKILL.md) · [Zwei Arbeitsweisen vergleichen](tools/SKILL-TRIAL.md)
+ja: [自分の確認ルールを保存する](tools/QUALITY-SKILL.md) · [二つの進め方を比べる](tools/SKILL-TRIAL.md)
+ko: [내 확인 규칙 저장하기](tools/QUALITY-SKILL.md) · [두 가지 작업 방식 비교하기](tools/SKILL-TRIAL.md)
+uk: [Зберегти свої правила перевірки](tools/QUALITY-SKILL.md) · [Порівняти два способи роботи](tools/SKILL-TRIAL.md)

@@ -1,0 +1,22 @@
+Poly A2 · Ajude-me a abrir e preparar o Codex no meu computador.
+
+Formato do pedido para este trabalho:
+1. Objetivo: uma frase dizendo como é o resultado pronto.
+2. Materiais: exatamente quais arquivos, links ou anotações você vai usar.
+3. Limites: o que você não deve fazer nem tocar.
+4. Está pronto quando: como nós dois saberemos que o resultado é bom.
+Primeiro o plano: antes de alterar ou criar qualquer coisa, mostre-me seu plano e faça suas perguntas. Cada resultado cita o arquivo de onde veio (com a linha ou a página). Termine com uma seção “Não li com segurança”: tudo o que você não conseguiu abrir, leu mal ou sobre o que tem dúvida. Não apague nada; mova o que sobrar para uma pasta “Para revisar” e me avise.
+
+Primeiro leve em conta os acessos e assinaturas que eu já tenho; não me mande comprá-los de novo.
+
+Caminho simples no guia atual: app do ChatGPT para computador → login no ChatGPT → escolher Codex → uma pasta de projeto. Se eu já uso um terminal ou editor, ajude-me com o Codex CLI oficial ou com a extensão.
+
+Se o sistema do meu computador ou o app instalado for desconhecido, pergunte somente isso. Pule a instalação se ela já estiver feita. Ajude-me a escolher uma pasta local com cópias dos materiais e a verificar se a IA escolhida realmente consegue trabalhar com eles.
+
+Para o acesso por assinatura, use o login normal no serviço escolhido, não a cobrança por chave de API. Não me peça para compartilhar senhas, tokens ou chaves. Se houver outro modo de cobrança ativo, pare e me ajude a conferir antes do trabalho; não mude isso nem inicie cobranças separadas sem uma decisão minha. A assinatura do Poly A2 não paga a IA externa. Confira preços, recursos e limites atuais nos termos oficiais.
+
+Guia atual: https://learn.chatgpt.com/docs/quickstart?setup=app
+Terminal, se quiser: https://learn.chatgpt.com/docs/codex/cli
+Login: https://learn.chatgpt.com/docs/auth
+
+Sem acesso à web, siga o caminho descrito, mas não invente comandos de instalação atuais. Ofereça uma ação relevante por vez para o meu dispositivo. A configuração só está pronta quando eu tiver aberto o ambiente de trabalho e conferido o acesso; copiar um link não prova isso.

@@ -1,0 +1,22 @@
+Poly A2 · Aide-moi à ouvrir et préparer Claude Code sur mon ordinateur.
+
+Format de la consigne pour ce travail :
+1. Objectif : une phrase qui dit à quoi ressemble le résultat terminé.
+2. Matériaux : exactement quels fichiers, liens ou notes vous utilisez.
+3. Limites : ce que vous ne devez pas faire ni toucher.
+4. C’est terminé quand : comment nous saurons tous les deux que le résultat est bon.
+D’abord le plan : avant de modifier ou de créer quoi que ce soit, montrez-moi votre plan et posez vos questions. Chaque résultat indique le fichier d’où il vient (avec la ligne ou la page). Terminez par une section « Non lu avec certitude » : tout ce que vous n’avez pas pu ouvrir, mal lu ou dont vous doutez. Ne supprimez rien ; déplacez le superflu dans un dossier « À examiner » et dites-le-moi.
+
+D'abord, tiens compte de mes accès et abonnements existants ; ne m'envoie pas les racheter.
+
+Voie simple : application officielle Claude pour ordinateur → votre compte → onglet Code → un dossier local. Un terminal séparé n'est pas nécessaire sur cette voie.
+
+Si le système de mon ordinateur ou l'application installée est inconnu, demande-moi uniquement cela. Saute l'installation si elle est déjà faite. Aide-moi à choisir un dossier local avec des copies des documents et à vérifier que l'IA choisie peut vraiment travailler avec.
+
+Pour l'accès par abonnement, utilise la connexion normale au service choisi, pas la facturation par clé API. Ne me demande pas de partager mots de passe, jetons ou clés. Si un mode de facturation séparé est actif, arrête-toi et aide-moi à le vérifier avant de travailler ; ne le change pas et ne lance pas de frais séparés sans ma décision. Un abonnement Poly A2 ne paie pas l'IA externe. Vérifie les prix, fonctions et limites actuels dans les conditions officielles.
+
+Guide actuel : https://code.claude.com/docs/en/desktop-quickstart
+Terminal si besoin : https://code.claude.com/docs/en/quickstart
+Connexion : https://code.claude.com/docs/en/authentication
+
+Sans accès au web, suis la voie décrite mais n'invente pas de commandes d'installation actuelles. Propose une seule action utile à la fois pour mon appareil. L'installation n'est prête que lorsque j'ai ouvert l'environnement de travail et vérifié l'accès ; copier un lien ne le prouve pas.

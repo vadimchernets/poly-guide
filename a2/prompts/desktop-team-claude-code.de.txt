@@ -1,0 +1,33 @@
+Poly A2 · Zwei KI in einem Fenster. Du bist die Leitung Claude Code; binde Codex über das installierte Kommandozeilenwerkzeug auf meinem Computer als unabhängigen Prüfer an.
+
+Auftragsformat für diese Arbeit:
+1. Ziel: ein Satz, der sagt, wie das fertige Ergebnis aussieht.
+2. Material: genau welche Dateien, Links oder Notizen Sie verwenden.
+3. Grenzen: was Sie nicht tun oder anfassen dürfen.
+4. Fertig, wenn: woran wir beide erkennen, dass das Ergebnis gut ist.
+Erst der Plan: Bevor Sie etwas ändern oder anlegen, zeigen Sie mir Ihren Plan und stellen Sie Ihre Fragen. Jede Ausgabe nennt die Datei, aus der sie stammt (mit Zeile oder Seite). Am Ende ein Abschnitt „Nicht sicher gelesen“: alles, was Sie nicht öffnen oder nicht gut lesen konnten oder bei dem Sie unsicher sind. Löschen Sie nichts; verschieben Sie Überflüssiges in einen Ordner „Zum Prüfen“ und sagen Sie mir Bescheid.
+
+Poly A2 · guide.md
+https://polyhelper.ai/g/a2.md
+Poly A2 · manifest.json
+https://polyhelper.ai/g/a2-kit/manifest.json
+https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
+
+Antworte in meiner gewählten Sprache (de). Finde adapters/poly_second.py und adapters/README.md im Poly A2-Computerpaket. Lies die Anleitung und führe dann doctor für das zweite Werkzeug aus. Fehlt das Paket, sage es; diese Nachricht installiert es nicht. Nutze nach meiner Zustimmung zu einem begrenzten externen Aufruf review mit --provider codex oder --provider claude-code und nur freigegebene Eingaben. Vergleiche die erhaltene Antwort mit den Originalen.
+
+Ich bleibe in diesem Leitungsfenster. Bitte mich nicht, Antworten zwischen Chats zu verschieben. Prüfe zuerst, ob das zweite Werkzeug installiert und über mein berechtigtes Abo angemeldet ist. Gib keine Tokens, Anmeldedateien oder API-Schlüssel aus oder kopiere sie; aktiviere keine separate API-Abrechnung. Fehlt Installation oder Anmeldung, hilf beim Einrichten und behaupte nicht, die Verbindung sei bereit.
+
+Wenn ich sowohl Claude Code als auch Codex habe, gibt es einen weiteren Weg, Codex einzubinden: das Codex-Plugin für Claude Code. Installiere es nur mit meiner Erlaubnis, ein Befehl nach dem anderen: /plugin marketplace add openai/codex-plugin-cc, dann /plugin install codex@openai-codex, dann /reload-plugins, dann /codex:setup. Falls Codex nicht angemeldet ist, führe !codex login aus und melde dich mit meinem vorhandenen Konto an. Danach bitte um eine Prüfung mit /codex:review --background, lies sie mit /codex:result und nutze vor einer Veröffentlichung /codex:adversarial-review. Nutze nur meine vorhandenen Abos und richte keine kostenpflichtige API-Abrechnung ein. Diese Befehle stammen aus der README des Plugins (geprüft am 7. November 2026) und wurden von Poly A2 nicht ausgeführt; weicht die lokale Hilfe ab, gilt die lokale Hilfe.
+
+Prüfe die aktuellen offiziellen Anleitungen zum Ausführen und die verfügbaren Beschränkungen. Beginne mit einem begrenzten, nur lesenden Prüflauf: Sende nur den nötigen Auftrag und freigegebene Quellen, setze ein Zeitlimit und erlaube keine Dateiänderungen und keine weiteren KI. Gib die tatsächliche Ausgabe und den Status in diesem Fenster zurück, prüfe Fehler oder fehlenden Zugriff und vergleiche dann seine Anmerkungen mit den Originalbelegen. Weder ein Fehlschlag noch die Übereinstimmung der Modelle beweist eine abgeschlossene Prüfung.
+
+Poly A2 · Erledigen Sie die Aufgabe und prüfen Sie das Ergebnis. Bleiben Sie in diesem Hauptfenster. Bereiten Sie die Dateien vor und führen Sie die Befehle selbst aus. Lesen Sie tools/WORKFLOW.md und suchen Sie tools/workflow.py im Paket. Falls es fehlt, beziehen Sie es über die angegebene manifest.json und prüfen Sie die Datei-Hashes. Nutzen Sie die bereits erlaubte Aufgabe und Texte; fragen Sie nur nach fehlender Erlaubnis. Erstellen Sie daraus task.txt und approved.txt selbst. Falls new-run bereits besteht, wählen Sie einen neuen Ergebnisordner. Führen Sie im Paketordner aus: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer claude-code --reviewer codex --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Bringen Sie beide echten Antworten hierher zurück. Prüfen Sie jede Aussage der prüfenden KI anhand der Originaldatei, eines Zitats, einer Rechnung oder einer beobachtbaren Änderung. Halten Sie angenommene und verworfene Hinweise mit Belegen fest. Beheben Sie nur bestätigte Probleme innerhalb meiner Erlaubnis und prüfen Sie die fertigen Dateien. Zeigen Sie den Speicherort. Verlangen Sie von mir weder Befehle noch das Übertragen von Antworten zwischen Chats. Eine kopierte Nachricht oder die Zustimmung zweier KI beweist keinen Erfolg. Nutzen Sie hier workflow statt eines zusätzlichen review-Aufrufs über den Adapter.
+
+Nach einer echten Aufgabe und einer unabhängigen Prüfung können wir auf mehrere verschiedene Rollen erweitern, dann auf eine wiederholbare Abfolge mit klaren Prüfungen, Abbruchbedingungen und meiner Ausgabengrenze. Starte keine langen oder kostenpflichtigen Läufe ohne meine Entscheidung.
+
+Codex: https://learn.chatgpt.com/docs/non-interactive-mode
+Codex-Anmeldung: https://learn.chatgpt.com/docs/auth
+Claude Code: https://code.claude.com/docs/en/headless
+Claude Code-Anmeldung: https://code.claude.com/docs/en/authentication
+
+Sieh ohne Webzugriff zuerst die lokale Hilfe und die tatsächlich installierten Funktionen an; erfinde keine Optionen und keine erfolgreiche Ausführung. Poly A2 hat diesen Auftrag nur vorbereitet und führt selbst keine Befehle aus und liest das Terminal nicht.

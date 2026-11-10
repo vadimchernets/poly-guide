@@ -78,6 +78,20 @@
       "automaticRetries": false,
       "maximumCalls": 3,
       "verification": "Process has local checks; real new AI runs and useful result require explicit permission and source comparison."
+    },
+    {
+      "path": "tools/quality_skill.py",
+      "purpose": "Save personal review rules as a portable skill; check every quote against actual source lines",
+      "requires": "Python3 standard library",
+      "network": false,
+      "verification": "Quote traceability and file integrity only; usefulness and independent with/without-skill effect need actual observation."
+    },
+    {
+      "path": "tools/skill_trial.py",
+      "purpose": "Blind three-case comparison, saved choices before revealing origins; preserves task/source/answer hashes",
+      "requires": "Python3 standard library",
+      "network": false,
+      "verification": "Quote traceability and file integrity only; usefulness and independent with/without-skill effect need actual observation."
     }
   ]
 }

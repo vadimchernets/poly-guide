@@ -5,8 +5,8 @@
   "files": [
     {
       "file": "START-HERE.md",
-      "bytes": 8796,
-      "sha256": "ca41801737a39c9c8ee9b4fcc849582035560296ee94472ce4c52e786678ccab"
+      "bytes": 10409,
+      "sha256": "5fcdc37c451c48f7fa197cf4cd10088e424d02833343170d8dd031198fdfe60d"
     },
     {
       "file": "CONTINUATION.json",
@@ -15,8 +15,8 @@
     },
     {
       "file": "TOOLS.json",
-      "bytes": 3005,
-      "sha256": "fb95a88de4c94b660262915304068b8f757207ef27878c72e9c8e2cf879b0508"
+      "bytes": 3780,
+      "sha256": "b8514e42aff9b3ae72435d59be0e1daaf9f3e757e910f42dd332a16d2b600349"
     },
     {
       "file": "AGENTS.md",
@@ -50,13 +50,18 @@
     },
     {
       "file": "adapters/README.md",
-      "bytes": 6269,
-      "sha256": "ad52b77201e86db6ad5ea80f68a2d1f8a418589506dbfb58f2fbe221c97578d7"
+      "bytes": 6613,
+      "sha256": "0cb31db4da2b6059a30b235ab7d8952c4606a83bf5cfd34b1faf912e8a736844"
     },
     {
       "file": "tools/materials.py",
       "bytes": 8079,
       "sha256": "faaa129db55f4af3ebff58ad1c54d794a53932e56ba35ae231d385e2da55e3de"
+    },
+    {
+      "file": "adapters/CODEX-PLUGIN-CC.md",
+      "bytes": 10522,
+      "sha256": "8592caa7b6d7d30c83e5f94f458850be8a7d3370bb1d4a4412a1fce8d2c8241b"
     },
     {
       "file": "tools/MATERIALS.md",
@@ -95,13 +100,13 @@
     },
     {
       "file": "tools/continuation.py",
-      "bytes": 7826,
-      "sha256": "fba5b676b178471b3c12de0bb88ce983371b924e04852fb2f69d708ae3a0d3bf"
+      "bytes": 8296,
+      "sha256": "da0ba105a73f3b83831c2b7c7bf90925dcf0122ad9763e9c39b48659a61c2177"
     },
     {
       "file": "tools/CONTINUATION.md",
-      "bytes": 3961,
-      "sha256": "59f815b5d7db4ff000a24349ee58c888b51dd3b62a93ed79983a25add509aea5"
+      "bytes": 4617,
+      "sha256": "c967e3d589bed20540550fbfe7d9bf47a82e702ed5aa61a14fa166d7f2e943ce"
     },
     {
       "file": "tools/workflow.py",
@@ -112,6 +117,31 @@
       "file": "tools/WORKFLOW.md",
       "bytes": 5527,
       "sha256": "3068ae4bc5e6db619865919abae813d105d20ed3dd258207ad76e0d244590338"
+    },
+    {
+      "file": "tools/quality_skill.py",
+      "bytes": 7032,
+      "sha256": "f84d05d58c097f8cce57f84c906816baeca84ef6fac5fe07990cabb1e159cf41"
+    },
+    {
+      "file": "tools/skill_trial.py",
+      "bytes": 6858,
+      "sha256": "63aa8241d55e585fd6edfafbd71d87587c10323ce5830d7b4e3ff305e12b976b"
+    },
+    {
+      "file": "tools/QUALITY-TEXT.json",
+      "bytes": 32507,
+      "sha256": "174f4be6d2fb177bb222d6a6eee9c33f83f56d4e020ca710cc2622ec7d6316d9"
+    },
+    {
+      "file": "tools/QUALITY-SKILL.md",
+      "bytes": 13000,
+      "sha256": "da1d7bd4209f1ca7f395482fc1fd636054f89f767bff59c17cbec457a87a2c97"
+    },
+    {
+      "file": "tools/SKILL-TRIAL.md",
+      "bytes": 15685,
+      "sha256": "caf4e1ad0254b487d67bb13ea730fa060ed234ced82bb64389dc16f3491d0517"
     }
   ]
 }

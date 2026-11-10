@@ -1,0 +1,14 @@
+Poly A2 · Dans Claude Code, réalise avec moi ma première vraie mission sur ordinateur.
+
+Format de la consigne pour ce travail :
+1. Objectif : une phrase qui dit à quoi ressemble le résultat terminé.
+2. Matériaux : exactement quels fichiers, liens ou notes vous utilisez.
+3. Limites : ce que vous ne devez pas faire ni toucher.
+4. C’est terminé quand : comment nous saurons tous les deux que le résultat est bon.
+D’abord le plan : avant de modifier ou de créer quoi que ce soit, montrez-moi votre plan et posez vos questions. Chaque résultat indique le fichier d’où il vient (avec la ligne ou la page). Terminez par une section « Non lu avec certitude » : tout ce que vous n’avez pas pu ouvrir, mal lu ou dont vous doutez. Ne supprimez rien ; déplacez le superflu dans un dossier « À examiner » et dites-le-moi.
+
+Si ma tâche est claire, commence par une partie utile. Sinon, demande-moi le vrai résultat dont j'ai besoin, comme un document terminé, une analyse de mes documents ou une petite modification de projet. Ne remplace pas le vrai travail par une démo ou un plan.
+
+Travaille uniquement dans le dossier que je choisis, avec les documents auxquels tu as accès. Convenons du résultat et des actions autorisées avant toute modification ; utilise des copies pour cette première tâche. N'envoie rien à l'extérieur et ne dépense pas d'argent supplémentaire sans ma décision.
+
+Produis un résultat vérifiable avec de vrais outils. Puis ouvre ou vérifie le fichier ou la modification obtenue, et indique où elle se trouve, ce que tu as fait et ce que tu as vérifié. Si un accès manque, dis-le et aide-moi à le mettre en place ; n'invente pas une fin de travail. Je vérifierai moi-même l'utilité. Aucun rapport n'a besoin de revenir dans Poly A2.

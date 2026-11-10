@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Poly A2는 AI를 더 잘 활용하도록 도와요. 실제 작업을 맡기고, 서로 다른 AI를 함께 쓰세요. 편안한 속도로요.">
+  <title>Poly A2 — 내 AI를 더 잘 활용하기</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
+  </style>
+</head>
+<body>
+<main>
+  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly A2</a></header>
+  <div class="eyebrow">명확하게. 쓸모 있게. 내 실제 작업에.</div>
+  <h1>내 AI가 할 수 있는 일을 더 열어 보세요.</h1>
+  <p>이미 쓰는 AI를 열고 준비된 Poly A2 메시지를 붙여넣으세요. 실제 작업을 도와주고 다음에 해 볼 것도 제안해요. AI에게 작업 전체를 맡기거나, 다른 AI에게 결과를 확인하게 하는 거예요.</p>
+  <section class="card" aria-labelledby="start-title">
+    <h2 id="start-title">편한 곳에서 시작하세요</h2>
+    <label for="provider">내 AI</label>
+    <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
+    <div class="actions"><button id="copy" type="button">Poly A2 메시지 복사</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">선택한 AI 열기</a></div>
+    <p class="note">그다음 현재 대화나 새 대화에 메시지를 붙여넣고 보내세요. 거기서 계속 작업하세요. 앱 없이 브라우저에서도 시작할 수 있어요. 서비스에서 로그인을 요청할 수 있어요.</p>
+    <div id="status" class="status note" role="status" aria-live="polite"></div>
+    <details id="fallback"><summary>메시지를 보거나 직접 복사하기</summary><pre id="prompt">Poly A2 텍스트를 불러오는 중…</pre><a href="/g/a2-prompts/start.ko.txt">메시지 텍스트 열기</a></details>
+  </section>
+  <h2>내 AI는 빠른 답 이상을 할 수 있어요</h2>
+  <p>검색, 깊이 있는 답변, 파일, 이미지. Poly A2는 내 실제 작업에 맞는 기능을 시도하게 도와주고, 그다음 AI에게 더 많은 일을 맡기고 서로 다른 AI를 함께 쓰게 해 줘요.</p>
+  <p>컴퓨터에서는 작업을 직접 수행하는 AI를 써 볼 수 있어요. 예를 들어 파일 작업을 도와줘요. 알맞은 구독은 쓸 수 있는 도구와 한도를 넓혀 줘요. 먼저 이미 결제한 요금제에 무엇이 포함되는지 확인하세요.</p>
+  <div class="actions"><a class="button secondary" href="/g/a2.ko.md">내 AI를 위한 Poly A2 안내</a></div>
+  <p class="note">모바일 버전과 Mac 동반 앱은 개발 중이에요. 별도의 Poly A2 앱이 공개되면 스토어 링크가 나타나요. 복사하거나 서비스를 열었다고 해서 AI가 메시지를 받았거나 작업을 끝냈다는 뜻은 아니에요. 기본 텍스트는 안내를 읽지 않아도 작동해요.</p>
+  <noscript><p class="note"><a href="/g/a2-prompts/start.ko.txt">JavaScript 없이 복사하려면 Poly A2 시작 메시지를 열어 선택한 AI로 옮기세요.</a></p></noscript>
+  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.ko.md">개인정보</a><a href="/g/a2-terms.ko.md">Poly A2 약관</a></footer>
+</main>
+<script>
+(() => {
+  const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
+  let text='';
+  const loading=fetch('/g/a2-prompts/start.ko.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="텍스트를 아직 쓸 수 없어요. 패키지가 공개된 뒤에 아래의 메시지 링크를 여세요.";return '';});
+  provider.addEventListener('change',()=>{open.href=provider.value;});
+  document.getElementById('copy').addEventListener('click',async()=>{
+    if(!text)await loading;
+    if(!text){status.textContent="텍스트를 아직 쓸 수 없어요. 링크로 메시지를 열거나 Poly A2 앱을 여세요.";fallback.open=true;return;}
+    try{await navigator.clipboard.writeText(text);status.textContent="메시지를 복사했어요. 내 AI를 열고 텍스트를 붙여넣어 보내세요.";}
+    catch{status.textContent="아래 메시지를 선택해서 복사한 다음 내 AI를 여세요.";fallback.open=true;}
+  });
+})();
+</script>
+</body>
+</html>

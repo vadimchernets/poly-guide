@@ -1,0 +1,31 @@
+Poly A2 · Dos IA en una sola ventana. Tú eres Codex, quien dirige; conecta a Claude Code como revisor independiente mediante su herramienta de línea de comandos instalada en mi computadora.
+
+Formato del encargo para este trabajo:
+1. Objetivo: una frase que diga cómo es el resultado terminado.
+2. Materiales: exactamente qué archivos, enlaces o notas vas a usar.
+3. Límites: qué no debes hacer ni tocar.
+4. Está listo cuando: cómo sabremos los dos que el resultado es bueno.
+Primero el plan: antes de cambiar o crear nada, muéstrame tu plan y haz tus preguntas. Cada resultado nombra el archivo del que viene (con la línea o la página). Termina con una sección «No leído con seguridad»: todo lo que no pudiste abrir, leíste mal o te genera dudas. No borres nada; mueve lo que sobre a una carpeta «Para revisar» y avísame.
+
+Poly A2 · guide.md
+https://polyhelper.ai/g/a2.md
+Poly A2 · manifest.json
+https://polyhelper.ai/g/a2-kit/manifest.json
+https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
+
+Responde en el idioma que elegí (es). Busca adapters/poly_second.py y adapters/README.md en el paquete para ordenador de Poly A2. Lee las instrucciones y ejecuta doctor para la segunda herramienta. Si falta el paquete, indícalo; este mensaje no lo instala. Tras mi permiso para una llamada externa acotada, usa review con --provider codex o --provider claude-code y solo los datos autorizados. Contrasta la respuesta recibida con los originales.
+
+Yo me quedo en esta ventana principal. No me pidas pasar respuestas de un chat a otro. Primero comprueba que la segunda herramienta esté instalada y con sesión iniciada mediante mi suscripción válida. No muestres ni copies tokens, archivos de sesión ni claves de API; no actives facturación aparte por API. Si falta la instalación o el inicio de sesión, ayúdame a configurarlo y no afirmes que la conexión está lista.
+
+Revisa las instrucciones oficiales vigentes para ejecutar y las restricciones disponibles. Empieza con una sola ejecución de revisión acotada y de solo lectura: envía solo la tarea necesaria y las fuentes autorizadas, fija un tiempo límite y no permitas editar archivos ni lanzar más IA. Devuelve a esta ventana su resultado y estado reales, revisa errores o accesos que falten y luego compara sus comentarios con la evidencia original. Ni un fallo ni el acuerdo entre modelos demuestra que la revisión esté completa.
+
+Poly A2 · Haga el trabajo y compruebe el resultado. Permanezca en esta ventana principal. Prepare los archivos y ejecute los comandos usted mismo. Lea tools/WORKFLOW.md y busque tools/workflow.py en el conjunto. Si falta, obténgalo mediante el manifest.json indicado y compruebe las huellas de los archivos. Use la tarea y los textos ya autorizados; pida solo el permiso que falte. Cree task.txt y approved.txt con esos textos. Si new-run existe, elija una carpeta nueva para el resultado. Desde la carpeta del conjunto, ejecute: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer codex --reviewer claude-code --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Devuelva aquí ambas respuestas reales. Compruebe cada afirmación de la IA revisora con el archivo original, una cita, un cálculo o un cambio observable. Anote las observaciones aceptadas y rechazadas con pruebas. Corrija solo los problemas confirmados dentro de mi autorización y compruebe los archivos finales. Muestre dónde guardó el resultado. No me pida preparar comandos ni trasladar respuestas entre chats. Copiar un mensaje o el acuerdo entre dos IA no demuestra éxito. Para esta tarea, use workflow en lugar de llamar a review por separado.
+
+Tras una tarea real y una revisión independiente, podemos crecer a varios roles distintos y luego a una secuencia repetible con comprobaciones claras, condiciones de parada y mi límite de gasto. No inicies ejecuciones largas o de pago sin mi decisión.
+
+Codex: https://learn.chatgpt.com/docs/non-interactive-mode
+Inicio de sesión de Codex: https://learn.chatgpt.com/docs/auth
+Claude Code: https://code.claude.com/docs/en/headless
+Inicio de sesión de Claude Code: https://code.claude.com/docs/en/authentication
+
+Sin acceso a la web, primero inspecciona la ayuda local y las capacidades realmente instaladas; no inventes opciones ni una ejecución exitosa. Poly A2 preparó esta tarea, pero no ejecuta comandos ni lee la terminal por sí misma.

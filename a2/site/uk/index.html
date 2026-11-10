@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Poly A2 допомагає отримувати від ШІ більше: доручайте йому справжні завдання й користуйтеся різними ШІ разом, у зручному для вас темпі.">
+  <title>Poly A2 — отримайте від свого ШІ більше</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
+  </style>
+</head>
+<body>
+<main>
+  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly A2</a></header>
+  <div class="eyebrow">Зрозуміло. Корисно. На вашому справжньому завданні.</div>
+  <h1>Відкрийте більше з того, що вміє ваш ШІ.</h1>
+  <p>Відкрийте ШІ, яким ви вже користуєтеся, і вставте готове повідомлення Poly A2. Воно допоможе зі справжнім завданням і підкаже, що спробувати далі: доручити ШІ завдання повністю або попросити інший ШІ перевірити результат.</p>
+  <section class="card" aria-labelledby="start-title">
+    <h2 id="start-title">Почніть там, де вам зручно</h2>
+    <label for="provider">Ваш ШІ</label>
+    <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
+    <div class="actions"><button id="copy" type="button">Копіювати повідомлення Poly A2</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Відкрити обраний ШІ</a></div>
+    <p class="note">Потім вставте повідомлення в поточну або нову розмову й надішліть. Продовжуйте працювати там. Почати можна в браузері без застосунку; сервіс може попросити ввійти.</p>
+    <div id="status" class="status note" role="status" aria-live="polite"></div>
+    <details id="fallback"><summary>Переглянути повідомлення або скопіювати вручну</summary><pre id="prompt">Завантажуємо текст Poly A2…</pre><a href="/g/a2-prompts/start.uk.txt">Відкрити текст повідомлення</a></details>
+  </section>
+  <h2>Ваш ШІ вміє більше, ніж швидка відповідь</h2>
+  <p>Пошук, продумані відповіді, файли й зображення. Poly A2 допомагає спробувати потрібну функцію на вашому справжньому завданні, а потім доручити ШІ більше роботи й користуватися різними ШІ разом.</p>
+  <p>На комп&#39;ютері можна спробувати ШІ, який виконує доручення: наприклад, допомагає працювати з файлами. Відповідна підписка розширює доступні інструменти й ліміти; спершу перевірте можливості вже сплаченого плану.</p>
+  <div class="actions"><a class="button secondary" href="/g/a2.uk.md">Посібник Poly A2 для вашого ШІ</a></div>
+  <p class="note">Мобільна версія та супутник для Mac у розробці. Посилання на магазини з&#39;являться після публікації окремого застосунку Poly A2. Копіювання й відкриття сервісу не означають, що ШІ отримав повідомлення чи завершив завдання. Базовий текст працює без читання посібника.</p>
+  <noscript><p class="note"><a href="/g/a2-prompts/start.uk.txt">Щоб скопіювати без JavaScript, відкрийте початкове повідомлення Poly A2 і перенесіть його в обраний вами ШІ.</a></p></noscript>
+  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.uk.md">Конфіденційність</a><a href="/g/a2-terms.uk.md">Умови Poly A2</a></footer>
+</main>
+<script>
+(() => {
+  const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
+  let text='';
+  const loading=fetch('/g/a2-prompts/start.uk.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="Текст поки що недоступний. Після публікації пакета відкрийте посилання на повідомлення нижче.";return '';});
+  provider.addEventListener('change',()=>{open.href=provider.value;});
+  document.getElementById('copy').addEventListener('click',async()=>{
+    if(!text)await loading;
+    if(!text){status.textContent="Текст поки що недоступний. Відкрийте повідомлення за посиланням або відкрийте застосунок Poly A2.";fallback.open=true;return;}
+    try{await navigator.clipboard.writeText(text);status.textContent="Повідомлення скопійовано. Відкрийте свій ШІ, вставте текст і надішліть.";}
+    catch{status.textContent="Виділіть і скопіюйте повідомлення нижче, а потім відкрийте свій ШІ.";fallback.open=true;}
+  });
+})();
+</script>
+</body>
+</html>

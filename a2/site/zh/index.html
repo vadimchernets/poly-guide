@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Poly A2 帮您从 AI 中获得更多：把真实的任务交给它，并把不同的 AI 一起使用，节奏由您掌握。">
+  <title>Poly A2 — 从您的 AI 中获得更多</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
+  </style>
+</head>
+<body>
+<main>
+  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub 上的 Poly A2</a></header>
+  <div class="eyebrow">清晰。有用。落在您的真实任务上。</div>
+  <h1>释放您的 AI 的更多能力。</h1>
+  <p>打开您已经在用的 AI，粘贴现成的 Poly A2 消息。它会帮您处理真实的任务，并提示您接下来可以试什么：把整个任务交给 AI，或请另一个 AI 检查结果。</p>
+  <section class="card" aria-labelledby="start-title">
+    <h2 id="start-title">从适合您的地方开始</h2>
+    <label for="provider">您的 AI</label>
+    <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
+    <div class="actions"><button id="copy" type="button">复制 Poly A2 消息</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">打开所选的 AI</a></div>
+    <p class="note">然后把消息粘贴到当前的或新的对话中并发送。继续在那里工作。没有应用也可以在浏览器里开始；服务可能会要求您登录。</p>
+    <div id="status" class="status note" role="status" aria-live="polite"></div>
+    <details id="fallback"><summary>查看消息，或手动复制</summary><pre id="prompt">正在加载 Poly A2 的文字……</pre><a href="/g/a2-prompts/start.zh.txt">打开消息文本</a></details>
+  </section>
+  <h2>您的 AI 能做的，不止是快速回答</h2>
+  <p>搜索、深思熟虑的回答、文件和图像。Poly A2 帮您在真实的任务上试用合适的功能，然后把更多工作交给 AI，并把不同的 AI 一起使用。</p>
+  <p>在电脑上，您可以试试能替您执行任务的 AI：例如，帮您处理文件。合适的订阅会扩展可用的工具和限额；请先查看您已付费的方案包含什么。</p>
+  <div class="actions"><a class="button secondary" href="/g/a2.zh.md">给您的 AI 的 Poly A2 指南</a></div>
+  <p class="note">手机版和 Mac 伙伴应用正在开发中。单独的 Poly A2 应用发布之后，会出现商店链接。复制和打开服务，并不意味着 AI 收到了消息或完成了任务。基本的文字不用阅读指南也能使用。</p>
+  <noscript><p class="note"><a href="/g/a2-prompts/start.zh.txt">如果不用 JavaScript 复制，请打开 Poly A2 的起始消息，并把它转移到您选的 AI 中。</a></p></noscript>
+  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.zh.md">隐私</a><a href="/g/a2-terms.zh.md">Poly A2 条款</a></footer>
+</main>
+<script>
+(() => {
+  const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
+  let text='';
+  const loading=fetch('/g/a2-prompts/start.zh.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="文字暂时还不可用。软件包发布之后，请打开下面的消息链接。";return '';});
+  provider.addEventListener('change',()=>{open.href=provider.value;});
+  document.getElementById('copy').addEventListener('click',async()=>{
+    if(!text)await loading;
+    if(!text){status.textContent="文字暂时还不可用。请通过链接打开消息，或打开 Poly A2 应用。";fallback.open=true;return;}
+    try{await navigator.clipboard.writeText(text);status.textContent="消息已复制。请打开您的 AI，粘贴文字并发送。";}
+    catch{status.textContent="请选中并复制下面的消息，然后打开您的 AI。";fallback.open=true;}
+  });
+})();
+</script>
+</body>
+</html>

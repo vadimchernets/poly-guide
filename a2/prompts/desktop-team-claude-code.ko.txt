@@ -1,0 +1,33 @@
+Poly A2 · 한 창에서 AI 둘. 당신은 대표 Claude Code입니다. Codex을(를) 내 컴퓨터에 설치된 명령줄 도구로 연결해 독립적인 검토자로 쓰세요.
+
+이 작업의 요청 형식:
+1. 목표: 완성된 결과가 어떤 모습인지 한 문장으로.
+2. 자료: 사용할 파일, 링크, 메모를 구체적으로.
+3. 제한: 하지 말아야 할 일과 건드리지 말아야 할 것.
+4. 완료 조건: 결과가 좋다는 것을 우리 둘이 어떻게 확인할지.
+먼저 계획: 무엇이든 바꾸거나 만들기 전에 계획을 보여 주고 질문하세요. 모든 결과물에는 출처 파일을(줄 또는 쪽 번호와 함께) 적으세요. 마지막에 “확실히 읽지 못한 것” 항목을 두고, 열지 못했거나 잘 읽지 못했거나 확신이 없는 것을 모두 적으세요. 아무것도 삭제하지 말고, 남는 것은 “검토용” 폴더로 옮긴 뒤 알려 주세요.
+
+Poly A2 · guide.md
+https://polyhelper.ai/g/a2.md
+Poly A2 · manifest.json
+https://polyhelper.ai/g/a2-kit/manifest.json
+https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
+
+제가 선택한 언어(ko)로 답하세요. Poly A2 컴퓨터 도구 모음에서 adapters/poly_second.py와 adapters/README.md를 찾으세요. 설명을 읽은 뒤 두 번째 도구에 doctor를 실행하세요. 도구 모음이 없으면 알리세요. 이 메시지는 도구를 설치하지 않습니다. 범위를 제한한 외부 호출을 제가 허용한 뒤 review에 --provider codex 또는 --provider claude-code를 사용하고 승인한 자료만 전달하세요. 돌아온 답을 원본과 대조하세요.
+
+저는 이 대표 창에 머물러요. 답변을 대화 사이에서 옮겨 달라고 하지 마세요. 먼저 두 번째 도구가 설치되어 있고 해당 도구를 이용할 자격이 있는 제 구독으로 로그인되어 있는지 확인하세요. 토큰, 로그인 파일, API 키를 출력하거나 복사하지 말고, 별도의 API 요금은 켜지 마세요. 설치나 로그인이 안 되어 있으면 설정을 도와주고, 연결이 준비되었다고 말하지 마세요.
+
+Claude Code와 Codex가 모두 있다면 Codex를 연결하는 방법이 하나 더 있습니다. Claude Code용 Codex 플러그인입니다. 내 허락을 받은 뒤에만, 명령을 하나씩 설치하세요: /plugin marketplace add openai/codex-plugin-cc, 그다음 /plugin install codex@openai-codex, 그다음 /reload-plugins, 그다음 /codex:setup. Codex에 로그인되어 있지 않으면 !codex login 을 실행하고 내가 이미 가진 계정으로 로그인하세요. 그 뒤 /codex:review --background 로 검토를 요청하고 /codex:result 로 읽고, 배포 전에는 /codex:adversarial-review 를 사용하세요. 내가 이미 가진 구독만 쓰고 유료 API 결제는 설정하지 마세요. 이 명령들은 플러그인 README(2026년 11월 7일 확인)에서 가져온 것이며 Poly A2가 실행해 본 것은 아닙니다. 로컬 도움말이 다르면 로컬 도움말을 따르세요.
+
+현재 공식 실행 안내와 사용할 수 있는 제한 설정을 확인하세요. 범위를 정한 읽기 전용 확인 실행 한 번으로 시작하세요. 꼭 필요한 요청과 허용된 자료만 보내고, 시간 제한을 두고, 파일 수정이나 추가 작업자는 허용하지 마세요. 실제 출력과 상태를 이 창으로 가져와 오류나 빠진 접근 권한을 확인하고, 그 의견을 원본 근거와 비교하세요. 실패했거나 모델끼리 의견이 같다고 해서 확인이 끝났다는 증거는 아니에요.
+
+Poly A2 · 작업을 실행하고 결과를 확인하세요. 이 주도 창에서 계속하세요. 파일 준비와 명령 실행은 직접 하세요. 묶음에서 tools/WORKFLOW.md를 읽고 tools/workflow.py를 찾으세요. 묶음이 없다면 위 manifest.json으로 받아 파일 해시를 확인하세요. 이미 허락한 작업과 글을 사용하고 부족한 허락만 물으세요. 그 글로 task.txt와 approved.txt를 직접 만드세요. new-run이 있으면 새 결과 폴더를 선택하세요. 묶음 폴더에서 실행하세요: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer claude-code --reviewer codex --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. 실제 답변 두 개를 여기로 가져오세요. 검토 AI의 모든 주장을 원본 파일, 인용문, 계산이나 관찰한 변화와 대조하세요. 받아들이거나 거절한 지적을 증거와 함께 기록하세요. 허락한 범위에서 확인된 문제만 고친 뒤 최종 파일을 확인하세요. 결과를 저장한 위치를 알려주세요. 제게 명령 준비나 대화 사이의 답변 옮기기를 요구하지 마세요. 메시지 복사나 두 AI의 동의만으로 성공을 증명할 수 없습니다. 이번 작업에서는 workflow를 사용하고 어댑터의 review를 따로 호출하지 마세요.
+
+실제 작업 하나와 독립적인 확인을 마친 뒤에는 서로 다른 역할 여러 개로, 그다음에는 분명한 확인, 중단 조건, 제가 정한 비용 한도가 있는 반복 가능한 순서로 넓혀 갈 수 있어요. 제 결정 없이 오래 걸리거나 비용이 드는 실행은 시작하지 마세요.
+
+Codex: https://learn.chatgpt.com/docs/non-interactive-mode
+Codex 로그인: https://learn.chatgpt.com/docs/auth
+Claude Code: https://code.claude.com/docs/en/headless
+Claude Code 로그인: https://code.claude.com/docs/en/authentication
+
+웹에 접근할 수 없다면 먼저 로컬 도움말과 실제로 설치된 기능을 확인하세요. 옵션이나 성공적인 실행을 지어내지 마세요. Poly A2는 이 작업 요청서를 준비했을 뿐, 명령을 실행하거나 터미널을 직접 읽지 않아요.
