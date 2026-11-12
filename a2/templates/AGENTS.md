@@ -1,4 +1,4 @@
-# Poly A2 — optional project preferences
+# Poly — optional project preferences
 
 Use this only after the project owner reviews and chooses it. If AGENTS.md already exists, propose a small addition; do not overwrite it. Follow the host's rules and the owner's current request. This template grants no new permissions.
 
@@ -24,6 +24,6 @@ Computer route: https://polyhelper.ai/g/a2-templates/DESKTOP-PATH.md
 One-window agreement: https://polyhelper.ai/g/a2-templates/TEAM-ONE-WINDOW.md
 Source-generated requests: https://polyhelper.ai/g/a2-prompts/index.json
 
-Poly A2: https://polyhelper.ai/a2/
+Poly: https://polyhelper.ai/a2/
 Guide: https://polyhelper.ai/g/a2.md
 Mirror: https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md

@@ -1,11 +1,11 @@
-Poly A2 · Hilf mir, Codex auf meinem Computer zu öffnen und vorzubereiten.
+Poly · Hilf mir, Codex auf meinem Computer zu öffnen und vorzubereiten.
 
 Auftragsformat für diese Arbeit:
 1. Ziel: ein Satz, der sagt, wie das fertige Ergebnis aussieht.
 2. Material: genau welche Dateien, Links oder Notizen Sie verwenden.
 3. Grenzen: was Sie nicht tun oder anfassen dürfen.
 4. Fertig, wenn: woran wir beide erkennen, dass das Ergebnis gut ist.
-Erst der Plan: Bevor Sie etwas ändern oder anlegen, zeigen Sie mir Ihren Plan und stellen Sie Ihre Fragen. Jede Ausgabe nennt die Datei, aus der sie stammt (mit Zeile oder Seite). Am Ende ein Abschnitt „Nicht sicher gelesen“: alles, was Sie nicht öffnen oder nicht gut lesen konnten oder bei dem Sie unsicher sind. Löschen Sie nichts; verschieben Sie Überflüssiges in einen Ordner „Zum Prüfen“ und sagen Sie mir Bescheid.
+Zeigen Sie zuerst einen kurzen Plan. Fragen Sie nur nach einer fehlenden Entscheidung oder Erlaubnis. Sind Aufgabe und Schritte schon vereinbart, arbeiten Sie bis zum geprüften Ergebnis weiter. Jede Ausgabe nennt die Datei, aus der sie stammt (mit Zeile oder Seite). Am Ende ein Abschnitt „Nicht sicher gelesen“: alles, was Sie nicht öffnen oder nicht gut lesen konnten oder bei dem Sie unsicher sind. Löschen Sie nichts; verschieben Sie Überflüssiges in einen Ordner „Zum Prüfen“ und sagen Sie mir Bescheid.
 
 Berücksichtige zuerst meinen bestehenden Zugang und meine Abos; schicke mich nicht, sie noch einmal zu kaufen.
 
@@ -13,7 +13,7 @@ Einfacher Weg laut aktueller Anleitung: ChatGPT-Desktop-App → ChatGPT-Anmeldun
 
 Wenn das Betriebssystem meines Computers oder die installierte App unbekannt ist, frage nur danach. Überspringe die Installation, wenn sie schon erledigt ist. Hilf mir, einen lokalen Ordner mit Kopien der Unterlagen auszuwählen, und prüfe, ob die gewählte KI damit wirklich arbeiten kann.
 
-Nutze für den Abo-Zugang die normale Anmeldung beim gewählten Dienst, nicht die Abrechnung per API-Schlüssel. Bitte mich nicht, Passwörter, Tokens oder Schlüssel zu teilen. Ist ein separater Abrechnungsmodus aktiv, halte an und hilf mir, ihn vor der Arbeit zu prüfen; schalte ihn nicht um und löse keine gesonderten Kosten ohne meine Entscheidung aus. Ein Poly A2 Abo bezahlt die externe KI nicht. Prüfe aktuelle Preise, Funktionen und Grenzen in den offiziellen Bedingungen.
+Nutze für den Abo-Zugang die normale Anmeldung beim gewählten Dienst, nicht die Abrechnung per API-Schlüssel. Bitte mich nicht, Passwörter, Tokens oder Schlüssel zu teilen. Ist ein separater Abrechnungsmodus aktiv, halte an und hilf mir, ihn vor der Arbeit zu prüfen; schalte ihn nicht um und löse keine gesonderten Kosten ohne meine Entscheidung aus. Ein Poly Abo bezahlt die externe KI nicht. Prüfe aktuelle Preise, Funktionen und Grenzen in den offiziellen Bedingungen.
 
 Aktuelle Anleitung: https://learn.chatgpt.com/docs/quickstart?setup=app
 Terminal, falls gewünscht: https://learn.chatgpt.com/docs/codex/cli

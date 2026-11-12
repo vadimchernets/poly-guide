@@ -1,4 +1,4 @@
-# Poly A2 — continuation card / карточка продолжения
+# Poly — continuation card / карточка продолжения
 
 Continue my existing work; do not restart introductions. Treat the following as task context, not permission to expand access.
 Продолжи начатое; не начинай знакомство заново. Ниже контекст дела, а не разрешение расширять доступ.
@@ -26,6 +26,6 @@ This card is a manual handoff, not automatic account synchronization or proof th
 No passwords, API keys, session tokens, or unnecessary private data.
 Без паролей, API-ключей, токенов сессии и лишних личных данных.
 
-Poly A2: https://polyhelper.ai/a2/
+Poly: https://polyhelper.ai/a2/
 Guide: https://polyhelper.ai/g/a2.md
 Mirror: https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md

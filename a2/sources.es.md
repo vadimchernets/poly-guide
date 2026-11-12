@@ -1,4 +1,4 @@
-# Poly A2 — registro de fuentes
+# Poly — registro de fuentes
 
 Revisado: 2026-11-05. Son referencias a la documentación de los proveedores y a repositorios de proyectos, no una prueba de que la cuenta de una persona concreta tenga una función activada. Los planes, el despliegue, las regiones, las cuotas, los modelos, los permisos y las interfaces cambian. Vuelve a abrir la página oficial correspondiente antes de dar consejos de configuración o de compra.
 
@@ -33,7 +33,7 @@ Estas referencias no establecen un servicio gratuito universal, ilimitado y disp
 - Asistencia de dispositivo de Gemini en Android: https://support.google.com/gemini/answer/15235441?hl=en
 - Connected Apps de Gemini: https://support.google.com/gemini/answer/13695044?hl=en
 
-Una alarma en el Reloj de Android, un elemento de Recordatorios de Apple, un evento de Google Calendar, una tarea programada de IA y un recordatorio local de Poly A2 son acciones distintas. La compatibilidad con una no implica la compatibilidad con las demás. Verifica el registro o la tarea reales de destino tras una acción. Abrir una fuente, conectar un servicio y completar una reserva también son estados distintos.
+Una alarma en el Reloj de Android, un elemento de Recordatorios de Apple, un evento de Google Calendar, una tarea programada de IA y un recordatorio local de Poly son acciones distintas. La compatibilidad con una no implica la compatibilidad con las demás. Verifica el registro o la tarea reales de destino tras una acción. Abrir una fuente, conectar un servicio y completar una reserva también son estados distintos.
 
 ## Imágenes y video
 
@@ -72,11 +72,11 @@ Usa la función vigente y compatible de instrucciones o memoria de la herramient
 - Configuración para iPhone: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - Configuración aparte para Android: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-El README del repositorio y la configuración para iPhone se leyeron el 2026-11-05. Poly A2 solo lanza actualmente su ruta compatible de Shortcuts para iPhone con iOS 18 o posterior, tras la confirmación explícita de la instalación; no recibe ni certifica la respuesta. La configuración de Android es una ruta aparte con requisitos distintos. No supongas que las suscripciones propias de ChatGPT/Claude forman automáticamente un par funcional en Android, ni trates el iPad como probado. Las preguntas largas y los límites de las apps y los planes siguen importando.
+El README del repositorio y la configuración para iPhone se leyeron el 2026-11-05. Poly solo lanza actualmente su ruta compatible de Shortcuts para iPhone con iOS 18 o posterior, tras la confirmación explícita de la instalación; no recibe ni certifica la respuesta. La configuración de Android es una ruta aparte con requisitos distintos. No supongas que las suscripciones propias de ChatGPT/Claude forman automáticamente un par funcional en Android, ni trates el iPad como probado. Las preguntas largas y los límites de las apps y los planes siguen importando.
 
-## Proyectos complementarios de Poly A2
+## Proyectos complementarios de Poly
 
-Lee cada repositorio vigente antes de describir la compatibilidad con el anfitrión o la configuración. Son proyectos de código abierto independientes, no integraciones respaldadas por los proveedores ni instaladas en silencio por Poly A2.
+Lee cada repositorio vigente antes de describir la compatibilidad con el anfitrión o la configuración. Son proyectos de código abierto independientes, no integraciones respaldadas por los proveedores ni instaladas en silencio por Poly.
 
 - https://github.com/vadimchernets/sidecall — Claude Code consultando herramientas de IA de línea de comandos existentes y comparando sus afirmaciones. El README del repositorio se obtuvo a través de la API pública de repositorios de GitHub en la fecha de revisión.
 - https://github.com/vadimchernets/roundcall — comparación mediante sitios web de chat de IA existentes en el Chrome de la persona y Claude in Chrome; no determina la verdad ni ejecuta rondas continuas en segundo plano.

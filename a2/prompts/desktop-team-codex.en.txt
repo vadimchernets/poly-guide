@@ -1,25 +1,25 @@
-Poly A2 · Two AIs in one window. You are the lead Codex; connect Claude Code as an independent checker through its installed command-line tool on my computer.
+Poly · Two AIs in one window. You are the lead Codex; connect Claude Code as an independent checker through its installed command-line tool on my computer.
 
 Assignment format for this work:
 1. Goal: one sentence saying what the finished result is.
 2. Materials: exactly which files, links or notes you will use.
 3. Limits: what you must not do or touch.
 4. Done when: how we will both know the result is good.
-Plan first: before you change or create anything, show me your plan and ask your questions. Every output names the file it comes from (with the line or page). End with a section called "Not read with confidence": everything you could not open, could not read well, or are unsure about. Delete nothing; move anything extra into a folder called "To review" and tell me.
+Show a short plan first. Ask only for a missing decision or permission. If the task and actions are already agreed, continue to the checked result. Every output names the file it comes from (with the line or page). End with a section called "Not read with confidence": everything you could not open, could not read well, or are unsure about. Delete nothing; move anything extra into a folder called "To review" and tell me.
 
-Poly A2 · guide.md
+Poly · guide.md
 https://polyhelper.ai/g/a2.md
-Poly A2 · manifest.json
+Poly · manifest.json
 https://polyhelper.ai/g/a2-kit/manifest.json
 https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
 
-Reply in my chosen language (en). Find adapters/poly_second.py and adapters/README.md in the Poly A2 desktop kit. Read the supplied instructions, then run doctor for the second tool. If the kit is missing, say so; this message does not install it. After my permission for a bounded external call, use review with --provider codex or --provider claude-code and only approved input. Check the returned answer against the originals.
+Reply in my chosen language (en). Find adapters/poly_second.py and adapters/README.md in the Poly desktop kit. Read the supplied instructions, then run doctor for the second tool. If the kit is missing, say so; this message does not install it. After my permission for a bounded external call, use review with --provider codex or --provider claude-code and only approved input. Check the returned answer against the originals.
 
 I stay in this lead window. Do not ask me to move answers between chats. First check that the second tool is installed and signed in through my eligible subscription. Do not print or copy tokens, sign-in files or API keys; do not enable separate API billing. If installation or sign-in is missing, help set it up and do not claim the connection is ready.
 
 Check current official run instructions and available restrictions. Start with one bounded read-only checking run: send only the necessary assignment and authorized sources, set a timeout, and do not allow file edits or further workers. Return its actual output and status to this window, check errors or missing access, then compare its comments with original evidence. Neither failure nor agreement between models proves a completed check.
 
-Poly A2 · Run the task and check the result. Stay in this lead window. Prepare the files and run the commands yourself. Read tools/WORKFLOW.md and find tools/workflow.py in the kit. If missing, obtain the kit from the listed manifest and verify file hashes. Use the task and texts I have already approved; ask only for missing permission. Create task.txt and approved.txt from those texts yourself. Choose a new output folder instead of an existing new-run. From the kit folder, run: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer codex --reviewer claude-code --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Return both real answers here. Check every reviewer claim against the original file, quote, calculation or observed change. Record which claims hold and which do not, with evidence. Fix only confirmed issues within my permission and check the resulting files. Show where the result is saved. Do not ask me to prepare commands or move answers between chats. A copied message or agreement between two AI systems does not prove success. For this task, use workflow instead of a separate adapter review call.
+Poly · Run the task and check the result. Stay in this lead window. Prepare the files and run the commands yourself. Read tools/WORKFLOW.md and find tools/workflow.py in the kit. If missing, obtain the kit from the listed manifest and verify file hashes. Use the task and texts I have already approved; ask only for missing permission. Create task.txt and approved.txt from those texts yourself. Choose a new output folder instead of an existing new-run. From the kit folder, run: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer codex --reviewer claude-code --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Return both real answers here. Check every reviewer claim against the original file, quote, calculation or observed change. Record which claims hold and which do not, with evidence. Fix only confirmed issues within my permission and check the resulting files. Show where the result is saved. Do not ask me to prepare commands or move answers between chats. A copied message or agreement between two AI systems does not prove success. For this task, use workflow instead of a separate adapter review call.
 
 After one real task and an independent check, we can grow to several distinct roles, then a repeatable sequence with clear checks, stopping conditions and my spending limit. Do not start long or paid runs without my decision.
 
@@ -28,4 +28,4 @@ Codex sign-in: https://learn.chatgpt.com/docs/auth
 Claude Code: https://code.claude.com/docs/en/headless
 Claude Code sign-in: https://code.claude.com/docs/en/authentication
 
-Without web access, first inspect local help and actually installed capabilities; do not invent flags or successful execution. Poly A2 prepared this assignment but does not run commands or read the terminal itself.
+Without web access, first inspect local help and actually installed capabilities; do not invent flags or successful execution. Poly prepared this assignment but does not run commands or read the terminal itself.

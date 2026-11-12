@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: check one explicitly chosen UTF-8 CSV copy. No network or changes to input."""
+"""Poly: check one explicitly chosen UTF-8 CSV copy. No network or changes to input."""
 import argparse
 import csv
 from decimal import Decimal, InvalidOperation
@@ -29,7 +29,7 @@ def write_report(result, output, locale='en'):
     issue_names=dict(zip(['missing','duplicate','invalid-number','column-count'],w[11:]))
     rows=''.join('<tr><td>'+e(i['line'])+'</td><td>'+e(i.get('column','—'))+'</td><td>'+e(issue_names[i['issue']])+'</td></tr>' for i in result['issues'])
     summary=w[5] if result['sum'] is None else (w[3] if result['sumComplete'] else w[4])+': '+result['sum']+' ('+result['sumColumn']+')'
-    html='<!doctype html><html lang="'+locale+'"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Poly A2 — '+e(w[0])+'</title><style>body{font:18px system-ui,sans-serif;max-width:850px;margin:32px auto;padding:0 20px;color:#172d25}h1{color:#146c43}table{border-collapse:collapse;width:100%}th,td{border:1px solid #aaa;padding:10px;text-align:left;overflow-wrap:anywhere}p{line-height:1.5}</style><h1>Poly A2 — '+e(w[0])+'</h1><p>'+e(w[1])+': '+e(result['file'])+'<br>'+e(w[2])+': '+e(result['rows'])+'</p><h2>'+e(summary)+'</h2>'
+    html='<!doctype html><html lang="'+locale+'"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Poly — '+e(w[0])+'</title><style>body{font:18px system-ui,sans-serif;max-width:850px;margin:32px auto;padding:0 20px;color:#172d25}h1{color:#146c43}table{border-collapse:collapse;width:100%}th,td{border:1px solid #aaa;padding:10px;text-align:left;overflow-wrap:anywhere}p{line-height:1.5}</style><h1>Poly — '+e(w[0])+'</h1><p>'+e(w[1])+': '+e(result['file'])+'<br>'+e(w[2])+': '+e(result['rows'])+'</p><h2>'+e(summary)+'</h2>'
     html+=('<table><thead><tr>'+''.join('<th>'+e(label)+'</th>' for label in w[6:9])+'</tr></thead><tbody>'+rows+'</tbody></table>' if rows else '<p>'+e(w[9])+'</p>')+'<p>'+e(w[10])+'</p></html>'
     # Exclusive creation protects an existing result, including a symbolic link.
     fd=os.open(output,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)

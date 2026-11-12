@@ -1,11 +1,11 @@
-Poly A2 · Help me open and prepare Codex on my computer.
+Poly · Help me open and prepare Codex on my computer.
 
 Assignment format for this work:
 1. Goal: one sentence saying what the finished result is.
 2. Materials: exactly which files, links or notes you will use.
 3. Limits: what you must not do or touch.
 4. Done when: how we will both know the result is good.
-Plan first: before you change or create anything, show me your plan and ask your questions. Every output names the file it comes from (with the line or page). End with a section called "Not read with confidence": everything you could not open, could not read well, or are unsure about. Delete nothing; move anything extra into a folder called "To review" and tell me.
+Show a short plan first. Ask only for a missing decision or permission. If the task and actions are already agreed, continue to the checked result. Every output names the file it comes from (with the line or page). End with a section called "Not read with confidence": everything you could not open, could not read well, or are unsure about. Delete nothing; move anything extra into a folder called "To review" and tell me.
 
 First account for my existing access and subscriptions; do not send me to buy them again.
 
@@ -13,7 +13,7 @@ Simple route in the current guide: ChatGPT desktop app → ChatGPT sign-in → c
 
 If my computer OS or installed app is unknown, ask only for that information. Skip installation when it is already done. Help me select a local folder with copies of the materials and verify that the chosen AI can actually work with them.
 
-For subscription access, use normal sign-in to the chosen service, not API-key billing. Do not ask me to share passwords, tokens or keys. If a separate billing mode is active, stop and help me check it before work; do not switch it or start separate charges without my decision. A Poly A2 subscription does not pay for the external AI. Verify current prices, features and limits in official terms.
+For subscription access, use normal sign-in to the chosen service, not API-key billing. Do not ask me to share passwords, tokens or keys. If a separate billing mode is active, stop and help me check it before work; do not switch it or start separate charges without my decision. A Poly subscription does not pay for the external AI. Verify current prices, features and limits in official terms.
 
 Current guide: https://learn.chatgpt.com/docs/quickstart?setup=app
 Terminal if wanted: https://learn.chatgpt.com/docs/codex/cli

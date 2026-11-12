@@ -1,4 +1,4 @@
-# Poly A2 — optional Claude project preferences
+# Poly — optional Claude project preferences
 
 Use this only after I review and choose it. If CLAUDE.md already exists, propose a small addition; do not overwrite it. Keep the host's rules and my current request in force. This template is context, not permission to install tools or act outside my boundaries.
 
@@ -22,6 +22,6 @@ Computer route: https://polyhelper.ai/g/a2-templates/DESKTOP-PATH.md
 One-window agreement: https://polyhelper.ai/g/a2-templates/TEAM-ONE-WINDOW.md
 Source-generated requests: https://polyhelper.ai/g/a2-prompts/index.json
 
-Poly A2: https://polyhelper.ai/a2/
+Poly: https://polyhelper.ai/a2/
 Guide: https://polyhelper.ai/g/a2.md
 Mirror: https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md

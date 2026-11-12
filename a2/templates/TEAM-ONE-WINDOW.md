@@ -1,4 +1,4 @@
-# Poly A2 — two AIs in one lead window
+# Poly — two AIs in one lead window
 
 Optional working agreement for the person's computer AI. Follow existing host permissions and the person's actual request. This file grants no execution, file or spending authority.
 
@@ -21,15 +21,15 @@ Use current official instructions and the installed CLI's own help:
 - Claude Code headless: https://code.claude.com/docs/en/headless
 - Claude Code authentication: https://code.claude.com/docs/en/authentication
 
-Ready-to-copy lead-specific requests are generated from Poly A2's `desktopTeamRequest`, not duplicated here:
+Ready-to-copy lead-specific requests are generated from Poly's `desktopTeamRequest`, not duplicated here:
 
 - https://polyhelper.ai/g/a2-prompts/desktop-team-claude-code.en.txt
 - https://polyhelper.ai/g/a2-prompts/desktop-team-claude-code.ru.txt
 - https://polyhelper.ai/g/a2-prompts/desktop-team-codex.en.txt
 - https://polyhelper.ai/g/a2-prompts/desktop-team-codex.ru.txt
 
-Poly A2 prepares the assignment. Its small panel does not itself run commands, inspect a terminal, authorize a child or certify the result. Phone Duo and manual phone fallback are separate routes with their own availability and permissions.
+Poly prepares the assignment. Its small panel does not itself run commands, inspect a terminal, authorize a child or certify the result. Phone Duo and manual phone fallback are separate routes with their own availability and permissions.
 
-Poly A2: https://polyhelper.ai/a2/
+Poly: https://polyhelper.ai/a2/
 Guide: https://polyhelper.ai/g/a2.md
 Mirror: https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md

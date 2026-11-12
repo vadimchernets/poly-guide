@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Poly A2 помогает получать больше пользы от ИИ: поручать ему дела и использовать разные ИИ вместе, в удобном темпе.">
-  <title>Poly A2 — больше пользы от вашего ИИ</title>
+  <meta name="description" content="Poly помогает получать больше пользы от ИИ: поручать ему дела и использовать разные ИИ вместе, в удобном темпе.">
+  <title>Poly — больше пользы от вашего ИИ</title>
   <style>
     :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
   </style>
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../favicon.png">
 </head>
 <body>
 <main>
-  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly A2</a></header>
+  <header><span>⌘ Poly</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly</a></header>
   <div class="eyebrow">Понятно. Полезно. На вашем деле.</div>
   <h1>Раскрывайте больше возможностей своего ИИ.</h1>
-  <p>Откройте привычный ИИ и вставьте готовое сообщение Poly A2. Он поможет с настоящим делом и подскажет, что попробовать дальше: поручить ИИ задачу целиком или попросить другой ИИ проверить результат.</p>
+  <p>Откройте привычный ИИ и вставьте готовое сообщение Poly. Он поможет с настоящим делом и подскажет, что попробовать дальше: поручить ИИ задачу целиком или попросить другой ИИ проверить результат.</p>
   <section class="card" aria-labelledby="start-title">
     <h2 id="start-title">Начните там, где вам удобно</h2>
     <label for="provider">Ваш ИИ</label>
     <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
-    <div class="actions"><button id="copy" type="button">Скопировать сообщение Poly A2</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Открыть выбранный ИИ</a></div>
+    <div class="actions"><button id="copy" type="button">Скопировать сообщение Poly</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Открыть выбранный ИИ</a></div>
     <p class="note">Затем вставьте сообщение в текущий или новый разговор и отправьте. Продолжайте работать там. Без приложения можно начать в браузере; сервис может попросить войти.</p>
     <div id="status" class="status note" role="status" aria-live="polite"></div>
-    <details id="fallback"><summary>Посмотреть сообщение или скопировать вручную</summary><pre id="prompt">Загружаем текст Poly A2…</pre><a href="/g/a2-prompts/start.ru.txt">Открыть текст сообщения</a></details>
+    <details id="fallback"><summary>Посмотреть сообщение или скопировать вручную</summary><pre id="prompt">Загружаем текст Poly…</pre><a href="/g/a2-prompts/start.ru.txt">Открыть текст сообщения</a></details>
   </section>
   <h2>Ваш ИИ умеет больше, чем быстрый ответ</h2>
-  <p>Поиск, обдуманные ответы, файлы и изображения. Poly A2 помогает попробовать нужную функцию на вашем деле, а затем поручать ИИ больше работы и использовать разные ИИ вместе.</p>
+  <p>Поиск, обдуманные ответы, файлы и изображения. Poly помогает попробовать нужную функцию на вашем деле, а затем поручать ИИ больше работы и использовать разные ИИ вместе.</p>
   <p>На компьютере можно попробовать ИИ, который выполняет поручения: например, помогает работать с файлами. Подходящая подписка расширяет доступные инструменты и лимиты; сначала проверьте возможности уже оплаченного плана.</p>
-  <div class="actions"><a class="button secondary" href="/g/a2.ru.md">Руководство Poly A2 для вашего ИИ</a></div>
-  <p class="note">Мобильная версия и спутник Mac разрабатываются. Ссылки на магазины появятся после публикации отдельного приложения Poly A2. Копирование и открытие сервиса не означают, что ИИ получил сообщение или завершил дело. Базовый текст работает и без чтения руководства.</p>
-  <noscript><p class="note">Для копирования без JavaScript откройте <a href="/g/a2-prompts/start.ru.txt">стартовое сообщение Poly A2</a> и перенесите его в выбранный ИИ.</p></noscript>
-  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.ru.md">Конфиденциальность</a><a href="/g/a2-terms.ru.md">Условия Poly A2</a></footer>
+  <div class="actions"><a class="button secondary" href="/g/a2.ru.md">Руководство Poly для вашего ИИ</a></div>
+  <p class="note">Мобильная версия и спутник Mac разрабатываются. Ссылки на магазины появятся после публикации отдельного приложения Poly. Копирование и открытие сервиса не означают, что ИИ получил сообщение или завершил дело. Базовый текст работает и без чтения руководства.</p>
+  <noscript><p class="note">Для копирования без JavaScript откройте <a href="/g/a2-prompts/start.ru.txt">стартовое сообщение Poly</a> и перенесите его в выбранный ИИ.</p></noscript>
+  <footer><span>Poly · Polyhelper.ai LLC</span><a href="/g/a2-privacy.ru.md">Конфиденциальность</a><a href="/g/a2-terms.ru.md">Условия Poly</a></footer>
 </main>
 <script>
 (() => {
   const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
   let text='';
-  const loading=fetch('/g/a2-prompts/start.ru.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent='Текст пока недоступен. После публикации пакета откройте ссылку на сообщение ниже.';return '';});
+  const loading=fetch('/g/a2-prompts/start.ru.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent='Текст пока недоступен. После публикации пакета откройте ссылку на сообщение ниже.';return '';});
   provider.addEventListener('change',()=>{open.href=provider.value;});
   document.getElementById('copy').addEventListener('click',async()=>{
     if(!text)await loading;
-    if(!text){status.textContent='Текст пока недоступен. Откройте сообщение по ссылке или приложение Poly A2.';fallback.open=true;return;}
+    if(!text){status.textContent='Текст пока недоступен. Откройте сообщение по ссылке или приложение Poly.';fallback.open=true;return;}
     try{await navigator.clipboard.writeText(text);status.textContent='Сообщение скопировано. Откройте свой ИИ, вставьте текст и отправьте.';}
     catch{status.textContent='Выделите и скопируйте сообщение ниже, затем откройте свой ИИ.';fallback.open=true;}
   });

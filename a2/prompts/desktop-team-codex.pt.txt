@@ -1,25 +1,25 @@
-Poly A2 · Duas IAs em uma janela. Você é o líder Codex; conecte Claude Code como verificador independente, usando a ferramenta de linha de comando instalada no meu computador.
+Poly · Duas IAs em uma janela. Você é o líder Codex; conecte Claude Code como verificador independente, usando a ferramenta de linha de comando instalada no meu computador.
 
 Formato do pedido para este trabalho:
 1. Objetivo: uma frase dizendo como é o resultado pronto.
 2. Materiais: exatamente quais arquivos, links ou anotações você vai usar.
 3. Limites: o que você não deve fazer nem tocar.
 4. Está pronto quando: como nós dois saberemos que o resultado é bom.
-Primeiro o plano: antes de alterar ou criar qualquer coisa, mostre-me seu plano e faça suas perguntas. Cada resultado cita o arquivo de onde veio (com a linha ou a página). Termine com uma seção “Não li com segurança”: tudo o que você não conseguiu abrir, leu mal ou sobre o que tem dúvida. Não apague nada; mova o que sobrar para uma pasta “Para revisar” e me avise.
+Mostre primeiro um plano breve. Pergunte apenas por uma decisão ou permissão que falte. Se o trabalho e as ações já foram combinados, prossiga até o resultado verificado. Cada resultado cita o arquivo de onde veio (com a linha ou a página). Termine com uma seção “Não li com segurança”: tudo o que você não conseguiu abrir, leu mal ou sobre o que tem dúvida. Não apague nada; mova o que sobrar para uma pasta “Para revisar” e me avise.
 
-Poly A2 · guide.md
+Poly · guide.md
 https://polyhelper.ai/g/a2.md
-Poly A2 · manifest.json
+Poly · manifest.json
 https://polyhelper.ai/g/a2-kit/manifest.json
 https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
 
-Responda no idioma que escolhi (pt). Encontre adapters/poly_second.py e adapters/README.md no kit para computador do Poly A2. Leia as instruções e execute doctor para a segunda ferramenta. Se o kit estiver ausente, informe; esta mensagem não o instala. Após minha autorização para uma chamada externa limitada, use review com --provider codex ou --provider claude-code e somente dados autorizados. Confira a resposta recebida com os originais.
+Responda no idioma que escolhi (pt). Encontre adapters/poly_second.py e adapters/README.md no kit para computador do Poly. Leia as instruções e execute doctor para a segunda ferramenta. Se o kit estiver ausente, informe; esta mensagem não o instala. Após minha autorização para uma chamada externa limitada, use review com --provider codex ou --provider claude-code e somente dados autorizados. Confira a resposta recebida com os originais.
 
 Fico nesta janela do líder. Não me peça para levar respostas de um chat a outro. Primeiro confira se a segunda ferramenta está instalada e com login feito pela minha assinatura elegível. Não exiba nem copie tokens, arquivos de login ou chaves de API; não ative cobrança separada de API. Se faltar a instalação ou o login, ajude a configurar e não diga que a conexão está pronta.
 
 Confira as instruções oficiais atuais de execução e as restrições disponíveis. Comece com uma única execução de verificação limitada e somente leitura: envie apenas a tarefa necessária e as fontes autorizadas, defina um tempo limite e não permita edição de arquivos nem outras IAs. Traga para esta janela a saída e o status reais, verifique erros ou falta de acesso e depois compare os comentários com as evidências originais. Nem uma falha nem a concordância entre modelos provam que a verificação foi concluída.
 
-Poly A2 · Faça o trabalho e confira o resultado. Permaneça nesta janela principal. Prepare os arquivos e execute os comandos por conta própria. Leia tools/WORKFLOW.md e encontre tools/workflow.py no conjunto. Se faltar, obtenha-o pelo manifest.json indicado e confira os hashes dos arquivos. Use a tarefa e os textos já autorizados; peça apenas a permissão que faltar. Crie task.txt e approved.txt com esses textos. Se new-run existir, escolha uma pasta nova para o resultado. Na pasta do conjunto, execute: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer codex --reviewer claude-code --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Traga as duas respostas reais para cá. Confira cada afirmação da IA revisora com o arquivo original, uma citação, um cálculo ou uma mudança observável. Registre as observações aceitas e rejeitadas com provas. Corrija apenas problemas confirmados dentro da minha autorização e confira os arquivos finais. Mostre onde salvou o resultado. Não me peça para preparar comandos nem transferir respostas entre conversas. Copiar uma mensagem ou obter concordância entre duas IA não comprova sucesso. Nesta tarefa, use workflow em vez de chamar review separadamente.
+Poly · Faça o trabalho e confira o resultado. Permaneça nesta janela principal. Prepare os arquivos e execute os comandos por conta própria. Leia tools/WORKFLOW.md e encontre tools/workflow.py no conjunto. Se faltar, obtenha-o pelo manifest.json indicado e confira os hashes dos arquivos. Use a tarefa e os textos já autorizados; peça apenas a permissão que faltar. Crie task.txt e approved.txt com esses textos. Se new-run existir, escolha uma pasta nova para o resultado. Na pasta do conjunto, execute: python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer codex --reviewer claude-code --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network. Traga as duas respostas reais para cá. Confira cada afirmação da IA revisora com o arquivo original, uma citação, um cálculo ou uma mudança observável. Registre as observações aceitas e rejeitadas com provas. Corrija apenas problemas confirmados dentro da minha autorização e confira os arquivos finais. Mostre onde salvou o resultado. Não me peça para preparar comandos nem transferir respostas entre conversas. Copiar uma mensagem ou obter concordância entre duas IA não comprova sucesso. Nesta tarefa, use workflow em vez de chamar review separadamente.
 
 Depois de uma tarefa real e de uma verificação independente, podemos crescer para vários papéis distintos e depois para uma sequência repetível, com verificações claras, condições de parada e o meu limite de gastos. Não inicie execuções longas ou pagas sem uma decisão minha.
 
@@ -28,4 +28,4 @@ Login do Codex: https://learn.chatgpt.com/docs/auth
 Claude Code: https://code.claude.com/docs/en/headless
 Login do Claude Code: https://code.claude.com/docs/en/authentication
 
-Sem acesso à web, primeiro examine a ajuda local e os recursos realmente instalados; não invente opções nem uma execução bem-sucedida. O Poly A2 preparou esta tarefa, mas não executa comandos nem lê o terminal por conta própria.
+Sem acesso à web, primeiro examine a ajuda local e os recursos realmente instalados; não invente opções nem uma execução bem-sucedida. O Poly preparou esta tarefa, mas não executa comandos nem lê o terminal por conta própria.

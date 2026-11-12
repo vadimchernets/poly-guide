@@ -1,4 +1,4 @@
-# Poly A2 — registre des sources
+# Poly — registre des sources
 
 Vérifié : 2026-11-05. Ce sont des références à la documentation des fournisseurs et à des dépôts de projets, non une preuve que le compte d'une personne donnée a une fonction activée. Les offres, déploiements, régions, quotas, modèles, autorisations et interfaces changent. Rouvrez la page officielle concernée avant de donner un conseil d'installation ou d'achat.
 
@@ -33,7 +33,7 @@ Ces références n'établissent ni un service gratuit illimité 24 h sur 24 pour
 - Assistance d'appareil de Gemini sur Android : https://support.google.com/gemini/answer/15235441?hl=en
 - Applications connectées de Gemini : https://support.google.com/gemini/answer/13695044?hl=en
 
-Une alarme dans l'Horloge Android, un élément d'Apple Rappels, un événement Google Agenda, une tâche d'IA planifiée et un rappel local de Poly A2 sont des actions différentes. La prise en charge de l'une n'implique pas celle des autres. Vérifiez l'enregistrement ou la tâche réellement créés après une action. Ouvrir une source, connecter un service et finaliser une réservation sont aussi des états différents.
+Une alarme dans l'Horloge Android, un élément d'Apple Rappels, un événement Google Agenda, une tâche d'IA planifiée et un rappel local de Poly sont des actions différentes. La prise en charge de l'une n'implique pas celle des autres. Vérifiez l'enregistrement ou la tâche réellement créés après une action. Ouvrir une source, connecter un service et finaliser une réservation sont aussi des états différents.
 
 ## Images et vidéo
 
@@ -72,11 +72,11 @@ Utilisez la fonction d'instructions ou de mémoire actuellement prise en charge 
 - Installation sur iPhone : https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - Installation distincte sur Android : https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-Le README du dépôt et l'installation sur iPhone ont été lus le 2026-11-05. Poly A2 ne lance actuellement que sa voie Raccourcis prise en charge sur iPhone/iOS 18+, après confirmation explicite de l'installation ; il ne reçoit ni ne certifie la réponse. L'installation sur Android est une voie distincte avec d'autres conditions. N'en déduisez pas que de simples abonnements ChatGPT/Claude forment automatiquement un duo fonctionnel sur Android, et ne considérez pas l'iPad comme testé. Les questions longues et les limites des applications et des offres comptent toujours.
+Le README du dépôt et l'installation sur iPhone ont été lus le 2026-11-05. Poly ne lance actuellement que sa voie Raccourcis prise en charge sur iPhone/iOS 18+, après confirmation explicite de l'installation ; il ne reçoit ni ne certifie la réponse. L'installation sur Android est une voie distincte avec d'autres conditions. N'en déduisez pas que de simples abonnements ChatGPT/Claude forment automatiquement un duo fonctionnel sur Android, et ne considérez pas l'iPad comme testé. Les questions longues et les limites des applications et des offres comptent toujours.
 
-## Projets compagnons de Poly A2
+## Projets compagnons de Poly
 
-Lisez chaque dépôt actuel avant de décrire la compatibilité avec l'hôte ou l'installation. Ce sont des projets open source indépendants, non des intégrations approuvées par les fournisseurs, et Poly A2 ne les installe pas discrètement.
+Lisez chaque dépôt actuel avant de décrire la compatibilité avec l'hôte ou l'installation. Ce sont des projets open source indépendants, non des intégrations approuvées par les fournisseurs, et Poly ne les installe pas discrètement.
 
 - https://github.com/vadimchernets/sidecall — Claude Code consulte des outils d'IA en ligne de commande existants et compare leurs affirmations. Le README du dépôt a été récupéré via l'API publique de dépôts de GitHub à la date de vérification.
 - https://github.com/vadimchernets/roundcall — comparaison via des sites de chat d'IA existants dans le Chrome de la personne et Claude in Chrome ; il ne détermine pas la vérité et ne lance pas de tours continus en arrière-plan.

@@ -1,4 +1,4 @@
-# Poly A2 — registro de fontes
+# Poly — registro de fontes
 
 Conferido em: 2026-11-05. São referências à documentação dos provedores e a repositórios de projetos, não prova de que a conta de uma pessoa específica tenha um recurso ativado. Planos, lançamentos, regiões, cotas, modelos, permissões e interfaces mudam. Reabra a página oficial relevante antes de dar conselhos de configuração ou de compra.
 
@@ -33,7 +33,7 @@ Essas referências não estabelecem um serviço gratuito universal, ilimitado e 
 - Assistência de dispositivo do Gemini no Android: https://support.google.com/gemini/answer/15235441?hl=en
 - Apps Conectados do Gemini: https://support.google.com/gemini/answer/13695044?hl=en
 
-Um alarme no Relógio do Android, um item no Lembretes da Apple, um evento no Google Agenda, uma tarefa agendada de IA e um lembrete local do Poly A2 são ações diferentes. O suporte a uma delas não implica suporte às outras. Verifique o registro ou a tarefa de destino reais depois de uma ação. Abrir uma fonte, conectar um serviço e concluir uma reserva também são estados diferentes.
+Um alarme no Relógio do Android, um item no Lembretes da Apple, um evento no Google Agenda, uma tarefa agendada de IA e um lembrete local do Poly são ações diferentes. O suporte a uma delas não implica suporte às outras. Verifique o registro ou a tarefa de destino reais depois de uma ação. Abrir uma fonte, conectar um serviço e concluir uma reserva também são estados diferentes.
 
 ## Imagens e vídeo
 
@@ -72,11 +72,11 @@ Use o recurso atual e compatível de instruções ou memória da ferramenta sele
 - Configuração para iPhone: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - Configuração separada para Android: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-O README do repositório e a configuração para iPhone foram lidos em 2026-11-05. Atualmente o Poly A2 só inicia o caminho compatível do Shortcuts em iPhone/iOS 18+, depois da confirmação explícita da instalação; ele não recebe nem certifica a resposta. A configuração para Android é um caminho separado, com requisitos diferentes. Não presuma que assinaturas próprias do ChatGPT/Claude formem automaticamente um par funcional no Android, nem trate o iPad como testado. Perguntas longas e os limites de apps e planos continuam importando.
+O README do repositório e a configuração para iPhone foram lidos em 2026-11-05. Atualmente o Poly só inicia o caminho compatível do Shortcuts em iPhone/iOS 18+, depois da confirmação explícita da instalação; ele não recebe nem certifica a resposta. A configuração para Android é um caminho separado, com requisitos diferentes. Não presuma que assinaturas próprias do ChatGPT/Claude formem automaticamente um par funcional no Android, nem trate o iPad como testado. Perguntas longas e os limites de apps e planos continuam importando.
 
-## Projetos companheiros do Poly A2
+## Projetos companheiros do Poly
 
-Leia cada repositório atual antes de descrever a compatibilidade com o anfitrião ou a configuração. São projetos independentes de código aberto, não integrações endossadas por provedores e não instaladas silenciosamente pelo Poly A2.
+Leia cada repositório atual antes de descrever a compatibilidade com o anfitrião ou a configuração. São projetos independentes de código aberto, não integrações endossadas por provedores e não instaladas silenciosamente pelo Poly.
 
 - https://github.com/vadimchernets/sidecall — o Claude Code consulta ferramentas de linha de comando de IA existentes e compara as afirmações delas. O README do repositório foi obtido pela API pública de repositórios do GitHub na data de conferência.
 - https://github.com/vadimchernets/roundcall — comparação por meio de sites de chat de IA existentes no Chrome da pessoa e no Claude in Chrome; ele não determina a verdade nem executa rodadas contínuas em segundo plano.

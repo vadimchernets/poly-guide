@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Poly A2 vous aide à tirer plus de l&#39;IA : lui confier de vraies tâches et utiliser plusieurs IA ensemble, à un rythme confortable.">
-  <title>Poly A2 — tirez plus de votre IA</title>
+  <meta name="description" content="Poly vous aide à tirer plus de l&#39;IA : lui confier de vraies tâches et utiliser plusieurs IA ensemble, à un rythme confortable.">
+  <title>Poly — tirez plus de votre IA</title>
   <style>
     :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
   </style>
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../favicon.png">
 </head>
 <body>
 <main>
-  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly A2</a></header>
+  <header><span>⌘ Poly</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly</a></header>
   <div class="eyebrow">Clair. Utile. Sur votre vraie tâche.</div>
   <h1>Débloquez plus de ce que votre IA sait faire.</h1>
-  <p>Ouvrez l&#39;IA que vous utilisez déjà et collez le message Poly A2 prêt à l&#39;emploi. Il vous aidera sur une vraie tâche et vous suggérera quoi essayer ensuite : confier toute une tâche à l&#39;IA, ou demander à une autre IA de vérifier le résultat.</p>
+  <p>Ouvrez l&#39;IA que vous utilisez déjà et collez le message Poly prêt à l&#39;emploi. Il vous aidera sur une vraie tâche et vous suggérera quoi essayer ensuite : confier toute une tâche à l&#39;IA, ou demander à une autre IA de vérifier le résultat.</p>
   <section class="card" aria-labelledby="start-title">
     <h2 id="start-title">Commencez là où cela vous convient</h2>
     <label for="provider">Votre IA</label>
     <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
-    <div class="actions"><button id="copy" type="button">Copier le message Poly A2</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Ouvrir l&#39;IA choisie</a></div>
+    <div class="actions"><button id="copy" type="button">Copier le message Poly</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Ouvrir l&#39;IA choisie</a></div>
     <p class="note">Ensuite, collez le message dans la conversation en cours ou dans une nouvelle et envoyez-le. Continuez à travailler là-bas. Vous pouvez commencer dans le navigateur sans l&#39;application ; le service peut vous demander de vous connecter.</p>
     <div id="status" class="status note" role="status" aria-live="polite"></div>
-    <details id="fallback"><summary>Voir le message ou le copier à la main</summary><pre id="prompt">Chargement du texte Poly A2…</pre><a href="/g/a2-prompts/start.fr.txt">Ouvrir le texte du message</a></details>
+    <details id="fallback"><summary>Voir le message ou le copier à la main</summary><pre id="prompt">Chargement du texte Poly…</pre><a href="/g/a2-prompts/start.fr.txt">Ouvrir le texte du message</a></details>
   </section>
   <h2>Votre IA sait faire plus qu&#39;une réponse rapide</h2>
-  <p>Recherche, réponses réfléchies, fichiers et images. Poly A2 vous aide à essayer la bonne fonction sur votre vraie tâche, puis à confier plus de travail à l&#39;IA et à utiliser plusieurs IA ensemble.</p>
+  <p>Recherche, réponses réfléchies, fichiers et images. Poly vous aide à essayer la bonne fonction sur votre vraie tâche, puis à confier plus de travail à l&#39;IA et à utiliser plusieurs IA ensemble.</p>
   <p>Sur un ordinateur, vous pouvez essayer une IA qui exécute des tâches : par exemple, elle vous aide à travailler avec des fichiers. Un abonnement adapté élargit les outils disponibles et les limites ; vérifiez d&#39;abord ce que comprend l&#39;offre que vous payez déjà.</p>
-  <div class="actions"><a class="button secondary" href="/g/a2.fr.md">Le guide Poly A2 pour votre IA</a></div>
-  <p class="note">La version mobile et le compagnon pour Mac sont en développement. Les liens des boutiques apparaîtront après la publication de l&#39;application Poly A2 distincte. Copier et ouvrir un service ne signifient pas que l&#39;IA a reçu le message ni terminé la tâche. Le texte de base fonctionne sans lire le guide.</p>
-  <noscript><p class="note"><a href="/g/a2-prompts/start.fr.txt">Pour copier sans JavaScript, ouvrez le message de départ Poly A2 et transférez-le dans l&#39;IA que vous avez choisie.</a></p></noscript>
-  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.fr.md">Confidentialité</a><a href="/g/a2-terms.fr.md">Conditions de Poly A2</a></footer>
+  <div class="actions"><a class="button secondary" href="/g/a2.fr.md">Le guide Poly pour votre IA</a></div>
+  <p class="note">La version mobile et le compagnon pour Mac sont en développement. Les liens des boutiques apparaîtront après la publication de l&#39;application Poly distincte. Copier et ouvrir un service ne signifient pas que l&#39;IA a reçu le message ni terminé la tâche. Le texte de base fonctionne sans lire le guide.</p>
+  <noscript><p class="note"><a href="/g/a2-prompts/start.fr.txt">Pour copier sans JavaScript, ouvrez le message de départ Poly et transférez-le dans l&#39;IA que vous avez choisie.</a></p></noscript>
+  <footer><span>Poly · Polyhelper.ai LLC</span><a href="/g/a2-privacy.fr.md">Confidentialité</a><a href="/g/a2-terms.fr.md">Conditions de Poly</a></footer>
 </main>
 <script>
 (() => {
   const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
   let text='';
-  const loading=fetch('/g/a2-prompts/start.fr.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="Le texte n'est pas encore disponible. Une fois le paquet publié, ouvrez le lien du message ci-dessous.";return '';});
+  const loading=fetch('/g/a2-prompts/start.fr.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="Le texte n'est pas encore disponible. Une fois le paquet publié, ouvrez le lien du message ci-dessous.";return '';});
   provider.addEventListener('change',()=>{open.href=provider.value;});
   document.getElementById('copy').addEventListener('click',async()=>{
     if(!text)await loading;
-    if(!text){status.textContent="Le texte n'est pas encore disponible. Ouvrez le message par le lien ou ouvrez l'application Poly A2.";fallback.open=true;return;}
+    if(!text){status.textContent="Le texte n'est pas encore disponible. Ouvrez le message par le lien ou ouvrez l'application Poly.";fallback.open=true;return;}
     try{await navigator.clipboard.writeText(text);status.textContent="Message copié. Ouvrez votre IA, collez le texte et envoyez-le.";}
     catch{status.textContent="Sélectionnez et copiez le message ci-dessous, puis ouvrez votre IA.";fallback.open=true;}
   });

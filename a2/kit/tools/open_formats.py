@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: convert one explicitly chosen local copy with installed open-source tools."""
+"""Poly: convert one explicitly chosen local copy with installed open-source tools."""
 import argparse
 import json
 import os

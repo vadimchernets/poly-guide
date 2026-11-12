@@ -1,4 +1,4 @@
-# Poly A2 — 来源登记
+# Poly — 来源登记
 
 核对日期：2026-11-05。这些是对提供方文档和项目仓库的引用，并不能证明某个人的账号已经启用了某项功能。方案、推出范围、地区、额度、模型、权限和界面都会变化。在给出设置或购买建议之前，请重新打开相关的官方页面。
 
@@ -33,7 +33,7 @@ Gemini 提供无需安装应用的浏览器路径；有些功能需要登录。�
 - Gemini Android 设备协助：https://support.google.com/gemini/answer/15235441?hl=en
 - Gemini 已连接的应用：https://support.google.com/gemini/answer/13695044?hl=en
 
-Android 时钟里的闹钟、Apple 提醒事项里的一项、Google 日历里的一个日程、定时的 AI 任务，以及 Poly A2 的本地提醒，是不同的操作。支持其中一种，并不意味着支持其他几种。操作之后，请核实实际的目标记录或任务。打开来源、连接服务和完成预订，也是不同的状态。
+Android 时钟里的闹钟、Apple 提醒事项里的一项、Google 日历里的一个日程、定时的 AI 任务，以及 Poly 的本地提醒，是不同的操作。支持其中一种，并不意味着支持其他几种。操作之后，请核实实际的目标记录或任务。打开来源、连接服务和完成预订，也是不同的状态。
 
 ## 图像与视频
 
@@ -72,11 +72,11 @@ Android 时钟里的闹钟、Apple 提醒事项里的一项、Google 日历里�
 - iPhone 设置：https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - 单独的 Android 设置：https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-仓库的 README 和 iPhone 设置说明阅读于 2026-11-05。Poly A2 目前只在明确确认已安装之后，才启动其受支持的 iPhone/iOS 18 以上 Shortcuts 路径；它不接收也不认证答案。Android 设置是另一条路径，要求不同。不要推断自己的 ChatGPT/Claude 订阅会自动组成可用的 Android 配对，也不要把 iPad 当作已测试。较长的问题以及应用/方案的限额仍然重要。
+仓库的 README 和 iPhone 设置说明阅读于 2026-11-05。Poly 目前只在明确确认已安装之后，才启动其受支持的 iPhone/iOS 18 以上 Shortcuts 路径；它不接收也不认证答案。Android 设置是另一条路径，要求不同。不要推断自己的 ChatGPT/Claude 订阅会自动组成可用的 Android 配对，也不要把 iPad 当作已测试。较长的问题以及应用/方案的限额仍然重要。
 
-## Poly A2 的伙伴项目
+## Poly 的伙伴项目
 
-在介绍宿主兼容性或设置之前，请先阅读各个项目当前的仓库。这些是独立的开源项目，不是提供方认可的集成，也不会被 Poly A2 悄悄安装。
+在介绍宿主兼容性或设置之前，请先阅读各个项目当前的仓库。这些是独立的开源项目，不是提供方认可的集成，也不会被 Poly 悄悄安装。
 
 - https://github.com/vadimchernets/sidecall — Claude Code 咨询已有的 AI 命令行工具，并对比它们的说法。仓库的 README 是在核对日期通过 GitHub 的公共仓库 API 获取的。
 - https://github.com/vadimchernets/roundcall — 通过这个人 Chrome 中现有的 AI 聊天网站和 Claude in Chrome 进行对比；它不判定真假，也不会在后台持续运行多轮。

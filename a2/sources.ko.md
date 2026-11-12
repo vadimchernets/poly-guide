@@ -1,4 +1,4 @@
-# Poly A2 — 출처 목록
+# Poly — 출처 목록
 
 확인일: 2026-11-05. 이것은 제공업체 문서와 프로젝트 저장소에 대한 참고 링크일 뿐, 특정 사용자의 계정에서 기능이 켜져 있다는 증거가 아니에요. 요금제, 단계적 제공, 지역, 사용 한도, 모델, 권한, 화면은 바뀌어요. 설정이나 구매를 조언하기 전에 해당 공식 페이지를 다시 여세요.
 
@@ -33,7 +33,7 @@ Gemini는 앱을 설치하지 않고 브라우저로 이용하는 방법을 제�
 - Gemini Android 기기 지원 기능: https://support.google.com/gemini/answer/15235441?hl=en
 - Gemini Connected Apps: https://support.google.com/gemini/answer/13695044?hl=en
 
-Android 시계의 알람, Apple 미리 알림 항목, Google 캘린더 일정, 예약된 AI 작업, Poly A2 로컬 알림은 서로 다른 동작이에요. 하나를 지원한다고 다른 것을 지원하는 것은 아니에요. 동작 뒤에는 실제 대상 기록이나 작업을 확인하세요. 출처를 여는 것, 서비스를 연결하는 것, 예약을 마치는 것도 서로 다른 상태예요.
+Android 시계의 알람, Apple 미리 알림 항목, Google 캘린더 일정, 예약된 AI 작업, Poly 로컬 알림은 서로 다른 동작이에요. 하나를 지원한다고 다른 것을 지원하는 것은 아니에요. 동작 뒤에는 실제 대상 기록이나 작업을 확인하세요. 출처를 여는 것, 서비스를 연결하는 것, 예약을 마치는 것도 서로 다른 상태예요.
 
 ## 이미지와 영상
 
@@ -72,11 +72,11 @@ Android 시계의 알람, Apple 미리 알림 항목, Google 캘린더 일정, �
 - iPhone 설정: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - 별도의 Android 설정: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-저장소 README와 iPhone 설정은 2026-11-05에 읽었어요. Poly A2는 현재 설치를 직접 확인한 뒤 지원되는 iPhone/iOS18+ Shortcuts 경로만 실행하며, 답변을 받거나 인증하지 않아요. Android 설정은 요건이 다른 별도 경로예요. 자신의 ChatGPT/Claude 구독이 자동으로 작동하는 Android 짝이 된다고 추측하거나, iPad를 검증된 것으로 취급하지 마세요. 긴 질문과 앱/요금제 한도도 여전히 중요해요.
+저장소 README와 iPhone 설정은 2026-11-05에 읽었어요. Poly는 현재 설치를 직접 확인한 뒤 지원되는 iPhone/iOS18+ Shortcuts 경로만 실행하며, 답변을 받거나 인증하지 않아요. Android 설정은 요건이 다른 별도 경로예요. 자신의 ChatGPT/Claude 구독이 자동으로 작동하는 Android 짝이 된다고 추측하거나, iPad를 검증된 것으로 취급하지 마세요. 긴 질문과 앱/요금제 한도도 여전히 중요해요.
 
-## Poly A2 동반 프로젝트
+## Poly 동반 프로젝트
 
-호스트 호환성이나 설정을 설명하기 전에 각 현재 저장소를 읽으세요. 이것들은 독립적인 오픈소스 프로젝트이며, 제공업체가 보증한 연동이 아니고 Poly A2가 몰래 설치하지도 않아요.
+호스트 호환성이나 설정을 설명하기 전에 각 현재 저장소를 읽으세요. 이것들은 독립적인 오픈소스 프로젝트이며, 제공업체가 보증한 연동이 아니고 Poly가 몰래 설치하지도 않아요.
 
 - https://github.com/vadimchernets/sidecall — Claude Code가 기존 AI 명령줄 도구에 의견을 구하고 그 주장을 비교해요. 저장소 README는 확인일에 GitHub 공개 저장소 API로 가져왔어요.
 - https://github.com/vadimchernets/roundcall — 사용자의 Chrome과 Claude in Chrome에서 기존 AI 채팅 웹사이트를 통해 비교해요. 무엇이 사실인지 판단하거나 계속 백그라운드 라운드를 돌리지는 않아요.

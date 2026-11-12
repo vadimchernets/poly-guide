@@ -1,4 +1,4 @@
-# Poly A2 — source register
+# Poly — source register
 
 Checked: 2026-11-05. These are references to provider documentation and project repositories, not proof that a particular person's account has a feature enabled. Plans, rollout, regions, quotas, models, permissions, and interfaces change. Reopen the relevant official page before giving setup or purchase advice.
 
@@ -33,7 +33,7 @@ These references do not establish a universal free 24/7 unlimited service or equ
 - Gemini Android Device assistance: https://support.google.com/gemini/answer/15235441?hl=en
 - Gemini Connected Apps: https://support.google.com/gemini/answer/13695044?hl=en
 
-An alarm in Android Clock, an Apple Reminders item, a Google Calendar event, a scheduled AI task, and a Poly A2 local reminder are different actions. Support for one does not imply support for the others. Verify the actual destination record or task after an action. Opening a source, connecting a service, and completing a booking are also different states.
+An alarm in Android Clock, an Apple Reminders item, a Google Calendar event, a scheduled AI task, and a Poly local reminder are different actions. Support for one does not imply support for the others. Verify the actual destination record or task after an action. Opening a source, connecting a service, and completing a booking are also different states.
 
 ## Images and video
 
@@ -72,11 +72,11 @@ Use the selected tool's current supported instruction or memory feature; a file 
 - iPhone setup: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - Separate Android setup: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-The repository README and iPhone setup were read on 2026-11-05. Poly A2 currently launches only its supported iPhone/iOS18+ Shortcuts route after explicit installation confirmation; it does not receive or certify the answer. Android setup is a separate route with different requirements. Do not infer that own ChatGPT/Claude subscriptions automatically form a working Android pair, or treat iPad as tested. Long questions and app/plan limits still matter.
+The repository README and iPhone setup were read on 2026-11-05. Poly currently launches only its supported iPhone/iOS18+ Shortcuts route after explicit installation confirmation; it does not receive or certify the answer. Android setup is a separate route with different requirements. Do not infer that own ChatGPT/Claude subscriptions automatically form a working Android pair, or treat iPad as tested. Long questions and app/plan limits still matter.
 
-## Poly A2 companion projects
+## Poly companion projects
 
-Read each current repository before describing host compatibility or setup. These are independent open-source projects, not provider-endorsed integrations and not silently installed by Poly A2.
+Read each current repository before describing host compatibility or setup. These are independent open-source projects, not provider-endorsed integrations and not silently installed by Poly.
 
 - https://github.com/vadimchernets/sidecall — Claude Code consulting existing AI command-line tools and comparing their claims. The repository README was retrieved through GitHub's public repository API on the checked date.
 - https://github.com/vadimchernets/roundcall — comparison through existing AI chat websites in the person's Chrome and Claude in Chrome; it does not determine truth or run continuous background rounds.

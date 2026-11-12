@@ -14,397 +14,397 @@
       "kind": "start",
       "locale": "en",
       "file": "start.en.txt",
-      "sha256": "e859803217e301a9ddacfa24e79e593041ce9d6056c7217c53a8a3bac7438223"
+      "sha256": "12f57137c15c831d158d02c5ade7bab790505a2710c0f33f43d0f1fa518cb7d5"
     },
     {
       "kind": "start",
       "locale": "ru",
       "file": "start.ru.txt",
-      "sha256": "e481794861e570fe073fada39b9b1cc7f6489b0a6a4693ad91297e0791099d96"
+      "sha256": "c3b900d052572564b2f035c06ec41763e1a45497e141d8a17c71a7d0c4f63b5e"
     },
     {
       "kind": "start",
       "locale": "de",
       "file": "start.de.txt",
-      "sha256": "87017f2e5eb1ee8ff7398ba14830f612f1bb744b77f982026a38992bcfec1f7b"
+      "sha256": "b148085c53d8a43ed236c2490664f6c80e287bbcd07935a70b81752f557df27b"
     },
     {
       "kind": "start",
       "locale": "es",
       "file": "start.es.txt",
-      "sha256": "500fdbaba1de61ead83227524ee6e3423a313131d818d4a492aad3314be88dcb"
+      "sha256": "c4b7004c6de80b523ca7da2d8e4d19ec90f35d8502410d1355a36c6330867408"
     },
     {
       "kind": "start",
       "locale": "fr",
       "file": "start.fr.txt",
-      "sha256": "59b4d3aa5f3ada2eb6283b659b0a21c4248b72533d0b8f81a0863c1b27ee5429"
+      "sha256": "22368ae131a720c13eee19eadd3d3047423446131143256b89fe64e4007284b8"
     },
     {
       "kind": "start",
       "locale": "pt",
       "file": "start.pt.txt",
-      "sha256": "6ee0b65a1f43e366e879d3a7ae1d2fa144158339075c0b3f2ff830dc2e5418bf"
+      "sha256": "0b9b00f3799bf4bbd23a4f13245135914ef334274effcf17903e6fb740e3076e"
     },
     {
       "kind": "start",
       "locale": "hi",
       "file": "start.hi.txt",
-      "sha256": "0754ebc5fe814fb0daeb513cb82173697d6fc8a7bbf4565bb6d0995e3b5d3157"
+      "sha256": "fd5f51e709efbe0a1e569163841ea62457a7ba8e24aa923f84cc833f741551cf"
     },
     {
       "kind": "start",
       "locale": "ja",
       "file": "start.ja.txt",
-      "sha256": "ed9eafecb2c2909f2cd7cc37950bd90a4c30fa9ee25487bfbfbfb1310d218f11"
+      "sha256": "d33c12f261dd1575be3c63cc6181f67af204134993b25460ef90a33933938e33"
     },
     {
       "kind": "start",
       "locale": "ko",
       "file": "start.ko.txt",
-      "sha256": "f35c9ee0166aba9a414a5a21cdbe80a0c3ef57aff21078f0361daae36b15dcbf"
+      "sha256": "66a520480c38b2978de53762e556d7cd0a8d0d3a01aef8120ed461d1383dbbe1"
     },
     {
       "kind": "start",
       "locale": "zh",
       "file": "start.zh.txt",
-      "sha256": "d201636445a66a0e657dc8ad7e4c1be60fc30a1805a111c49800d41eecd39247"
+      "sha256": "f008cd8f588964189cc4c5afcc17932a8ebf063ba013f5d6e856b07dec271c97"
     },
     {
       "kind": "start",
       "locale": "uk",
       "file": "start.uk.txt",
-      "sha256": "3714b444f5933e237b70aca22772bed0eea8a937fbb6c95c13fde560c1273001"
+      "sha256": "0bfe183020bd122f7f4623d87d3b52a3a1607bb35c3de25651f40bdff4635a71"
     },
     {
       "kind": "desktop",
       "locale": "en",
       "file": "desktop.en.txt",
-      "sha256": "90f7f5607a1628c9ff05f276c6557a67f5215d22981fb787966afeb25aba5060"
+      "sha256": "1f93b1bd8b3b440f9ee1503235c19f292166fb79b930e6d166f4eff9cebb6c70"
     },
     {
       "kind": "desktop",
       "locale": "ru",
       "file": "desktop.ru.txt",
-      "sha256": "3e57d25f967d4438a9b23e19e2c2eb58b78891b88acbce49e65b5961695789d3"
+      "sha256": "db4320fdab22fc519e0dcf065d175d76ab6fdc025964fa20e8b2fbef63c7d97a"
     },
     {
       "kind": "desktop",
       "locale": "de",
       "file": "desktop.de.txt",
-      "sha256": "dd7936055cfb7277076d9c4a1f73d5faf2d5167135cea03b52f623e210829424"
+      "sha256": "0df4980b04c9d782c821e84a7d36eb5d33c9686b9fb647f0c83bdaad9bfce5f5"
     },
     {
       "kind": "desktop",
       "locale": "es",
       "file": "desktop.es.txt",
-      "sha256": "44b04bd35261c4a40ded45ddf26a134717833ada89e78c8313e18d9107f11078"
+      "sha256": "dee4e718736a38fbb57a2d0b571b6df742d01f771f8f68d93768e6d2a62a6dce"
     },
     {
       "kind": "desktop",
       "locale": "fr",
       "file": "desktop.fr.txt",
-      "sha256": "7c8d24e856f72df598250ff61e9bdce12ab627194a3238e4b505a04d082ea08e"
+      "sha256": "228b475361cb13f6e13ac59b8ad3a00d0cd6d6bffda3a6d1be55cf26de559c54"
     },
     {
       "kind": "desktop",
       "locale": "pt",
       "file": "desktop.pt.txt",
-      "sha256": "0ac7eadea0d2f12508ae6748a1a230f2b66ce38939fcaa0d64a0d88e89ed4091"
+      "sha256": "88a3a724f705feeea8b18bc506ac3a8259f3d179bd0fc118cd6b7df70e92c7fb"
     },
     {
       "kind": "desktop",
       "locale": "hi",
       "file": "desktop.hi.txt",
-      "sha256": "d468cdc06af5fcc90c8b59a489a31f44bda90aaba7325bf1e9004cb4ae768b24"
+      "sha256": "7f7666532fbd7290ef57d2af0c63f2ee9232e4be0a19b7065abc59327f0234ac"
     },
     {
       "kind": "desktop",
       "locale": "ja",
       "file": "desktop.ja.txt",
-      "sha256": "5a4e01ea959a2e0b81c87a43161e521c8a8eeb38b9caa0b7b82735b52f9c466d"
+      "sha256": "c5f17706e6cbff8501fea7226163f39dc84f10f12729021d46af0eea4f09c547"
     },
     {
       "kind": "desktop",
       "locale": "ko",
       "file": "desktop.ko.txt",
-      "sha256": "642b8f847af2a6f403ca986a5a90a286053806b91f98cc922377344df3a55cfb"
+      "sha256": "fb4ad2cb1777de60e6aedb655bf0b5501ca284f4654746a6e3ccd352c166c162"
     },
     {
       "kind": "desktop",
       "locale": "zh",
       "file": "desktop.zh.txt",
-      "sha256": "1c9f663cc850fe1ec07a63d55ef8fda2ee76c77ee9b78cd147bb6829085c705f"
+      "sha256": "b805c7302ec867a05e682602513f87be5fa3587078553aa78e26a62f9ebd534a"
     },
     {
       "kind": "desktop",
       "locale": "uk",
       "file": "desktop.uk.txt",
-      "sha256": "73e2ca19f638c75b1da0d7f6db14646509ed8cc03272d7a592668cdb1aab0d1e"
+      "sha256": "ca260f4b8ebd73c811d0d9e67ca78af222d19bfe676e4dedcf4885f5f9a037a0"
     },
     {
       "kind": "team",
       "locale": "en",
       "file": "team.en.txt",
-      "sha256": "cf38b19706cf399449cd83250111c8325b462264a09f5300b8eb3f95f1f11764"
+      "sha256": "f9dfad8d174886a5c260077cdbea5625188fd371a63e3b94e7e186530b8c5a3a"
     },
     {
       "kind": "team",
       "locale": "ru",
       "file": "team.ru.txt",
-      "sha256": "f688da80d5481daf747c637a70b467fa7271e99b3270eff8471719d1bf1082fe"
+      "sha256": "a91b7ee076825f53617247872013e4583eb478958f666349fed8697d844efde6"
     },
     {
       "kind": "team",
       "locale": "de",
       "file": "team.de.txt",
-      "sha256": "11da6393e30dcdaaed0b53dd4860dfd360db2d965f48f97890f75336d6d2cb01"
+      "sha256": "081b2c9a0071d9fdc7edb599865137cdc90f6be19aaa30636fcd2c8c0eb4ed89"
     },
     {
       "kind": "team",
       "locale": "es",
       "file": "team.es.txt",
-      "sha256": "bf2bb2630875db4f0ba41216de3b9ba135de5f252a140aaf56d67b8656484874"
+      "sha256": "90029e8f027defd2b18c2522b35199593db15bd8304424572257b141a9e3d4a9"
     },
     {
       "kind": "team",
       "locale": "fr",
       "file": "team.fr.txt",
-      "sha256": "0a70a0be33ab2c11a08533b3d7be62a50317b5a93ab6eb0ab758172a7b62ace6"
+      "sha256": "31c6530287ccae9f38917f1321e64ef78de8ccfead04418cd412e45ca3af5b97"
     },
     {
       "kind": "team",
       "locale": "pt",
       "file": "team.pt.txt",
-      "sha256": "77da33774469d87cf9b03d71b6b163776006a9c81680f265a86239953fd4e398"
+      "sha256": "856ce9079cc417de84d56d73e6d66845bf69a03d9a316c43c8ca4056d30d04a9"
     },
     {
       "kind": "team",
       "locale": "hi",
       "file": "team.hi.txt",
-      "sha256": "b5c25e1da4ed7a0b84fcb1ca12b2ecd1defe875b2229c2ff3d435f753c4d2a07"
+      "sha256": "56da78f651296c55e8050116bf7167d44abe330bc09c66b8beb34775c1221584"
     },
     {
       "kind": "team",
       "locale": "ja",
       "file": "team.ja.txt",
-      "sha256": "4af22fde7ff8bdd0a50eadc9c82be6ab5371f38cc8880046e210b2f34e6f1b10"
+      "sha256": "1a5e5d3d6bd7cf209c0611c8f09e0796045944bdf8afc3e7e0203cb1b6f8ff87"
     },
     {
       "kind": "team",
       "locale": "ko",
       "file": "team.ko.txt",
-      "sha256": "2b323991fdb6bca77eb9abf497acf22734be2d9336325da0e171d22c54e04ca3"
+      "sha256": "50dcf9b0ab0fea3e990707df735e3a4149082e97d6c773ab29c7992358f1bb0f"
     },
     {
       "kind": "team",
       "locale": "zh",
       "file": "team.zh.txt",
-      "sha256": "b5666623da190386f1315edffbe0c529a14c48f74ebcb8e7c703cce00bc4a7e3"
+      "sha256": "8c612b4a3bde655d936749eb73178d0543038bcd038a2643db3b20880968b441"
     },
     {
       "kind": "team",
       "locale": "uk",
       "file": "team.uk.txt",
-      "sha256": "fe70f182d62bd0e97eb234cf68dbddefd77b2b26af3a716ec72bddde77b67a4f"
+      "sha256": "2d913a9aff35de84a99ccee9fd7bd6f402b27af2db13a81dc55fdc0e222046ee"
     },
     {
       "kind": "memory",
       "locale": "en",
       "file": "memory.en.txt",
-      "sha256": "16ef365da30bdd776c1621ac4bdea6d59e28ff4aa30aba3f013a446fd252ab98"
+      "sha256": "b6669ab10975b3f340aaebe158e6da8ee0c3e277cb0df394668483f9cca59449"
     },
     {
       "kind": "memory",
       "locale": "ru",
       "file": "memory.ru.txt",
-      "sha256": "354309ec9c664aa50e6813177f4efed12236969eddd649ccb3f72f21a9aae036"
+      "sha256": "a5c3a2066e1a20eb0b74d4a97e67eabcf9d9e36d697bb7fddfe37774fc843017"
     },
     {
       "kind": "memory",
       "locale": "de",
       "file": "memory.de.txt",
-      "sha256": "bbce4569be7d27425efc050e760b19cc88bc4d00fa7c6af4f3cc4a6d7912a12c"
+      "sha256": "85888a770cd78e82b54ac52c932cf2e6b8e07d32ae390185554e61bf82eabf6d"
     },
     {
       "kind": "memory",
       "locale": "es",
       "file": "memory.es.txt",
-      "sha256": "4bf97540138148f2002e4cfb0d6ba133a7365c3b03dbeeee2306fb9a0febc881"
+      "sha256": "aa30fa6d8307769678e85eda0bceb3601191151cef524e33f789ccdfeb8c59a8"
     },
     {
       "kind": "memory",
       "locale": "fr",
       "file": "memory.fr.txt",
-      "sha256": "80e9f70eea795ee1515e8cbec2534b9757624b7f7363d12b9e903b6560fa7d21"
+      "sha256": "8870392c1561cccb130e9cacd643f26f3613931b6ae92747aa60ab43c210bbcf"
     },
     {
       "kind": "memory",
       "locale": "pt",
       "file": "memory.pt.txt",
-      "sha256": "1286d7d02d46e8ba1d55eccde21c6cee3f0482e48ffd65fe458144c85c96f7a1"
+      "sha256": "9c8805b84787d93e5127a39e139fdf5d2139c9e9bc7d408c4e65beacfac7ff14"
     },
     {
       "kind": "memory",
       "locale": "hi",
       "file": "memory.hi.txt",
-      "sha256": "c3c912b3accc4eb346171cd568397d7824ebdfc060c1f242a76e582fdcbf75c7"
+      "sha256": "6dae27d2a65a1b4f7addc5e8538bea7f82ea6c55cf1608e5e5626ac876affaca"
     },
     {
       "kind": "memory",
       "locale": "ja",
       "file": "memory.ja.txt",
-      "sha256": "615807d24805cc57b5c008b18bcd0098696bac1134f436dd7169ae5cf0a4b7f1"
+      "sha256": "c530d5721b970fc49f02e43703eb6b3f9711cff4c701e8d513f35af6680e3733"
     },
     {
       "kind": "memory",
       "locale": "ko",
       "file": "memory.ko.txt",
-      "sha256": "2227426ca140962cf4ede4248cac57effc8cb4ec1472e44b8a888bb8993eea8d"
+      "sha256": "331f49366655a424e9e1570f5fd2ace80d9755dd61a5121b2af1db625648d69e"
     },
     {
       "kind": "memory",
       "locale": "zh",
       "file": "memory.zh.txt",
-      "sha256": "b7915819230acd757a60ba6217393b0bf16bb2b379ddf109a9d9895ea204ab77"
+      "sha256": "deddbbade551092c83a0d0f63ce508b9a151c735561fb4a8dc4debca6aa32776"
     },
     {
       "kind": "memory",
       "locale": "uk",
       "file": "memory.uk.txt",
-      "sha256": "5a2c7b9a7976872fb64b1a189893e91766998c324480fb73dac8254a1174c680"
+      "sha256": "37177c7275bfc89b270d78aa5c4d5246f80a0d73274d7f82bc8e87772f30e038"
     },
     {
       "kind": "tools",
       "locale": "en",
       "file": "tools.en.txt",
-      "sha256": "39efbdc50dcae834ccf8a26f1c80131185f8727fe8b2a0e6864d0fc3b911f94d"
+      "sha256": "597c83af432b72bd974d4385642e2c13f43cf5f01547e5efced95737dda72bea"
     },
     {
       "kind": "tools",
       "locale": "ru",
       "file": "tools.ru.txt",
-      "sha256": "7b71a83cd32b8a427cdecdc2f13f41e165b94a7cd1a2406d7ce028ef75c971ea"
+      "sha256": "8a44994fa2dde03a22bf0388a71c56bd46464df295aa45adfc0f97d3a2be175c"
     },
     {
       "kind": "tools",
       "locale": "de",
       "file": "tools.de.txt",
-      "sha256": "e219106e2edc255661320cc0a99238afdd8c83db49794ffaab9f98271d122838"
+      "sha256": "bbe945918e908de8fca987748e4db997893214fc274640fa2f0a82a543243540"
     },
     {
       "kind": "tools",
       "locale": "es",
       "file": "tools.es.txt",
-      "sha256": "56e2e4f2bf232a8f402da34336f666665f807d9704a84faf4ae522f6f34beec0"
+      "sha256": "e6c725802f0e1eaae53253435a956e7ece284340451583a7f13c11f9db50f773"
     },
     {
       "kind": "tools",
       "locale": "fr",
       "file": "tools.fr.txt",
-      "sha256": "400d8e756879d48f63582c740fd621d5acff1f9cb9d82347cac3b6362be43265"
+      "sha256": "9c9da3117fa07f91d0a24758edf7e4e87044f7eede26505da0be6aecc7a1dd8a"
     },
     {
       "kind": "tools",
       "locale": "pt",
       "file": "tools.pt.txt",
-      "sha256": "2a677d16b91d98640115ddd1b49506dac299eed03cdf000252ffd60be725354d"
+      "sha256": "dc663ab56bf0af703b28244c000334f907ead5ebabbfd64d9631c59abb1fdec0"
     },
     {
       "kind": "tools",
       "locale": "hi",
       "file": "tools.hi.txt",
-      "sha256": "f73bd5682603771b0c6019af9fef809db14bec25f74d088b830a25e7b52b7d8d"
+      "sha256": "c81605dd68cd7711b621bc7e330e3554928c5f7195e11395b4ba4ed2560b4ad8"
     },
     {
       "kind": "tools",
       "locale": "ja",
       "file": "tools.ja.txt",
-      "sha256": "d9357d32dd6c5f0a7f86b72654a2a7f47fc24f934bd6962c0068cdf47af1bb65"
+      "sha256": "93c928e11f7161a566f05c02b4143a6bb4c3b65d479cec0363a1561fc85591c7"
     },
     {
       "kind": "tools",
       "locale": "ko",
       "file": "tools.ko.txt",
-      "sha256": "8ba6182836b5174e4b0ca73d745e307ab5d95bf6342d8e773e1437728d1294b9"
+      "sha256": "174531ae179450bdf4299c7afce96337f0dc4178ea57fbcf11160e0e29c46b39"
     },
     {
       "kind": "tools",
       "locale": "zh",
       "file": "tools.zh.txt",
-      "sha256": "03fa172c3f1c3f9d699fc26b5d1a12774fce47a357c8a96ea75ff977c50fb1cd"
+      "sha256": "23f63646453b2f8f54284b146a2bfa5738802ef77f8607bd1592f01139a3b7d0"
     },
     {
       "kind": "tools",
       "locale": "uk",
       "file": "tools.uk.txt",
-      "sha256": "56153e63fd31304033e6aa1bc1990962c0c8b028e151685c5e078e10e3874288"
+      "sha256": "fb39d41696e0bb6607d3befbc15519a88abc5ba13f88eef0a31980d58273e4cd"
     },
     {
       "kind": "continue",
       "locale": "en",
       "file": "continue.en.txt",
-      "sha256": "db4087371709055989f5892b659833e78bb0512615b6097ffa2baf7e3e1146f2"
+      "sha256": "69bd8d46ffe7bc52dd366c3d8f18897e9df6d7802e8cc020f78bab519e2b2d5a"
     },
     {
       "kind": "continue",
       "locale": "ru",
       "file": "continue.ru.txt",
-      "sha256": "fc3ec04204a63f12dc7e90c862598e8e5bea8cbff34423cfbfb4e614dad87f0c"
+      "sha256": "3ac02797da2c4d11b5abc49b0c3f1e58c784d7f446360a9806e766b58938bdb7"
     },
     {
       "kind": "continue",
       "locale": "de",
       "file": "continue.de.txt",
-      "sha256": "60da745ad5e962377f83829e33395698b41e956e3aba457a2572de6df872f895"
+      "sha256": "e3b9bf3b6aacfd0e5fde823b3c05f53f60d85371f2af49a2771f51fb479d60cc"
     },
     {
       "kind": "continue",
       "locale": "es",
       "file": "continue.es.txt",
-      "sha256": "d65be43d1f22a1ab47a3c4b964c6784d29e372d457b321f908be67ce16923db0"
+      "sha256": "486912a25b439b64ab9c6894a6f5da95bf965f5bfe70b043dc76d0bc819c4cd1"
     },
     {
       "kind": "continue",
       "locale": "fr",
       "file": "continue.fr.txt",
-      "sha256": "c5506fb2ff88c79e5620140a5cc864fd0cdaea7476bcbc9a8384bce62de17ba1"
+      "sha256": "876016b4b5c7fa1d1f2b07b96d56bf5ecc16c13e3c1ba84147cebe4cd2d63a0a"
     },
     {
       "kind": "continue",
       "locale": "pt",
       "file": "continue.pt.txt",
-      "sha256": "7fb504df0cb2809ff1de473a3e26d9063b087bb1350a79215123a4663874c932"
+      "sha256": "d3e8846deb81a9e390165597671b8e4d50512f7370af48d698b76f458350ade0"
     },
     {
       "kind": "continue",
       "locale": "hi",
       "file": "continue.hi.txt",
-      "sha256": "71d2f1b26ba4e15ffa39963fe3051ea56456b67a0ce15e4c36da90740cf5836f"
+      "sha256": "b30b100643f84cd1b6d9f6bbcaf4a97ac0da971d36e04be645a607c9b306fdeb"
     },
     {
       "kind": "continue",
       "locale": "ja",
       "file": "continue.ja.txt",
-      "sha256": "61bfe20e149f2acf2bc7a654c308fa1b60c0d2c942d643fb91f32354e5187450"
+      "sha256": "b1f7daf18255d462d0fd0f68bbded371b34bac0c61757224252433482a6e4e73"
     },
     {
       "kind": "continue",
       "locale": "ko",
       "file": "continue.ko.txt",
-      "sha256": "55c06e3fac08b085d8f18d70a388ec0f8816d31eb59edf16011bf3eccddd52ae"
+      "sha256": "9c7d1ad7819135b880e44de3fbc090bf996ccdc4912de9eae29cef317fb455ff"
     },
     {
       "kind": "continue",
       "locale": "zh",
       "file": "continue.zh.txt",
-      "sha256": "f5148cc9bf96101b12818ff2010205e1a6e8f5ecd72cb7fd5714093066e2f137"
+      "sha256": "04f6d9c968d1ade359deb090049be5163b299ec6b4399403eb4b99f99a8708c9"
     },
     {
       "kind": "continue",
       "locale": "uk",
       "file": "continue.uk.txt",
-      "sha256": "a59f08ab984377cff3aa76471ab11999cfac77c8115d499b4674f8cc9e99453a"
+      "sha256": "372fdd5c4e01fc57975371b60d8858f42079447c04bcecfa93ad02807daee5b0"
     },
     {
       "kind": "desktop-setup",
@@ -412,7 +412,7 @@
       "locale": "en",
       "file": "desktop-setup-claude-code.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "e081a2193e13dd7b1938bec7a41066fe0de20bf9a7a95dfa2a9a18722fb7d1a7"
+      "sha256": "38f3be98dab00b1e9e8f3fd35fcf4579c4423cc59b6ef93580aa64ed82caaa4b"
     },
     {
       "kind": "desktop-setup",
@@ -420,7 +420,7 @@
       "locale": "ru",
       "file": "desktop-setup-claude-code.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "6f124036717dccf32aef21bdf06b7ffa3dab3d8ace7fdd34d6b41185f2e2e295"
+      "sha256": "8784480a58c5d26f43c0df95c79b28cecf4e04521e10e6cd114c74e054e041d4"
     },
     {
       "kind": "desktop-setup",
@@ -428,7 +428,7 @@
       "locale": "de",
       "file": "desktop-setup-claude-code.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "7ca430f40083f674f8ab5a8687b4ed6c4656ae7689b2a183b01da3366712f273"
+      "sha256": "c8197a1c326d960df768f611aee7c32c4130cfb0722b5d7bb95cfdfbfba421a6"
     },
     {
       "kind": "desktop-setup",
@@ -436,7 +436,7 @@
       "locale": "es",
       "file": "desktop-setup-claude-code.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "448cfb8768a435e91ad3af1e86bd46ac40e329fd7c9e01fcffca14b3b79a61e7"
+      "sha256": "4cd2fbcdc214fc02b3de84af6b6f26679564a1a40c043c14815a252d8fed1029"
     },
     {
       "kind": "desktop-setup",
@@ -444,7 +444,7 @@
       "locale": "fr",
       "file": "desktop-setup-claude-code.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "5093c6067806720bdc35c63aab87634577574034ae82dcfc9e949ed1fa9e807a"
+      "sha256": "88cd159cda6dab54125a29cb914aedffce447dc9cafee3771923bddf2365ba0a"
     },
     {
       "kind": "desktop-setup",
@@ -452,7 +452,7 @@
       "locale": "pt",
       "file": "desktop-setup-claude-code.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "5e56540727f18f34dcb58ffdceb737c2cb8dce554ae9e6661f5026901573b42e"
+      "sha256": "5a8ceb69972478772e9d78c46a7825263ea45ade64519325dc7949d8c6216233"
     },
     {
       "kind": "desktop-setup",
@@ -460,7 +460,7 @@
       "locale": "hi",
       "file": "desktop-setup-claude-code.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "420068ca0c93b34c2fec5538c676024fe5c0ee1d92671484cb93b0771b3c19db"
+      "sha256": "c3742b7bdfc28f2b865380c1b13a82de8a144a90c3a8d693f7a08215e8ef9eea"
     },
     {
       "kind": "desktop-setup",
@@ -468,7 +468,7 @@
       "locale": "ja",
       "file": "desktop-setup-claude-code.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "41be277fa42927a7c9949aa8c6d578b311223ae91562f8518cc489df993d8e66"
+      "sha256": "2cad35b1668f6151c16be5abb6c286b6eb42ae2be153a3face2021d1d8ed8476"
     },
     {
       "kind": "desktop-setup",
@@ -476,7 +476,7 @@
       "locale": "ko",
       "file": "desktop-setup-claude-code.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "0d4f5a16e07b80c401dc9d8d8f3d7111b721f7f51308a7fda681197726a7aada"
+      "sha256": "520b187b3b4c10098a7223378a61397d21aacaa1decc273569ea5f36a47c9522"
     },
     {
       "kind": "desktop-setup",
@@ -484,7 +484,7 @@
       "locale": "zh",
       "file": "desktop-setup-claude-code.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "271609a916751b0a331857969e48b41adb18a9b53a862330e347d7539ce26e44"
+      "sha256": "c6ae39c7ae536cd24a423960cfaf0c2e12d0de61854382cac4f4bb56641a0e1f"
     },
     {
       "kind": "desktop-setup",
@@ -492,7 +492,7 @@
       "locale": "uk",
       "file": "desktop-setup-claude-code.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "e3377060cd00e6aff5357583ee4ff8436be3e42a72c2c9b95155846d551e867b"
+      "sha256": "fdc8d88901b6b9cbadd825a243e895729b28ac746c6018071099be8d0ff8e3a0"
     },
     {
       "kind": "desktop-setup",
@@ -500,7 +500,7 @@
       "locale": "en",
       "file": "desktop-setup-codex.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "305db763eeb4e350e50fbe30a6eb400587a2a0b350f11512a4423d3345875c17"
+      "sha256": "03e9e26e33dc3806fea8d61e53b62f32e2e35d44fe5dea962861eb8e2f113621"
     },
     {
       "kind": "desktop-setup",
@@ -508,7 +508,7 @@
       "locale": "ru",
       "file": "desktop-setup-codex.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "264865d19bc2276b96c164ecb239a6b9e26c9876f6933ac71b35d9fff8aff109"
+      "sha256": "e9e72281d51cf0a3a16f1ff87359f19ddc2ea9d5b71d031511461bc33386116b"
     },
     {
       "kind": "desktop-setup",
@@ -516,7 +516,7 @@
       "locale": "de",
       "file": "desktop-setup-codex.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "bd2198c5d49149718d694ad209f5968995065d112631ef29157ac788fb42ecf7"
+      "sha256": "57480fa79e1f71925f258bb3b41898b6f1bc443da148dafca7e2c9e0ce6c228f"
     },
     {
       "kind": "desktop-setup",
@@ -524,7 +524,7 @@
       "locale": "es",
       "file": "desktop-setup-codex.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "3ec9234e67c971741d800ef35b4f5a2698de94bd1ed11999d329750897e3d077"
+      "sha256": "f221613fc4a3c0f61553549f6665bbc754ae199c0d3e55853988d191ff36858b"
     },
     {
       "kind": "desktop-setup",
@@ -532,7 +532,7 @@
       "locale": "fr",
       "file": "desktop-setup-codex.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "fa18bdb792957da7c0c30358345eb4d7b56a5469c1154c85091875721db684d9"
+      "sha256": "958ee140b7688f4727f58650f5841291576c92aea196c39614f26f9c6d184387"
     },
     {
       "kind": "desktop-setup",
@@ -540,7 +540,7 @@
       "locale": "pt",
       "file": "desktop-setup-codex.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "9572061e581338311396fe7cf41cf64533b8f0621babd03a111fe6cf7c499554"
+      "sha256": "d547023772f64df3ae3e3380cbb9765674f85addca38b03cc8351a61169b8b1d"
     },
     {
       "kind": "desktop-setup",
@@ -548,7 +548,7 @@
       "locale": "hi",
       "file": "desktop-setup-codex.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "3a5bc6d4b20b9f344deeb19929840387566c2defb0b1f095af87a614617e04eb"
+      "sha256": "0fe4db455639784cc9def5fd8d63d576a6ed65cde5f5e9e149b2ac8537f123fb"
     },
     {
       "kind": "desktop-setup",
@@ -556,7 +556,7 @@
       "locale": "ja",
       "file": "desktop-setup-codex.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "94acba4343cd4c2fd96320a7dafef8f8193d4f9fadfa5cf9627ac9c25580fa60"
+      "sha256": "9b34935aeebfdd055779beebb7583ba52ac66ca300847b6a70200eb5afa9465f"
     },
     {
       "kind": "desktop-setup",
@@ -564,7 +564,7 @@
       "locale": "ko",
       "file": "desktop-setup-codex.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "1d282a0d5028081633c8e0914f95ba9462216bde2b50f120add6c4ca667736b2"
+      "sha256": "7fbb52e121f1ec658ae9afb0ea0f2a3b2c435990213978f76d60e608e49e101d"
     },
     {
       "kind": "desktop-setup",
@@ -572,7 +572,7 @@
       "locale": "zh",
       "file": "desktop-setup-codex.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "42f2ce974743366e1c50ef252803e4ad81f96640f295e29be05a36a133f2293c"
+      "sha256": "f1099c2b8923ed42687f68c99c775b8800b26630460e2c6d42fc956d2093cefa"
     },
     {
       "kind": "desktop-setup",
@@ -580,7 +580,7 @@
       "locale": "uk",
       "file": "desktop-setup-codex.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopSetupRequest",
-      "sha256": "d7127cf166b389cc58f4498ea38bd1cbc3760582e04f90d657b0db647e430e1e"
+      "sha256": "a23cbf61b7333ebf7520917bbbf7fa237562d2afa789a3a04bafa7ed616f2a60"
     },
     {
       "kind": "desktop-work",
@@ -588,7 +588,7 @@
       "locale": "en",
       "file": "desktop-work-claude-code.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "bd73ba55292c3358c7b66e07c7b0afb4b3ab42532b0825ebdd607e04961b657c"
+      "sha256": "5defe99fd818426e2691c73c5c739455eb373ceca54241eee8974de06a767292"
     },
     {
       "kind": "desktop-work",
@@ -596,7 +596,7 @@
       "locale": "ru",
       "file": "desktop-work-claude-code.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "c14157af3c556a8f4a92299af2acbfe4fa294d839fb4a84caba7723525021455"
+      "sha256": "18a5a775f8f8f8aaba76c6d2018f4f0f9c6383062b5812ff13e49b2d76a06053"
     },
     {
       "kind": "desktop-work",
@@ -604,7 +604,7 @@
       "locale": "de",
       "file": "desktop-work-claude-code.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "ee1462d8b20e55c5893fc33b44fa3b3516c1cf58311d78a8f5d94d847182793d"
+      "sha256": "cd7ddbae1bad9b91acd4ed95c699435ec65d7b31b367a49ddf250ccaee5a05e9"
     },
     {
       "kind": "desktop-work",
@@ -612,7 +612,7 @@
       "locale": "es",
       "file": "desktop-work-claude-code.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "82d1f7a4e17e62e371fe3c78dc580c8cb189b1f9cad36195567cc77accd709fd"
+      "sha256": "c6b84ffd7280857d19881bc4be1a843975a5247c1856d761732d6631daa50740"
     },
     {
       "kind": "desktop-work",
@@ -620,7 +620,7 @@
       "locale": "fr",
       "file": "desktop-work-claude-code.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "ed496527861d2bdef8e2f6ae2ca0b47c669ab6a3155cb241769ac4a907b2791c"
+      "sha256": "783c5c575b4347764f43d17a87439c7a6689446e6904c1f8b10c0077fe230f32"
     },
     {
       "kind": "desktop-work",
@@ -628,7 +628,7 @@
       "locale": "pt",
       "file": "desktop-work-claude-code.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "dd0ede53ed673b341f84cd2dec33f63bc129a531042c6b14c45e2c7caeb5f52f"
+      "sha256": "a19edb346f7d459bb46d438cf1fe17738a68f4fbdeec4e0472447008a41742f2"
     },
     {
       "kind": "desktop-work",
@@ -636,7 +636,7 @@
       "locale": "hi",
       "file": "desktop-work-claude-code.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "ad7be7c08a149500a3ebc4674d57fcdf718fe03722faba2b25e2f98ecfddd751"
+      "sha256": "6cd492563307ba140a4d3be6ff931d1e1fd746d4ecf7d2bfc5d3c5e86d0cf055"
     },
     {
       "kind": "desktop-work",
@@ -644,7 +644,7 @@
       "locale": "ja",
       "file": "desktop-work-claude-code.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "6bb99b03f0052e23959b57253bdc6fef9ce155565666e865c605124c428ec9ee"
+      "sha256": "b7b0cff9f148ba125eabc5c9a391b0030ca0af12212ab9321fd229cc362a13e3"
     },
     {
       "kind": "desktop-work",
@@ -652,7 +652,7 @@
       "locale": "ko",
       "file": "desktop-work-claude-code.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "f789cc45ca0f7a6bc4ffcbb29bafba9a883d287f4ef719feba74f9010d97edca"
+      "sha256": "97b90f952fcded864d1f72c0e1cc8ee9aac96711ddebec8f9207a3c021f59156"
     },
     {
       "kind": "desktop-work",
@@ -660,7 +660,7 @@
       "locale": "zh",
       "file": "desktop-work-claude-code.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "15dcab60808d28c8ecc36842621c5661004bf1f1ea6d419be70b880bcbf53e9f"
+      "sha256": "8f86bd600497c1c75eae733e4994fd476530a402dba75686bfb27e0d390c83cf"
     },
     {
       "kind": "desktop-work",
@@ -668,7 +668,7 @@
       "locale": "uk",
       "file": "desktop-work-claude-code.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "2979e2bf507722ac952ee99a77d4d08d325787d14fadf01fe7c8215dde8c9b93"
+      "sha256": "6693f8a1c96862d6ab7c1c226e47c858d0f313b61d4a24a539f96bd914990fc4"
     },
     {
       "kind": "desktop-work",
@@ -676,7 +676,7 @@
       "locale": "en",
       "file": "desktop-work-codex.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "ee712e029d1517cc1497f2e4361b0583dbeeae9a40eb5e5dc15412643a23eb10"
+      "sha256": "7e43cedd4508fe74f3f22acc0df0a6ca8b62f7bd07e86b0ec09ba46c6bbeca90"
     },
     {
       "kind": "desktop-work",
@@ -684,7 +684,7 @@
       "locale": "ru",
       "file": "desktop-work-codex.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "6341828a7f0cd5ce6652ff656c8f226588237a65b7a95e452ec0030116f605b1"
+      "sha256": "733853600d6d69889ce609a49a49bd9ac605911e953c282c15854d8d96c111a7"
     },
     {
       "kind": "desktop-work",
@@ -692,7 +692,7 @@
       "locale": "de",
       "file": "desktop-work-codex.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "3c1a9b8c451b205f0c0142a503ee3d7be70e6cb0d0a22ecb0c7b2f9d66fa6dc1"
+      "sha256": "18b662d401f55ae07c3e0ac0d3404c7f440c4a88b61123003b9b0baaa8d04dc9"
     },
     {
       "kind": "desktop-work",
@@ -700,7 +700,7 @@
       "locale": "es",
       "file": "desktop-work-codex.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "c1d508929c8e0206defac38b09d410252777cec9ef44c0b5d328e269dd38fba4"
+      "sha256": "f4beb785762186c87670ce93c33a33b84dfb8f1269dcff516280738f49dcc5d2"
     },
     {
       "kind": "desktop-work",
@@ -708,7 +708,7 @@
       "locale": "fr",
       "file": "desktop-work-codex.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "8cfa45211f1d2165c30ab935ff9007774b69c4b00b7ee5b718535c27b1acafd5"
+      "sha256": "5c86ad7f5b27022715ad68ba3e0fb3ea6fcedb76f3704a1a035fbee5b5c82c45"
     },
     {
       "kind": "desktop-work",
@@ -716,7 +716,7 @@
       "locale": "pt",
       "file": "desktop-work-codex.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "5ec53f56c68f6641d072089a3846c4a746df05c251767e4e3033dae42cc2c94b"
+      "sha256": "e147a6f0fca9413d9885f0ddd0b60572ba6b32b19b2e958f26adeab7145ef1f0"
     },
     {
       "kind": "desktop-work",
@@ -724,7 +724,7 @@
       "locale": "hi",
       "file": "desktop-work-codex.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "a9fcf4ff39672d4875c7a8348e4abf79059ff16424cae4da1ccf63f3c6816950"
+      "sha256": "663118d026cf8d4caef235c596370eb421a6f303653e54330960f5724e7b0d94"
     },
     {
       "kind": "desktop-work",
@@ -732,7 +732,7 @@
       "locale": "ja",
       "file": "desktop-work-codex.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "861c3d834bc25c8c3d326aa237fda159ba2303023e3e8b1f9e4281f686e94321"
+      "sha256": "f645da9cd58865d2e956e3cb0eeb7e6386c52a5d9c6cf0bf9254bd5f7c1e290f"
     },
     {
       "kind": "desktop-work",
@@ -740,7 +740,7 @@
       "locale": "ko",
       "file": "desktop-work-codex.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "8f4d12f213d2f7d45f991089dcaf4db97e7cb2341d00e05eb0809cdd9e0a392f"
+      "sha256": "0cd769b2a035f365f2cc03a87abc5414cceb534efa687ae7f2786ec9424c4299"
     },
     {
       "kind": "desktop-work",
@@ -748,7 +748,7 @@
       "locale": "zh",
       "file": "desktop-work-codex.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "188d0aa81bf208a5c8e33d4a37f006bc8b2af019022c472851d411a3543a5c42"
+      "sha256": "8c43cf01d812dcd88ed0c0a284934de8945852429053bd154946f4839f9f7d5a"
     },
     {
       "kind": "desktop-work",
@@ -756,7 +756,7 @@
       "locale": "uk",
       "file": "desktop-work-codex.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopFirstWorkRequest",
-      "sha256": "5d999b6f032ad046ed271b055acbd561f422ed2d0039c5e9fb347c03e9efaea8"
+      "sha256": "248f571f9618ba96a8ac4540cf75106e6f38ff034613408349545e8bda0bf1fd"
     },
     {
       "kind": "desktop-team",
@@ -764,7 +764,7 @@
       "locale": "en",
       "file": "desktop-team-claude-code.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "043065e3a3fccaccca1fc65de8365364d8e5d4c28668dcf98c6f5eca040d697a"
+      "sha256": "ab549ae6cfca496fa8a218704c66a80662d019a069e8f07033021d3d7038d94b"
     },
     {
       "kind": "desktop-team",
@@ -772,7 +772,7 @@
       "locale": "ru",
       "file": "desktop-team-claude-code.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "33551e4a8d717fb7370a55dbe36194d6fd22b873aee9be2312cbf32e257f8728"
+      "sha256": "c7cf35440189d0f24ebe0d0db072961a5fe84ebc3f54ef389c8c5b0783d188a5"
     },
     {
       "kind": "desktop-team",
@@ -780,7 +780,7 @@
       "locale": "de",
       "file": "desktop-team-claude-code.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "85ab8eb0eda6a53da2ff94f7c86b457796d4dff9cede05c4b3ed32a300b1a6e5"
+      "sha256": "92a7c549d05bceadb189abd3f3dc21086accf1f58db86354f3455a22131829b4"
     },
     {
       "kind": "desktop-team",
@@ -788,7 +788,7 @@
       "locale": "es",
       "file": "desktop-team-claude-code.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "83cdee30e4292ebf61eab0c52f231543a10a7f907632029597a9eae7fd647316"
+      "sha256": "6adb992f2c119e0e0bb5b61b4fa9f9f82670e1d56d2eaa93e77a0c9304aee396"
     },
     {
       "kind": "desktop-team",
@@ -796,7 +796,7 @@
       "locale": "fr",
       "file": "desktop-team-claude-code.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "e0a01c4d535849e37484fd26a9c8cc425d423286f80b8d2b943396a158d12d25"
+      "sha256": "4af8104b982bf70fb3d919525ebfb07ca1df5d0f8b64dee2419058cac4b7a670"
     },
     {
       "kind": "desktop-team",
@@ -804,7 +804,7 @@
       "locale": "pt",
       "file": "desktop-team-claude-code.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "57746caee17b36d3b655de2263613dbeee5552f1479fe28f4478b3d51c6e3611"
+      "sha256": "84dd21770ddf77710eda4971f2aefd75980a22879d9b34c7a2369856bc8a7062"
     },
     {
       "kind": "desktop-team",
@@ -812,7 +812,7 @@
       "locale": "hi",
       "file": "desktop-team-claude-code.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "b779b522653438c7d36606ead97a334c7e5a7cf0b625b7a77984594e4f2d8671"
+      "sha256": "83af3aca644eac52651aac42dee33960c66909e4e23bfc0cd10ea394cb38f40d"
     },
     {
       "kind": "desktop-team",
@@ -820,7 +820,7 @@
       "locale": "ja",
       "file": "desktop-team-claude-code.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "412100854114a4dc97827137d65d3b4e6d4da3a03b572160477a6c1fea721eb2"
+      "sha256": "1afbcc8bad7205edf89f1ea30f7160489b92fd5d7b8ae0586039d711577b362f"
     },
     {
       "kind": "desktop-team",
@@ -828,7 +828,7 @@
       "locale": "ko",
       "file": "desktop-team-claude-code.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "9a16da1aba4447c4729dc8ecba649314f6f949fa39b24add1dfccdcda8e2b5db"
+      "sha256": "6e05966cef78db821f5ba837fbccbd50ea2cadca5e5023b3ff496188bf7087a1"
     },
     {
       "kind": "desktop-team",
@@ -836,7 +836,7 @@
       "locale": "zh",
       "file": "desktop-team-claude-code.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "a2e069f86b2d81f665700fa1fc17b754cff068195213272e9a03373e0750b720"
+      "sha256": "6af12bccca6f285056cd15d03890152e0f5e1837b67b8b89a2b75d20c8c07044"
     },
     {
       "kind": "desktop-team",
@@ -844,7 +844,7 @@
       "locale": "uk",
       "file": "desktop-team-claude-code.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "68e15ad923e12edf5094de81d96e7bd86d361434b1cd7e255fce4b6bf908a331"
+      "sha256": "a1f3415c8028a608121af31cb906f298e435d0945dd997c511988d0b4a050ced"
     },
     {
       "kind": "desktop-team",
@@ -852,7 +852,7 @@
       "locale": "en",
       "file": "desktop-team-codex.en.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "c9a4907c19647bd8a1a1499a2e5e14d4d8e1a9fede8fcee936f263b3361dcf66"
+      "sha256": "409a3d95bcc547fb26ad38867d36d21f8fc64ea55c5f0f3512b96121bb687ffb"
     },
     {
       "kind": "desktop-team",
@@ -860,7 +860,7 @@
       "locale": "ru",
       "file": "desktop-team-codex.ru.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "03163e842c20ad73113352f9717042eebc9fa832b0c6851f653bdedde751c797"
+      "sha256": "36dd95d728c664ac0381f41bec1746161e295ec8ac7724378bf193b91e9837d5"
     },
     {
       "kind": "desktop-team",
@@ -868,7 +868,7 @@
       "locale": "de",
       "file": "desktop-team-codex.de.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "236e6da849bcc618073cd1e964ed628d642e3445d0e6a7a3b61ab11a796ec0a8"
+      "sha256": "d9ebb74ef8a05c0992ee859f7fafaa67faf94ca82cacb21fe6bc310e5718512a"
     },
     {
       "kind": "desktop-team",
@@ -876,7 +876,7 @@
       "locale": "es",
       "file": "desktop-team-codex.es.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "cef617326627453da31602e3db3d51639965b8b4e2afcee167f5023ae575a12b"
+      "sha256": "0684864b3a5462ca8090c3de4c34740935af70369ac5cb45ab865579882649a5"
     },
     {
       "kind": "desktop-team",
@@ -884,7 +884,7 @@
       "locale": "fr",
       "file": "desktop-team-codex.fr.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "d962fe2cde99b7719b4c40f874b7cb0b6f9f91a51226dfdf77ce6a0fc7c6018d"
+      "sha256": "ea25acf4ae2f8d2622970d8b47d6a5b0c2855503bc22d608faaaaa62e2cbbc87"
     },
     {
       "kind": "desktop-team",
@@ -892,7 +892,7 @@
       "locale": "pt",
       "file": "desktop-team-codex.pt.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "7fdc5e6326f0816570bb7c89943e2d8d6da7c6cad1037c7ee86fd098d1cb3097"
+      "sha256": "a1a83e5a75f7d0433ad7d57aa4ecf4ffb1a6de4559a4c0933315d6bb7913cb7f"
     },
     {
       "kind": "desktop-team",
@@ -900,7 +900,7 @@
       "locale": "hi",
       "file": "desktop-team-codex.hi.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "c698b246cc94106f09fc5f33fbae50ee8835a6acb5fc29056900e19ec510e1de"
+      "sha256": "43c1df36e1e07474c57f1570870031bd419b503038ce52a2c1e28fd5810d7369"
     },
     {
       "kind": "desktop-team",
@@ -908,7 +908,7 @@
       "locale": "ja",
       "file": "desktop-team-codex.ja.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "5a0e0257cabc2cc5af05128bd509219230d7d778e5ae671a4a0a083a2216e0de"
+      "sha256": "17069f0708c61513bef18d65270fa950eaa7a60b1290b036a4ca71332b614a38"
     },
     {
       "kind": "desktop-team",
@@ -916,7 +916,7 @@
       "locale": "ko",
       "file": "desktop-team-codex.ko.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "6ba2acd1a89d74fddd26a1c0fb858362f7249b7d059ed1aef62d640112f14a08"
+      "sha256": "babc526804eb18c5e847e652f5411da131d4639768ef95d4f75d9809b5ca9b61"
     },
     {
       "kind": "desktop-team",
@@ -924,7 +924,7 @@
       "locale": "zh",
       "file": "desktop-team-codex.zh.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "f1b0b363db490cfab3a672dd3bb91b93d3aeb59c372051f82edebc6a6c6fab41"
+      "sha256": "54a1735673f9261a37ceacae07e2fe37cbdc624a496bb9a7f69982177ba23bd0"
     },
     {
       "kind": "desktop-team",
@@ -932,7 +932,7 @@
       "locale": "uk",
       "file": "desktop-team-codex.uk.txt",
       "generatedFrom": "src/desktopPath.ts:desktopTeamRequest",
-      "sha256": "b2712883291d0dd8d55672c5a7dc416f4aad4a9331f74643b740103850dba41a"
+      "sha256": "b8f489b2c578bc0fb01d87c878974096ff729ae28a3ff0f196604bb6e8a4438e"
     }
   ]
 }

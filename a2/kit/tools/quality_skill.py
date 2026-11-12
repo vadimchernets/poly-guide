@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: portable personal review rules; offline, Python standard library."""
+"""Poly: portable personal review rules; offline, Python standard library."""
 import argparse
 import hashlib
 import json
@@ -88,18 +88,18 @@ def create(args):
     rules = load_rules(args.rules)
     source = read_text(args.source)
     copy = COPY[args.locale]
-    if len('Poly A2. ' + rules['use_when']) > 1024 or any(c in rules['use_when'] for c in '<>'):
+    if len('Poly. ' + rules['use_when']) > 1024 or any(c in rules['use_when'] for c in '<>'):
         raise ValueError('use-when-too-long-or-invalid')
     out = Path(args.output)
     # Validate every input before creating anything; never merge into an existing skill.
     out.mkdir(parents=True, exist_ok=False, mode=0o700)
     save_json(out / 'rules.json', rules)
     (out / 'EXAMPLE.txt').write_text(source, encoding='utf-8')
-    description = 'Poly A2. ' + rules['use_when']
+    description = 'Poly. ' + rules['use_when']
     skill = ('---\nname: poly-a2-quality-rules\ndescription: ' + json.dumps(description, ensure_ascii=False)
-             + '\n---\n\n# Poly A2 — ' + copy['standardTitle'] + '\n\n' + copy['skillBody']
+             + '\n---\n\n# Poly — ' + copy['standardTitle'] + '\n\n' + copy['skillBody']
              + '\n\n' + '\n'.join(f"- {r['id']}: {r['text']}" for r in rules['criteria']) + '\n')
-    skill += '\n\nPoly A2 — working AI: use REVIEW-TEMPLATE.json for the actual new input; recalculate its exact UTF-8 SHA256, fill every rule, and run from this folder: `python3 scripts/quality_skill.py check --rules rules.json --source /path/to/actual.txt --review /path/to/review.json --output /path/to/new-receipt.json`. Open the original and inspect the judgments separately.\n'
+    skill += '\n\n<!-- Poly: technical procedure; explicit saved audit only. Never include in recipient text. -->\nOnly for an explicitly requested saved audit: copy REVIEW-TEMPLATE.json; source_sha256 = SHA256(exact UTF-8 input). Fill every checks[].id, verdict (pass/fail/unclear), reason, suggestion and exact quote with 1-based start_line/end_line. No evidence: unclear, empty quote, null lines. Run from this folder: `python3 scripts/quality_skill.py check --rules rules.json --source /path/to/actual.txt --review /path/to/review.json --output /path/to/new-receipt.json`. Inspect judgments separately; exit 0 confirms coverage and quote locations only. Keep audit files and all status information separate from recipient text.\n'
     (out / 'SKILL.md').write_text(skill, encoding='utf-8')
     (out / 'scripts').mkdir(mode=0o700)
     for name in ('quality_skill.py', 'QUALITY-TEXT.json'):

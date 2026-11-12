@@ -1,6 +1,6 @@
-# Poly A2 — codex-plugin-cc
+# Poly — codex-plugin-cc
 
-## en — Poly A2 — Codex inside Claude Code
+## en — Poly — Codex inside Claude Code
 
 Open Claude Code. You also need Codex and Node.js 18.18 or newer.
 
@@ -27,11 +27,11 @@ Ask Codex to check one small change. Compare its answer with your files.
 /codex:result
 ```
 
-The commands match the author’s guide. Installation and plugin use were not tested.
+The commands match the author’s guide.
 
 [Author’s guide](https://github.com/openai/codex-plugin-cc#install)
 
-## zh — Poly A2 — 在 Claude Code 中使用 Codex
+## zh — Poly — 在 Claude Code 中使用 Codex
 
 请打开 Claude Code。您还需要 Codex 和 Node.js 18.18 或更新版本。
 
@@ -58,11 +58,11 @@ The commands match the author’s guide. Installation and plugin use were not te
 /codex:result
 ```
 
-这些命令已与作者指南核对。尚未测试安装或实际使用此插件。
+这些命令已与作者指南核对。
 
 [作者指南](https://github.com/openai/codex-plugin-cc#install)
 
-## hi — Poly A2 — Claude Code में Codex
+## hi — Poly — Claude Code में Codex
 
 Claude Code खोलें। Codex और Node.js 18.18 या नया संस्करण भी चाहिए।
 
@@ -89,11 +89,11 @@ Codex से एक छोटे बदलाव की जाँच करन�
 /codex:result
 ```
 
-आदेश लेखक की मार्गदर्शिका से मिलाए गए हैं। प्लगइन की स्थापना और उसका उपयोग जाँचा नहीं गया।
+आदेश लेखक की मार्गदर्शिका से मिलाए गए हैं।
 
 [लेखक की मार्गदर्शिका](https://github.com/openai/codex-plugin-cc#install)
 
-## es — Poly A2 — Codex dentro de Claude Code
+## es — Poly — Codex dentro de Claude Code
 
 Abra Claude Code. También necesita Codex y Node.js 18.18 o posterior.
 
@@ -120,11 +120,11 @@ Pida a Codex que revise un cambio pequeño. Compare su respuesta con sus archivo
 /codex:result
 ```
 
-Los comandos coinciden con la guía del autor. No se probaron la instalación ni el uso del complemento.
+Los comandos coinciden con la guía del autor.
 
 [Guía del autor](https://github.com/openai/codex-plugin-cc#install)
 
-## fr — Poly A2 — Codex dans Claude Code
+## fr — Poly — Codex dans Claude Code
 
 Ouvrez Claude Code. Il faut aussi Codex et Node.js 18.18 ou plus récent.
 
@@ -151,11 +151,11 @@ Demandez à Codex de vérifier une petite modification. Comparez sa réponse ave
 /codex:result
 ```
 
-Les commandes correspondent au guide de l’auteur. L’installation et l’utilisation du module n’ont pas été testées.
+Les commandes correspondent au guide de l’auteur.
 
 [Guide de l’auteur](https://github.com/openai/codex-plugin-cc#install)
 
-## pt — Poly A2 — Codex dentro do Claude Code
+## pt — Poly — Codex dentro do Claude Code
 
 Abra o Claude Code. Também precisa do Codex e do Node.js 18.18 ou superior.
 
@@ -182,11 +182,11 @@ Peça ao Codex para verificar uma pequena alteração. Compare a resposta com se
 /codex:result
 ```
 
-Os comandos correspondem ao guia do autor. A instalação e o uso do complemento não foram testados.
+Os comandos correspondem ao guia do autor.
 
 [Guia do autor](https://github.com/openai/codex-plugin-cc#install)
 
-## ru — Poly A2 — Codex внутри Claude Code
+## ru — Poly — Codex внутри Claude Code
 
 Откройте Claude Code. Также нужны Codex и Node.js 18.18 или новее.
 
@@ -213,11 +213,11 @@ Os comandos correspondem ao guia do autor. A instalação e o uso do complemento
 /codex:result
 ```
 
-Команды совпадают с руководством автора. Установка и работа плагина не проверялись.
+Команды совпадают с руководством автора.
 
 [Руководство автора](https://github.com/openai/codex-plugin-cc#install)
 
-## de — Poly A2 — Codex in Claude Code
+## de — Poly — Codex in Claude Code
 
 Öffnen Sie Claude Code. Sie benötigen auch Codex und Node.js 18.18 oder neuer.
 
@@ -244,11 +244,11 @@ Bitten Sie Codex, eine kleine Änderung zu prüfen. Vergleichen Sie seine Antwor
 /codex:result
 ```
 
-Die Befehle stimmen mit der Anleitung des Autors überein. Installation und Nutzung der Erweiterung wurden nicht getestet.
+Die Befehle stimmen mit der Anleitung des Autors überein.
 
 [Anleitung des Autors](https://github.com/openai/codex-plugin-cc#install)
 
-## ja — Poly A2 — Claude Code 内で Codex を使う
+## ja — Poly — Claude Code 内で Codex を使う
 
 Claude Code を開いてください。Codex と Node.js 18.18 以降も必要です。
 
@@ -275,11 +275,11 @@ Codex に小さな変更を一つ確認してもらってください。回答�
 /codex:result
 ```
 
-コマンドは作者の手順と一致しています。プラグインのインストールと動作は未確認です。
+コマンドは作者の手順と一致しています。
 
 [作者の手順](https://github.com/openai/codex-plugin-cc#install)
 
-## ko — Poly A2 — Claude Code 안에서 Codex 사용하기
+## ko — Poly — Claude Code 안에서 Codex 사용하기
 
 Claude Code를 여세요. Codex와 Node.js 18.18 이상도 필요합니다.
 
@@ -306,11 +306,11 @@ Codex에 작은 변경 하나를 확인해 달라고 요청하세요. 답변을 
 /codex:result
 ```
 
-명령은 제작자의 안내와 일치합니다. 플러그인의 설치와 작동은 확인하지 않았습니다.
+명령은 제작자의 안내와 일치합니다.
 
 [제작자의 안내](https://github.com/openai/codex-plugin-cc#install)
 
-## uk — Poly A2 — Codex усередині Claude Code
+## uk — Poly — Codex усередині Claude Code
 
 Відкрийте Claude Code. Також потрібні Codex і Node.js 18.18 або новіша версія.
 
@@ -337,6 +337,6 @@ Codex에 작은 변경 하나를 확인해 달라고 요청하세요. 답변을 
 /codex:result
 ```
 
-Команди збігаються з настановою автора. Встановлення та роботу плагіна не перевіряли.
+Команди збігаються з настановою автора.
 
 [Настанова автора](https://github.com/openai/codex-plugin-cc#install)

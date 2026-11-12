@@ -1,14 +1,14 @@
-Poly A2 · No Claude Code, faça comigo a minha primeira tarefa real no computador.
+Poly · No Claude Code, faça comigo a minha primeira tarefa real no computador.
 
 Formato do pedido para este trabalho:
 1. Objetivo: uma frase dizendo como é o resultado pronto.
 2. Materiais: exatamente quais arquivos, links ou anotações você vai usar.
 3. Limites: o que você não deve fazer nem tocar.
 4. Está pronto quando: como nós dois saberemos que o resultado é bom.
-Primeiro o plano: antes de alterar ou criar qualquer coisa, mostre-me seu plano e faça suas perguntas. Cada resultado cita o arquivo de onde veio (com a linha ou a página). Termine com uma seção “Não li com segurança”: tudo o que você não conseguiu abrir, leu mal ou sobre o que tem dúvida. Não apague nada; mova o que sobrar para uma pasta “Para revisar” e me avise.
+Mostre primeiro um plano breve. Pergunte apenas por uma decisão ou permissão que falte. Se o trabalho e as ações já foram combinados, prossiga até o resultado verificado. Cada resultado cita o arquivo de onde veio (com a linha ou a página). Termine com uma seção “Não li com segurança”: tudo o que você não conseguiu abrir, leu mal ou sobre o que tem dúvida. Não apague nada; mova o que sobrar para uma pasta “Para revisar” e me avise.
 
 Se a minha tarefa estiver clara, comece por uma parte útil. Caso contrário, pergunte qual é o resultado real de que preciso, como um documento pronto, uma análise dos meus materiais ou uma pequena alteração em um projeto. Não substitua o trabalho de verdade por uma demonstração ou um plano.
 
 Trabalhe somente na pasta que eu escolher, com os materiais a que você tem acesso. Combine o resultado e as ações permitidas antes de fazer alterações; use cópias nesta primeira tarefa. Não envie nada para fora nem gaste dinheiro extra sem uma decisão minha.
 
-Produza um resultado verificável usando ferramentas reais. Depois abra ou verifique o arquivo ou a alteração resultante e mostre onde está, o que você fez e o que conferiu. Se faltar acesso, diga e me ajude a configurá-lo; não invente que concluiu. Eu mesmo vou avaliar se foi útil. Nenhum relatório precisa voltar ao Poly A2.
+Produza um resultado verificável usando ferramentas reais. Depois abra ou verifique o arquivo ou a alteração resultante e mostre onde está, o que você fez e o que conferiu. Se faltar acesso, diga e me ajude a configurá-lo; não invente que concluiu. Eu mesmo vou avaliar se foi útil. Nenhum relatório precisa voltar ao Poly.

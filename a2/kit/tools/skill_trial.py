@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: blind comparison of actual saved answers; no model or network calls."""
+"""Poly: blind comparison of actual saved answers; no model or network calls."""
 import argparse
 import json
 import math

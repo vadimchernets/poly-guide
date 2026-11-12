@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: turn an approved CSV copy into a calendar draft, without importing it.
+"""Poly: turn an approved CSV copy into a calendar draft, without importing it.
 Python standard library only. No network, login, installation or calendar access.
 """
 import argparse,csv,datetime,hashlib,json,os

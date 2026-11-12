@@ -1,4 +1,4 @@
-# Poly A2 — working material from everyday files
+# Poly — working material from everyday files
 
 Use `open_formats.py` only on a file copy explicitly chosen by the person. Work locally; no account or API key is needed. Python 3 and the appropriate installed converter are required. Nothing is installed automatically. Explain the useful result, not these commands, to a non-programmer.
 

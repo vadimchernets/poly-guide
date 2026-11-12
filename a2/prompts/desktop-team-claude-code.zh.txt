@@ -1,27 +1,27 @@
-Poly A2 · 一个窗口里的两个 AI。你是主导的 Claude Code；请通过我电脑上已安装的命令行工具，把 Codex 接入，作为独立的检查者。
+Poly · 一个窗口里的两个 AI。你是主导的 Claude Code；请通过我电脑上已安装的命令行工具，把 Codex 接入，作为独立的检查者。
 
 这项工作的任务格式：
 1. 目标：用一句话说明最终成果是什么样。
 2. 材料：具体使用哪些文件、链接或笔记。
 3. 限制：哪些事不能做、哪些内容不能动。
 4. 完成标准：我们双方如何确认成果是好的。
-先给方案：在修改或创建任何东西之前，先把计划给我看并提出你的问题。每项输出都要注明来自哪个文件（含行号或页码）。最后加一节“没有把握读懂的内容”：列出没能打开、读得不清楚或不确定的一切。不要删除任何东西；多余的内容移到名为“待查看”的文件夹，并告诉我。
+先简要说明计划。只询问尚缺的决定或许可。如果任务和操作已经确认，就继续做到结果经过核查。每项输出都要注明来自哪个文件（含行号或页码）。最后加一节“没有把握读懂的内容”：列出没能打开、读得不清楚或不确定的一切。不要删除任何东西；多余的内容移到名为“待查看”的文件夹，并告诉我。
 
-Poly A2 · guide.md
+Poly · guide.md
 https://polyhelper.ai/g/a2.md
-Poly A2 · manifest.json
+Poly · manifest.json
 https://polyhelper.ai/g/a2-kit/manifest.json
 https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/kit/manifest.json
 
-请使用我选择的语言（zh）回答。在 Poly A2 电脑工具包中找到 adapters/poly_second.py 和 adapters/README.md。先阅读说明，再为第二个工具运行 doctor。若缺少工具包，请说明；这条消息不会安装它。经我同意进行一次有限的外部调用后，使用 review 和 --provider codex 或 --provider claude-code，只传入我允许的内容。将返回的回答与原始材料核对。
+请使用我选择的语言（zh）回答。在 Poly 电脑工具包中找到 adapters/poly_second.py 和 adapters/README.md。先阅读说明，再为第二个工具运行 doctor。若缺少工具包，请说明；这条消息不会安装它。经我同意进行一次有限的外部调用后，使用 review 和 --provider codex 或 --provider claude-code，只传入我允许的内容。将返回的回答与原始材料核对。
 
 我留在这个主导窗口里。不要让我在不同对话之间搬运回答。先确认第二个工具已安装，并已通过我符合条件的订阅登录。不要显示或复制令牌、登录文件或 API 密钥；不要启用单独的 API 计费。如果缺少安装或登录，请帮我设置，不要声称连接已就绪。
 
-如果我同时有 Claude Code 和 Codex，还有一种接入 Codex 的方式：Claude Code 的 Codex 插件。只有在我同意后才安装，一次一条命令：/plugin marketplace add openai/codex-plugin-cc，然后 /plugin install codex@openai-codex，然后 /reload-plugins，然后 /codex:setup。如果 Codex 尚未登录，运行 !codex login，并用我现有的账号登录。之后用 /codex:review --background 请求检查，用 /codex:result 查看结果，发布前使用 /codex:adversarial-review。只使用我已有的订阅，不要设置付费 API 计费。这些命令来自插件 README（2026 年 11 月 7 日核对），Poly A2 没有运行过；如果本地帮助与此不同，以本地帮助为准。
+如果我同时有 Claude Code 和 Codex，还有一种接入 Codex 的方式：Claude Code 的 Codex 插件。只有在我同意后才安装，一次一条命令：/plugin marketplace add openai/codex-plugin-cc，然后 /plugin install codex@openai-codex，然后 /reload-plugins，然后 /codex:setup。如果 Codex 尚未登录，运行 !codex login，并用我现有的账号登录。之后用 /codex:review --background 请求检查，用 /codex:result 查看结果，发布前使用 /codex:adversarial-review。只使用我已有的订阅，不要设置付费 API 计费。这些命令来自插件 README（2026 年 11 月 7 日核对），Poly 没有运行过；如果本地帮助与此不同，以本地帮助为准。
 
 查看当前官方的运行说明和可用的限制。先做一次有范围限制的只读检查：只发送必要的任务和已授权的资料，设置超时时间，不允许修改文件，也不允许启动其他执行者。把它的实际输出和状态带回这个窗口，检查错误或缺失的权限，然后把它的意见与原始依据对照。无论失败还是两个模型意见一致，都不能证明检查已经完成。
 
-Poly A2 · 完成任务并检查结果。留在当前主窗口。请自行准备文件并执行命令。阅读套件中的 tools/WORKFLOW.md，找到 tools/workflow.py。若套件缺失，请按上面的 manifest.json 获取并核对文件哈希。使用我已同意的任务和文本；只询问尚缺的许可。自行将这些文本保存为 task.txt 和 approved.txt。若 new-run 已存在，另选新的结果文件夹。在套件目录执行：python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer claude-code --reviewer codex --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network。将两个真实回答带回这里。逐条核对审查 AI 的说法，依据原文件、引文、计算或可观察的变化。记录接受和否决的意见及证据。在我许可范围内修正确认的问题，再检查最终文件。告诉我结果保存在哪里。不要让我准备命令或在聊天之间搬运回答。复制消息或两个 AI 意见一致并不能证明成功。 本次任务只使用 workflow，不要另行调用适配器的 review。
+Poly · 完成任务并检查结果。留在当前主窗口。请自行准备文件并执行命令。阅读套件中的 tools/WORKFLOW.md，找到 tools/workflow.py。若套件缺失，请按上面的 manifest.json 获取并核对文件哈希。使用我已同意的任务和文本；只询问尚缺的许可。自行将这些文本保存为 task.txt 和 approved.txt。若 new-run 已存在，另选新的结果文件夹。在套件目录执行：python3 tools/workflow.py --task-file task.txt --source approved.txt --output new-run --producer claude-code --reviewer codex --max-calls 2 --max-seconds 300 --stop-file STOP-POLY-A2 --allow-network。将两个真实回答带回这里。逐条核对审查 AI 的说法，依据原文件、引文、计算或可观察的变化。记录接受和否决的意见及证据。在我许可范围内修正确认的问题，再检查最终文件。告诉我结果保存在哪里。不要让我准备命令或在聊天之间搬运回答。复制消息或两个 AI 意见一致并不能证明成功。 本次任务只使用 workflow，不要另行调用适配器的 review。
 
 完成一个真实任务并经过独立检查之后，我们可以扩展到多个不同的角色，再到一套可重复的流程，包含明确的检查、停止条件和我的花费上限。未经我决定，不要开始耗时较长或需要付费的运行。
 
@@ -30,4 +30,4 @@ Codex 登录：https://learn.chatgpt.com/docs/auth
 Claude Code：https://code.claude.com/docs/en/headless
 Claude Code 登录：https://code.claude.com/docs/en/authentication
 
-如果无法上网，先查看本地帮助和实际已安装的功能；不要编造参数，也不要谎称执行成功。Poly A2 只准备了这份任务，自己不会运行命令，也不会读取终端。
+如果无法上网，先查看本地帮助和实际已安装的功能；不要编造参数，也不要谎称执行成功。Poly 只准备了这份任务，自己不会运行命令，也不会读取终端。

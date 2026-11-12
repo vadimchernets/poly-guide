@@ -1,4 +1,4 @@
-# Poly A2 — computer setup and first real task
+# Poly — computer setup and first real task
 
 Optional context for the AI assisting this person. Apply only after the person chooses the tool and scope; do not overwrite existing project instructions. Follow the host's permissions and the current task. This template does not install anything or prove readiness.
 
@@ -23,8 +23,8 @@ Generated, source-matched requests: https://polyhelper.ai/g/a2-prompts/index.jso
 - `desktop-work-claude-code.en.txt` / `.ru.txt`
 - `desktop-work-codex.en.txt` / `.ru.txt`
 
-These files are generated from Poly A2's `desktopSetupRequest` and `desktopFirstWorkRequest`; this template provides context, not a second maintained prompt implementation. The person can add their task and known access in the app. Default published requests contain no private profile.
+These files are generated from Poly's `desktopSetupRequest` and `desktopFirstWorkRequest`; this template provides context, not a second maintained prompt implementation. The person can add their task and known access in the app. Default published requests contain no private profile.
 
-Poly A2: https://polyhelper.ai/a2/
+Poly: https://polyhelper.ai/a2/
 Guide: https://polyhelper.ai/g/a2.md
 Mirror: https://raw.githubusercontent.com/vadimchernets/poly-guide/main/a2/guide.md

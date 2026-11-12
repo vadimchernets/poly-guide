@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2 local text library. Python/SQLite; no network, telemetry or external AI."""
+"""Poly local text library. Python/SQLite; no network, telemetry or external AI."""
 import hashlib
 import argparse
 import json

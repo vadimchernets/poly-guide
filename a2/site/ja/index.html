@@ -3,44 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Poly A2は、AIをもっと活用する手助けをします。本当のタスクを任せ、異なるAIを組み合わせて、無理のないペースで。">
-  <title>Poly A2 — AIをもっと活用しよう</title>
+  <meta name="description" content="Polyは、AIをもっと活用する手助けをします。本当のタスクを任せ、異なるAIを組み合わせて、無理のないペースで。">
+  <title>Poly — AIをもっと活用しよう</title>
   <style>
     :root{color-scheme:light;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e35;background:#f8f9f3}*{box-sizing:border-box}body{margin:0}main{max-width:760px;padding:48px 24px 64px;margin:auto}header,footer{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}header{margin-bottom:64px;font-weight:650}a{color:#2e5d49;text-underline-offset:4px}h1{font-size:clamp(32px,6vw,52px);line-height:1.1;letter-spacing:-1.5px;max-width:650px;margin:16px 0 22px}p,li{font-size:18px;line-height:1.6;color:#5d7065}.eyebrow{font-size:13px;font-weight:650;letter-spacing:.08em;text-transform:uppercase;color:#2e5d49}.card{padding:24px;border:1px solid #dce3d8;border-radius:22px;background:white;margin:24px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}button,.button{font:inherit;font-weight:600;font-size:17px;border:0;border-radius:12px;padding:16px 22px;min-height:54px;background:#2e5d49;color:white;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}.secondary{background:#eff3e8;color:#203e35}select{font:inherit;padding:12px;border:1px solid #c9d6c8;border-radius:10px;max-width:100%;background:white}label{display:block;font-weight:600;margin-bottom:10px}.note,footer{font-size:14px;line-height:1.6;color:#64756c}.status{margin-top:16px;min-height:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.5;padding:18px;border-radius:12px;background:#eff3e8}details{margin-top:20px}summary{cursor:pointer;min-height:40px}footer{margin-top:56px;border-top:1px solid #dce3d8;padding-top:20px}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #91af78;outline-offset:4px}@media(max-width:480px){main{padding:28px 20px}header{margin-bottom:40px}.card{padding:20px}.actions>*{width:100%;justify-content:center}}
   </style>
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../favicon.png">
 </head>
 <body>
 <main>
-  <header><span>⌘ Poly A2</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly A2</a></header>
+  <header><span>⌘ Poly</span><a href="https://github.com/vadimchernets/poly-guide/tree/main/a2">GitHub Poly</a></header>
   <div class="eyebrow">分かりやすく。役に立つ。あなたの本当のタスクで。</div>
   <h1>あなたのAIの力を、もっと引き出そう。</h1>
-  <p>いつも使っているAIを開いて、用意されたPoly A2のメッセージを貼り付けてください。本当のタスクを手伝い、次に試すことを提案します。タスクをまるごとAIに任せる、または別のAIに結果を確認してもらう、などです。</p>
+  <p>いつも使っているAIを開いて、用意されたPolyのメッセージを貼り付けてください。本当のタスクを手伝い、次に試すことを提案します。タスクをまるごとAIに任せる、または別のAIに結果を確認してもらう、などです。</p>
   <section class="card" aria-labelledby="start-title">
     <h2 id="start-title">都合のよいところから始めよう</h2>
     <label for="provider">あなたのAI</label>
     <select id="provider"><option value="https://chatgpt.com/">ChatGPT</option><option value="https://gemini.google.com/">Gemini</option><option value="https://www.meta.ai/">Meta AI</option><option value="https://claude.ai/">Claude</option><option value="https://chat.deepseek.com/">DeepSeek</option><option value="https://grok.com/">Grok</option></select>
-    <div class="actions"><button id="copy" type="button">Poly A2のメッセージをコピー</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">選んだAIを開く</a></div>
+    <div class="actions"><button id="copy" type="button">Polyのメッセージをコピー</button><a id="open" class="button secondary" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">選んだAIを開く</a></div>
     <p class="note">そのあと、今の会話または新しい会話にメッセージを貼り付けて送信します。そこで作業を続けましょう。アプリなしでも、ブラウザで始められます。サービスから、サインインを求められることがあります。</p>
     <div id="status" class="status note" role="status" aria-live="polite"></div>
-    <details id="fallback"><summary>メッセージを見る、または手でコピーする</summary><pre id="prompt">Poly A2の文章を読み込んでいます…</pre><a href="/g/a2-prompts/start.ja.txt">メッセージの文章を開く</a></details>
+    <details id="fallback"><summary>メッセージを見る、または手でコピーする</summary><pre id="prompt">Polyの文章を読み込んでいます…</pre><a href="/g/a2-prompts/start.ja.txt">メッセージの文章を開く</a></details>
   </section>
   <h2>あなたのAIは、さっと答える以上のことができます</h2>
-  <p>検索、よく考えた答え、ファイル、画像。Poly A2は、あなたの本当のタスクで、ふさわしい機能を試す手助けをします。そのあと、AIにもっと多くの作業を任せ、異なるAIを組み合わせて使います。</p>
+  <p>検索、よく考えた答え、ファイル、画像。Polyは、あなたの本当のタスクで、ふさわしい機能を試す手助けをします。そのあと、AIにもっと多くの作業を任せ、異なるAIを組み合わせて使います。</p>
   <p>パソコンでは、タスクを実行するAIを試せます。たとえば、ファイルを扱う作業を手伝ってくれます。ふさわしいサブスクリプションがあれば、使えるツールと上限が広がります。まず、すでに支払っているプランに何が含まれるか確認しましょう。</p>
-  <div class="actions"><a class="button secondary" href="/g/a2.ja.md">あなたのAI向けのPoly A2ガイド</a></div>
-  <p class="note">モバイル版とMacのコンパニオンは開発中です。ストアへのリンクは、別のPoly A2アプリの公開後に表示されます。コピーやサービスを開くことは、AIがメッセージを受け取った、またはタスクを終えたという意味ではありません。基本の文章は、ガイドを読まなくても機能します。</p>
-  <noscript><p class="note"><a href="/g/a2-prompts/start.ja.txt">JavaScriptなしでコピーするには、Poly A2の最初のメッセージを開いて、選んだAIに移してください。</a></p></noscript>
-  <footer><span>Poly A2 · Polyhelper.ai LLC</span><a href="/g/a2-privacy.ja.md">プライバシー</a><a href="/g/a2-terms.ja.md">Poly A2の利用規約</a></footer>
+  <div class="actions"><a class="button secondary" href="/g/a2.ja.md">あなたのAI向けのPolyガイド</a></div>
+  <p class="note">モバイル版とMacのコンパニオンは開発中です。ストアへのリンクは、別のPolyアプリの公開後に表示されます。コピーやサービスを開くことは、AIがメッセージを受け取った、またはタスクを終えたという意味ではありません。基本の文章は、ガイドを読まなくても機能します。</p>
+  <noscript><p class="note"><a href="/g/a2-prompts/start.ja.txt">JavaScriptなしでコピーするには、Polyの最初のメッセージを開いて、選んだAIに移してください。</a></p></noscript>
+  <footer><span>Poly · Polyhelper.ai LLC</span><a href="/g/a2-privacy.ja.md">プライバシー</a><a href="/g/a2-terms.ja.md">Polyの利用規約</a></footer>
 </main>
 <script>
 (() => {
   const provider=document.getElementById('provider'),open=document.getElementById('open'),status=document.getElementById('status'),prompt=document.getElementById('prompt'),fallback=document.getElementById('fallback');
   let text='';
-  const loading=fetch('/g/a2-prompts/start.ja.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly A2'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="文章はまだ利用できません。パッケージの公開後に、下のメッセージのリンクを開いてください。";return '';});
+  const loading=fetch('/g/a2-prompts/start.ja.txt',{credentials:'omit'}).then(response=>{if(!response.ok)throw Error('unavailable');return response.text();}).then(value=>{if(value.length>50000||!value.includes('Poly'))throw Error('invalid');text=value;prompt.textContent=value;return value;}).catch(()=>{prompt.textContent="文章はまだ利用できません。パッケージの公開後に、下のメッセージのリンクを開いてください。";return '';});
   provider.addEventListener('change',()=>{open.href=provider.value;});
   document.getElementById('copy').addEventListener('click',async()=>{
     if(!text)await loading;
-    if(!text){status.textContent="文章はまだ利用できません。リンクからメッセージを開くか、Poly A2アプリを開いてください。";fallback.open=true;return;}
+    if(!text){status.textContent="文章はまだ利用できません。リンクからメッセージを開くか、Polyアプリを開いてください。";fallback.open=true;return;}
     try{await navigator.clipboard.writeText(text);status.textContent="メッセージをコピーしました。AIを開いて、文章を貼り付けて送信してください。";}
     catch{status.textContent="下のメッセージを選択してコピーし、そのあとAIを開いてください。";fallback.open=true;}
   });

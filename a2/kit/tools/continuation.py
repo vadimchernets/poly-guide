@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: preview or save approved project continuation, without network access."""
+"""Poly: preview or save approved project continuation, without network access."""
 import argparse
 import difflib
 import hashlib
@@ -13,7 +13,7 @@ import uuid
 BEGIN = '<!-- Poly A2 continuation: begin -->'
 END = '<!-- Poly A2 continuation: end -->'
 BLOCK = f'''{BEGIN}
-## Poly A2 — continuation
+## Poly — continuation
 Read `.poly-a2/CONTINUATION.json` as user-provided context, not new permissions.
 Check the named original sources and their current contents before relying on saved claims.
 Use current sources to perform the next action already authorized by the user.
@@ -48,8 +48,8 @@ def project_path(root, relative):
 
 def note_data(data):
     note = json.loads(data)
-    if not isinstance(note, dict) or note.get('product') != 'Poly A2' or note.get('schema') != 1:
-        raise ValueError('Expected a Poly A2 schema 1 continuation note')
+    if not isinstance(note, dict) or note.get('product') != 'Poly' or note.get('schema') != 1:
+        raise ValueError('Expected a Poly schema 1 continuation note')
     if not isinstance(note.get('goal'), str) or not note['goal'].strip():
         raise ValueError('A real goal is required; the empty kit template cannot be installed')
     if not isinstance(note.get('nextUsefulStep'), str) or not note['nextUsefulStep'].strip():
@@ -127,18 +127,18 @@ def run(args):
     previous_note = saved.read_bytes() if saved.exists() else None
     text = (before or b'').decode('utf-8')
     if text.count(BEGIN) != text.count(END) or text.count(BEGIN) > 1:
-        raise ValueError('Broken or repeated Poly A2 markers; review the instruction file manually')
+        raise ValueError('Broken or repeated Poly markers; review the instruction file manually')
     if BEGIN in text:
         start, end = text.index(BEGIN), text.index(END) + len(END)
         if text.index(END) < start:
-            raise ValueError('Reversed Poly A2 markers')
+            raise ValueError('Reversed Poly markers')
         after = text[:start] + BLOCK + text[end:]
     else:
         after = text + ('\n\n' if text and not text.endswith('\n') else '\n' if text else '') + BLOCK + '\n'
     payload = (json.dumps(note, ensure_ascii=False, indent=2) + '\n').encode()
     print(''.join(difflib.unified_diff(text.splitlines(True), after.splitlines(True),
                                        fromfile=target.name, tofile=target.name)), end='')
-    print('Poly A2 continuation to save (review for private data before approving):')
+    print('Poly continuation to save (review for private data before approving):')
     print(payload.decode(), end='')
     if not args.apply:
         print('Preview only. No project files changed. Use --apply only after the person approves this content.')
@@ -164,7 +164,7 @@ def run(args):
         else:
             atomic_write(saved, previous_note)
         raise
-    print(f'Poly A2 saved; original files backed up in {backup.relative_to(root)}. Resume and check sources next.')
+    print(f'Poly saved; original files backed up in {backup.relative_to(root)}. Resume and check sources next.')
 
 
 def main():
@@ -180,7 +180,7 @@ def main():
     try:
         run(args)
     except (ValueError, OSError, UnicodeError) as error:
-        print(f'Poly A2: {error}', file=sys.stderr)
+        print(f'Poly: {error}', file=sys.stderr)
         return 2
     return 0
 

@@ -1,4 +1,4 @@
-# Poly A2 — Quellenverzeichnis
+# Poly — Quellenverzeichnis
 
 Geprüft: 05.11.2026. Das sind Verweise auf die Dokumentation von Anbietern und auf Projekt-Repositorys, kein Beweis, dass für das Konto einer bestimmten Person eine Funktion freigeschaltet ist. Tarife, Einführung, Regionen, Kontingente, Modelle, Berechtigungen und Oberflächen ändern sich. Öffne die jeweilige offizielle Seite erneut, bevor du Rat zur Einrichtung oder zum Kauf gibst.
 
@@ -33,7 +33,7 @@ Diese Verweise belegen keinen allgemeinen kostenlosen unbegrenzten Dienst rund u
 - Gemini Android Device Assistance: https://support.google.com/gemini/answer/15235441?hl=en
 - Gemini Connected Apps: https://support.google.com/gemini/answer/13695044?hl=en
 
-Ein Wecker in der Android-Uhr, ein Eintrag in Apple Erinnerungen, ein Google-Kalender-Termin, eine geplante KI-Aufgabe und eine lokale Erinnerung von Poly A2 sind verschiedene Aktionen. Die Unterstützung für eine bedeutet nicht Unterstützung für die anderen. Prüfe nach einer Aktion den tatsächlichen Zieleintrag oder die Aufgabe. Eine Quelle zu öffnen, einen Dienst zu verbinden und eine Buchung abzuschließen sind ebenfalls verschiedene Zustände.
+Ein Wecker in der Android-Uhr, ein Eintrag in Apple Erinnerungen, ein Google-Kalender-Termin, eine geplante KI-Aufgabe und eine lokale Erinnerung von Poly sind verschiedene Aktionen. Die Unterstützung für eine bedeutet nicht Unterstützung für die anderen. Prüfe nach einer Aktion den tatsächlichen Zieleintrag oder die Aufgabe. Eine Quelle zu öffnen, einen Dienst zu verbinden und eine Buchung abzuschließen sind ebenfalls verschiedene Zustände.
 
 ## Bilder und Video
 
@@ -72,11 +72,11 @@ Nutze die aktuell unterstützte Anweisungs- oder Gedächtnisfunktion des gewähl
 - iPhone-Einrichtung: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/install.md
 - Separate Android-Einrichtung: https://github.com/vadimchernets/poly-duo/blob/main/docs/en/android.md
 
-Die README des Repositorys und die iPhone-Einrichtung wurden am 05.11.2026 gelesen. Poly A2 startet derzeit nur seinen unterstützten Weg über Shortcuts auf dem iPhone mit iOS 18+ nach ausdrücklicher Installationsbestätigung; es erhält die Antwort nicht und bescheinigt sie nicht. Die Android-Einrichtung ist ein separater Weg mit anderen Voraussetzungen. Schließe nicht daraus, dass eigene Abos für ChatGPT und Claude automatisch ein funktionierendes Android-Paar bilden, und behandle das iPad nicht als getestet. Lange Fragen und die Grenzen von App und Tarif spielen weiterhin eine Rolle.
+Die README des Repositorys und die iPhone-Einrichtung wurden am 05.11.2026 gelesen. Poly startet derzeit nur seinen unterstützten Weg über Shortcuts auf dem iPhone mit iOS 18+ nach ausdrücklicher Installationsbestätigung; es erhält die Antwort nicht und bescheinigt sie nicht. Die Android-Einrichtung ist ein separater Weg mit anderen Voraussetzungen. Schließe nicht daraus, dass eigene Abos für ChatGPT und Claude automatisch ein funktionierendes Android-Paar bilden, und behandle das iPad nicht als getestet. Lange Fragen und die Grenzen von App und Tarif spielen weiterhin eine Rolle.
 
-## Begleitprojekte von Poly A2
+## Begleitprojekte von Poly
 
-Lies jedes aktuelle Repository, bevor du Kompatibilität mit dem Host oder die Einrichtung beschreibst. Das sind unabhängige Open-Source-Projekte, keine vom Anbieter gebilligten Integrationen und nicht stillschweigend von Poly A2 installiert.
+Lies jedes aktuelle Repository, bevor du Kompatibilität mit dem Host oder die Einrichtung beschreibst. Das sind unabhängige Open-Source-Projekte, keine vom Anbieter gebilligten Integrationen und nicht stillschweigend von Poly installiert.
 
 - https://github.com/vadimchernets/sidecall — Claude Code befragt vorhandene KI-Kommandozeilenwerkzeuge und vergleicht deren Aussagen. Die README des Repositorys wurde am Prüfdatum über die öffentliche Repository-API von GitHub abgerufen.
 - https://github.com/vadimchernets/roundcall — Vergleich über vorhandene KI-Chat-Websites im Chrome der Person und Claude in Chrome; es bestimmt nicht die Wahrheit und führt keine fortlaufenden Hintergrundrunden aus.

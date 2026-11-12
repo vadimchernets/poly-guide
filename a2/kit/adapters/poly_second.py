@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Poly A2: bounded second opinion over the user's existing subscription CLI.
+"""Poly: bounded second opinion over the user's existing subscription CLI.
 No API fallback. Child output is returned to the caller, never executed.
 """
 import argparse,datetime,hashlib,json,os,pathlib,re,shutil,subprocess,tempfile

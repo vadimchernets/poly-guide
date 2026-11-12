@@ -5,8 +5,8 @@
   "files": [
     {
       "file": "START-HERE.md",
-      "bytes": 10409,
-      "sha256": "5fcdc37c451c48f7fa197cf4cd10088e424d02833343170d8dd031198fdfe60d"
+      "bytes": 10793,
+      "sha256": "85cc0844d3c2d259ac73ce5c2b054f03e63225b7c0279762032f823cfbffc6dc"
     },
     {
       "file": "CONTINUATION.json",
@@ -20,128 +20,128 @@
     },
     {
       "file": "AGENTS.md",
-      "bytes": 2487,
-      "sha256": "64073c683ea603dd228b03d2190075a8de42c078e0e3349fc2b10017e9041262"
+      "bytes": 2481,
+      "sha256": "7d29531850245c8bb2bcd052943280692336ec41dfa65a50650d3588c36c1fe9"
     },
     {
       "file": "CLAUDE.md",
-      "bytes": 2312,
-      "sha256": "47b562c9f1ac217ea12b85b0b973451e67169139b5eb6b24893adecb8e2f31d5"
+      "bytes": 2306,
+      "sha256": "80443433e1a244c9e603e8d322489188d67583fbff664db81dca1aa48c462db1"
     },
     {
       "file": "CARD-CONTINUE.md",
-      "bytes": 2472,
-      "sha256": "de431c5d32cd2637523cf962652ae26f7d0643edf3cbb207884236efb21abc41"
+      "bytes": 2466,
+      "sha256": "30232ddbf9a6194e90e54ca72d13f9a15564a05125fed27b45e160371cf9daf6"
     },
     {
       "file": "TEAM-ONE-WINDOW.md",
-      "bytes": 2658,
-      "sha256": "49edf9f8c9793126a2b7a2ee139357f2f4432a34712969a6a2585370f2a28532"
+      "bytes": 2646,
+      "sha256": "3c489c9cd9010ea800faea9d6111bf97ecff29e17b402d901a552c21947d6a32"
     },
     {
       "file": "guide.md",
-      "bytes": 18834,
-      "sha256": "1cf2a68cb03f0abbb58db48453f90dcb0a93472c98972cf64ffe0da998805638"
+      "bytes": 18768,
+      "sha256": "8695e2aaf42f44d7cea4ca30eea84aafcfbe4bbe083a7e3fbcb15ab24687c8cf"
     },
     {
       "file": "adapters/poly_second.py",
-      "bytes": 8411,
-      "sha256": "d0aae48fa3bc237370088da2b6be7d2ab82cdd44c23a5b26db3850b95af78ac7"
+      "bytes": 8408,
+      "sha256": "025e8b7f27cece184b9c2d000ea5cb2c6c04856b9a9fdaf4edc40e873dd26546"
     },
     {
       "file": "adapters/README.md",
-      "bytes": 6613,
-      "sha256": "0cb31db4da2b6059a30b235ab7d8952c4606a83bf5cfd34b1faf912e8a736844"
+      "bytes": 6604,
+      "sha256": "f03a093d14fbb3a249fa00f4d3f035390d0faaef54afe3a478f7188aea100e2f"
     },
     {
       "file": "tools/materials.py",
-      "bytes": 8079,
-      "sha256": "faaa129db55f4af3ebff58ad1c54d794a53932e56ba35ae231d385e2da55e3de"
+      "bytes": 8076,
+      "sha256": "bde0965e8d71258c7517c66eed85d277377db19671b16dce03fea71fcab5aa15"
     },
     {
       "file": "adapters/CODEX-PLUGIN-CC.md",
-      "bytes": 10522,
-      "sha256": "8592caa7b6d7d30c83e5f94f458850be8a7d3370bb1d4a4412a1fce8d2c8241b"
+      "bytes": 9719,
+      "sha256": "84fb765eccb806eb59be8e5555c588991d8a4c4cc0056857a25c766b8d0b2cb3"
     },
     {
       "file": "tools/MATERIALS.md",
-      "bytes": 4778,
-      "sha256": "963448e8446cf15d352dd935b64f5490cfb02f8b8ae6a3393e6e3178e611a7f0"
+      "bytes": 4772,
+      "sha256": "21aae5a10a8602e172860c13ad77437da4baa1fbedf3c5ad4ed61c4e192a1b19"
     },
     {
       "file": "tools/check_table.py",
-      "bytes": 9953,
-      "sha256": "bee41245118e8b6fd2e57dc7e19b21ca3178e22b8b63b8039d216bcf7cf677fa"
+      "bytes": 9944,
+      "sha256": "5b2d8fa1e459395e75a659b1ae1f2f4a876642d4079e0c70af12cf381930f51a"
     },
     {
       "file": "tools/TABLES.md",
-      "bytes": 2738,
-      "sha256": "ffa60553713085aeded2b7d02554ca3b869d3ce91f4c2208f6e0dccb132d148c"
+      "bytes": 2735,
+      "sha256": "e29e97d74cda6eaac61262fa1a30a15bfd2df6e53434fed7602d7738522757f6"
     },
     {
       "file": "tools/open_formats.py",
-      "bytes": 5264,
-      "sha256": "d82fd05b9b9c5557afde1901446b164029b004595e26c93598cce4e75a59f8d6"
+      "bytes": 5261,
+      "sha256": "1c1abf1463af8658bf70567a324464d04262d3ab9ad4c92ce188ce6472a561ff"
     },
     {
       "file": "tools/FORMATS.md",
-      "bytes": 3040,
-      "sha256": "e3c8af6854d2068bfc57caa293a346f79ebed929f3080cf0d1aaa71d123d1139"
+      "bytes": 3037,
+      "sha256": "08f4fef61ac31c3d14bc828498de0d047682c04c8f878bcbb029640e65c8b157"
     },
     {
       "file": "tools/calendar_plan.py",
-      "bytes": 4617,
-      "sha256": "1c4c569dc6eb7382f50d2bc0c5157fdbdf29b1abffde2b7fcdc268cbf3c10462"
+      "bytes": 4614,
+      "sha256": "6195495a8287920dbf7a6c7eace000019a41cc180e767c4f753d6ca9175482d6"
     },
     {
       "file": "tools/CALENDAR.md",
-      "bytes": 2917,
-      "sha256": "3a6aed5d89d6d7d163e149c08004d6326a8ef68b3ab3c53bbbdc4dd41d4f7f49"
+      "bytes": 2914,
+      "sha256": "f0bac07c64f09155130525f45d64383c57c52d274e3fc50801e7a1c0445be0f4"
     },
     {
       "file": "tools/continuation.py",
-      "bytes": 8296,
-      "sha256": "da0ba105a73f3b83831c2b7c7bf90925dcf0122ad9763e9c39b48659a61c2177"
+      "bytes": 8269,
+      "sha256": "8fe7fde45e00a2a77f1ea6170b65bf38a9d17be0dec52322ba0e49ee024e1714"
     },
     {
       "file": "tools/CONTINUATION.md",
-      "bytes": 4617,
-      "sha256": "c967e3d589bed20540550fbfe7d9bf47a82e702ed5aa61a14fa166d7f2e943ce"
+      "bytes": 5001,
+      "sha256": "cd819d5f60eb276a37647c925d0f676783cc5072fc40402463e9750070ab4d6d"
     },
     {
       "file": "tools/workflow.py",
-      "bytes": 11625,
-      "sha256": "db40442376fc45c4949550f630591c8e92bfb8e7d436f60ba1e71a56be578c3a"
+      "bytes": 11613,
+      "sha256": "003fb095c0b40cca57ec2a66e6b65e5881307dc3c513fcdb93c4899388f42b13"
     },
     {
       "file": "tools/WORKFLOW.md",
-      "bytes": 5527,
-      "sha256": "3068ae4bc5e6db619865919abae813d105d20ed3dd258207ad76e0d244590338"
+      "bytes": 5524,
+      "sha256": "d83562d0f5e4e3e264b8cf9aa855bb44951014f44b3003538f975e29f0bb56df"
     },
     {
       "file": "tools/quality_skill.py",
-      "bytes": 7032,
-      "sha256": "f84d05d58c097f8cce57f84c906816baeca84ef6fac5fe07990cabb1e159cf41"
+      "bytes": 7369,
+      "sha256": "d7f077eecd6675d8e3370c751325e669837a056607ba6e1e15570119c94d5e42"
     },
     {
       "file": "tools/skill_trial.py",
-      "bytes": 6858,
-      "sha256": "63aa8241d55e585fd6edfafbd71d87587c10323ce5830d7b4e3ff305e12b976b"
+      "bytes": 6855,
+      "sha256": "05b63ceb0622646b9823452658079bd9e0febd1dfe38a4736370af684388df30"
     },
     {
       "file": "tools/QUALITY-TEXT.json",
-      "bytes": 32507,
-      "sha256": "174f4be6d2fb177bb222d6a6eee9c33f83f56d4e020ca710cc2622ec7d6316d9"
+      "bytes": 39490,
+      "sha256": "aab7b4f4e4cafe6c8972ebe3da9effe98e758cd215352a6ff8c9eaaf2ef7c298"
     },
     {
       "file": "tools/QUALITY-SKILL.md",
-      "bytes": 13000,
-      "sha256": "da1d7bd4209f1ca7f395482fc1fd636054f89f767bff59c17cbec457a87a2c97"
+      "bytes": 13532,
+      "sha256": "a326fb5732a7f9ee955d33713375c5ee31cc189cf92e0fc9e8de45e196aa2025"
     },
     {
       "file": "tools/SKILL-TRIAL.md",
-      "bytes": 15685,
-      "sha256": "caf4e1ad0254b487d67bb13ea730fa060ed234ced82bb64389dc16f3491d0517"
+      "bytes": 15646,
+      "sha256": "1108c4b2a6304083ae6ee3e792105079a1de89fc4a88baf1d8da9c663187d3a6"
     }
   ]
 }
